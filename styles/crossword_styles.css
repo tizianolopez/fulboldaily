@@ -1,0 +1,203 @@
+img {
+    margin-left: -0.4em;
+  }
+
+
+html{
+    height:100%;
+  }
+  body{
+    height:100%;
+    min-width: 400px;
+    margin:0;
+    background-color: #d3d5dc;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container{
+    position: absolute;
+    bottom: 0; top: 0; left: 0; right: 0;
+    text-align: center;
+  }
+  .center{
+    margin: 0 auto;
+  }
+  
+  .btn{
+    margin: 8px 4px 0;  
+  }
+  .btn{
+    width: 172px;
+    height: 28px;
+  }
+  
+  .line{  
+    height: 2em;
+  }
+  .word, .clue{
+    display: inline-block;
+    height: 1.5em;  
+    padding: 0 5px;
+  }
+  .word{
+    text-align: right;  
+    width: 100px;
+  }
+  .clue{
+    width: 500px;
+  }
+  
+  .word:focus, .clue:focus {
+    background-color: #eef; /* Light blue background on focus */
+    box-shadow: inset 0 0 0 2px rgb(66, 40, 0); /* Adjust focus style */
+  }
+  
+  .word.highlight, .clue.highlight {
+    background-color: yellow; /* Highlight background color */
+  }
+  
+  .crossword{
+    display: block;  
+  }
+  
+  .letter{
+    background-color: rgb(255,255,255);
+     border: 0px solid;
+    -webkit-touch-callout: text;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  .char:focus{
+    -webkit-box-shadow: 0 0 0 2px rgb(128, 134, 0);
+    -moz-box-shadow: 0 0 0 2px rgb(227, 155, 0);
+    box-shadow: inset 0 0 0 2px rgb(227, 155, 0);  
+  }
+ /* Ajustes para las casillas de letras */
+.square {
+  margin: 0 1px 1px 0; /* Margen original */
+  display: inline-block;
+  font: 24px Calibri;
+  width: 1.5em; /* Ajuste el tamaño para compensar el borde */
+  height: 1.5em; /* Ajuste el tamaño para compensar el borde */
+  vertical-align: middle;
+  position: relative; /* Añadido para posicionar correctamente el número de índice */
+  box-sizing: border-box; /* Asegura que el tamaño incluya el borde y el relleno */
+}
+
+/* Estilos para las letras */
+.char {
+  font-size: 24px;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0px solid #a9a9a9; /* Añade un borde de 2px sólido */
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: none;
+  box-sizing: border-box; /* Asegura que el tamaño incluya el borde y el relleno */
+}
+ 
+  .char.highlight {
+    color: rgb(227, 155, 0);
+}
+
+.word-number {
+  font-weight: bold;
+  font-size: 0.8em;
+  color: #333; /* Color de los números de palabra */
+}
+
+.letter-index {
+  position: absolute;
+  margin-left: 3px;
+  font-size: 0.5em;
+  pointer-events: none; /* Evita que el número de índice afecte la interactividad */
+
+}
+
+  .hide{
+    visibility: hidden;
+  }
+  
+  .clueReadOnly
+  {
+    border: 0 ;
+    outline: 0;
+    color:#303030 !important;
+    background:none;
+  }
+
+  
+
+.line.highlighted {
+    background-color: rgb(255, 255, 188); /* Example highlighting */
+}
+
+.word:focus, .clue:focus {
+  background-color: #eef; /* Light blue background on focus */
+  box-shadow: inset 0 0 0 2px rgb(227, 155, 0); /* Adjust focus style */
+}
+
+.word.highlight, .clue.highlight {
+  background-color: rgb(255, 255, 188); /* Highlight background color */
+}
+
+
+.completed {
+    background-color: lightgreen; /* Cambia el color de fondo a verde claro */
+    color: black; /* Cambia el color del texto a negro */
+}
+#clues-container {
+  width: 70%;
+  margin-top: 20px;
+  padding-top: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+  display: flex; /* Usa flexbox para centrar verticalmente */
+  flex-direction: column; /* Asegura que los elementos se apilen verticalmente */
+}
+
+#clues-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px auto;
+}
+
+#clues-container li {
+  margin-bottom: 12px;
+  font-size: 14px;
+  text-align: left; /* Centra el texto horizontalmente */
+  font-family: system-ui;
+}
+
+.row>* {
+  flex-shrink: 0;
+  /* width: 100%; */
+  /* max-width: 100%; */
+   padding-right: 0px; 
+   padding-left: 0px; 
+  margin-top: var(--bs-gutter-y);
+  display: inline-block;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
