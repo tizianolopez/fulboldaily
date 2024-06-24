@@ -196,8 +196,9 @@
   }
   
   .alert-container {
+    font-size: 16px;
     position: fixed;
-    top: 15vh;
+    top: 80px;
     left: 50vw;
     transform: translateX(-50%);
     z-index: 1;
