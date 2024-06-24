@@ -251,7 +251,7 @@
 
   .keyboard .key.large:last-of-type {
     font-size: 0px;
-    background-image: url('img/backspace.svg');
+    background-image: url('../img/backspace.svg');
     background-size: 50%; /* Adjust background size as a percentage of the div */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
