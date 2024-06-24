@@ -195,6 +195,11 @@ html{
   display: inline-block;
 }
 
+.row{
+  flex-wrap: nowrap;
+
+}
+
 .center-container {
   display: flex;
   flex-direction: column;
