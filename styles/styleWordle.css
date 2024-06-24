@@ -93,7 +93,7 @@
     max-height: 2em; /* Maximum width for the tiles */
 
     height: 10vw;
-    font-size: 1.6em;
+    font-size: 5vw;
     color: rgb(255, 255, 255);
     border: .075em solid hsl(240, 2%, 23%);
     text-transform: uppercase;
@@ -252,6 +252,10 @@
   /* Media query for controlling gap based on screen size */
 @media (min-width: 768px) {
   .guess-grid {
+
     gap: 1em; /* Maximum gap between tiles for larger screens */
+  }
+  .tile{
+    font-size: 1.6em;
   }
 }
