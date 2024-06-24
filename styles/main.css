@@ -154,3 +154,28 @@ a.sidebar-link:hover {
 img {
     margin-left: -0.4em;
   }
+
+.navbar{
+    background-color: #f4d954e1;
+
+}
+.navbar-nav {
+
+    margin-left: 2em;
+    --bs-nav-link-padding-y: 1.5em;
+}
+.nav-link img{
+    margin-right: 1em;
+}
+.navbar-brand{
+    color: #000000;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+@media (max-width: 767.98px) {
+    #sidebar {
+        display: none;
+    }
+}
+

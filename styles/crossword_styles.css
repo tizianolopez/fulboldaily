@@ -208,16 +208,3 @@ html{
   height: 100%;
 }
 
- /* Media query para pantallas de 500px o menos */
- @media (max-width: 500px) {
-  .crossword {
-      transform: scale(0.8);
-  }
-}
-
-/* Media query para pantallas de 300px o menos */
-@media (max-width: 400px) {
-  .crossword {
-      transform: scale(0.6);
-  }
-}
