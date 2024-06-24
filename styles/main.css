@@ -51,7 +51,7 @@ body {
     min-width: 70px;
     z-index: 1000;
     transition: all .25s ease-in-out;
-    background-color: #dbc13fe1;
+    background-color: #FAFB63;
     display: flex;
     flex-direction: column;
 }
@@ -109,7 +109,7 @@ a.sidebar-link {
 
 a.sidebar-link:hover {
     background-color: rgba(255, 228, 228, 0.491);
-    border-left: 4px solid #ff9d00;
+    border-left: 4px solid #292929;
 }
 
 .sidebar-item {
@@ -120,7 +120,7 @@ a.sidebar-link:hover {
     position: absolute;
     top: 0;
     left: 70px;
-    background-color: #b7ac50;
+    background-color: #fbfb63ab;
     padding: 0;
     min-width: 15rem;
     display: none;
@@ -156,21 +156,43 @@ img {
   }
 
 .navbar{
-    background-color: #f4d954e1;
+    background-color: #FAFB63;
 
 }
 .navbar-nav {
+    box-sizing: border-box;
 
-    margin-left: 2em;
     --bs-nav-link-padding-y: 1.5em;
 }
 .nav-link img{
-    margin-right: 1em;
+    margin-left: 1.25em;
 }
+.nav-link {
+  padding: 1em 0em; /* Original padding */
+  margin-bottom: 2px;
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 228, 228, 0.491);
+    border: 2px solid #292929;
+
+  padding: calc(1em - 2px) 0em; /* Correctly reduce vertical padding by 2px to compensate for the border */
+}
+
+
+
+
+  .navbar-nav .row:first-of-type{
+    margin-top: 1em;
+  }
 .navbar-brand{
     color: #000000;
     font-size: 1.15rem;
     font-weight: 600;
+}
+.col-6{
+    padding: 0;
 }
 
 @media (max-width: 767.98px) {

@@ -251,13 +251,13 @@
 
   .keyboard .key.large:last-of-type {
     font-size: 0px;
-    background-image: url('/img/backspace.svg');
+    background-image: url('img/backspace.svg');
     background-size: 50%; /* Adjust background size as a percentage of the div */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
     border-radius: 10%; /* Example border radius for a circle */
   }
-
+  
   /* Media query for controlling gap based on screen size */
 @media (min-width: 768px) {
   .guess-grid {
