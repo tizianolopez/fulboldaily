@@ -18,8 +18,8 @@ startInteraction();
 
 function generateGrid() {
   guessGrid.innerHTML = '';
-  guessGrid.style.gridTemplateColumns = `repeat(${WORD_LENGTH}, 2em)`;
-  guessGrid.style.gridTemplateRows = `repeat(6, 2em)`;
+  guessGrid.style.gridTemplateColumns = `repeat(${WORD_LENGTH}, minmax(4vw, 1fr))`;
+  guessGrid.style.gridTemplateRows = `repeat(6, minmax(4vw, 1fr))`;
 
   for (let i = 0; i < 6 * WORD_LENGTH; i++) {
     const tile = document.createElement("div");

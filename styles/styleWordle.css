@@ -76,18 +76,23 @@
   }
   
   .guess-grid {
+    max-width: 900px;
     display: grid;
     justify-content: center;
     align-content: start;
-    gap: 2em;
+    gap: 2vw;
     margin-bottom: 5em;
     margin-right: 1em;
+    
   }
   
   
   .tile {
-    width: 2em;
-    height: 2em;
+    width: 10vw;
+    max-width: 2em; /* Maximum width for the tiles */
+    max-height: 2em; /* Maximum width for the tiles */
+
+    height: 10vw;
     font-size: 1.6em;
     color: rgb(255, 255, 255);
     border: .075em solid hsl(240, 2%, 23%);
@@ -233,3 +238,20 @@
   .new-game.hidden {
     display: none;
   }
+
+  .guess-grid-container {
+    display: flex;
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    max-width: 1200px; /* Maximum width for the grid container */
+    width: 90%; /* Ensures it doesn't cover the entire width on large screens */
+    margin: 0 auto; /* Center the grid container horizontally */
+    padding: 0 1em; /* Optional padding for the grid container */
+  }
+
+  /* Media query for controlling gap based on screen size */
+@media (min-width: 768px) {
+  .guess-grid {
+    gap: 1em; /* Maximum gap between tiles for larger screens */
+  }
+}
