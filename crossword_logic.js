@@ -72,7 +72,7 @@ function Play() {
 
 function Create() {
  // Calcular el índice basado en la fecha actual
- offsetFromDate = new Date(2024, 5, 6); // Fecha base
+ offsetFromDate = new Date(2024, 5, 7); // Fecha base
  msOffset = Date.now() - offsetFromDate.getTime(); // Diferencia en milisegundos desde la fecha base
  dayOffset = msOffset / 1000 / 60 / 60 / 24; // Convertir milisegundos a días
 
