@@ -71,22 +71,37 @@ function Play() {
 
 
 function Create() {
-  GetWordsFromJSON('words.json', function(data) {
-      wordArr = data.words.map(item => item.word.toUpperCase());
-      cluesArr = data.words.map(item => item.clue);
+ // Calcular el índice basado en la fecha actual
+ offsetFromDate = new Date(2024, 5, 6); // Fecha base
+ msOffset = Date.now() - offsetFromDate.getTime(); // Diferencia en milisegundos desde la fecha base
+ dayOffset = msOffset / 1000 / 60 / 60 / 24; // Convertir milisegundos a días
 
+fetch('words.json')
+  .then(response => response.json())
+  .then(data => {
+     crucigramasLength = data.crucigramas.length;
+     crucigramaIndex = Math.floor(dayOffset) % crucigramasLength; // Índice del crucigrama basado en el offset de días
+     console.log("Índice del crucigrama seleccionado:", crucigramaIndex); // Agregar esta línea
+
+    // Ahora que tienes el índice, puedes llamar a GetWordsFromJSON con este índice
+    GetWordsFromJSON('words.json', crucigramaIndex, function(selectedCrucigrama) {
+      wordArr = selectedCrucigrama.palabras.map(item => item.word.toUpperCase());
+      cluesArr = selectedCrucigrama.palabras.map(item => item.clue);
+
+      // Resto del código para crear el crucigrama...
       for (var i = 0, isSuccess = false; i < 10 && !isSuccess; i++) {
-          CleanVars();
-          isSuccess = PopulateBoard();
+        CleanVars();
+        isSuccess = PopulateBoard();
       }
 
       document.getElementById("crossword").innerHTML =
-          (isSuccess) ? BoardToHtml(" ") : "Failed to find crossword.";
+        (isSuccess) ? BoardToHtml(" ") : "Failed to find crossword.";
 
       Play();
-  });
+    });
+  })
+  .catch(error => console.error("Error al cargar el archivo JSON:", error));
 }
-
 
 
 
@@ -161,13 +176,20 @@ function ToggleInputBoxes(active){
   }
 }
 
-function GetWordsFromJSON(url, callback) {
-  fetch(url)
-      .then(response => response.json())
-      .then(data => callback(data))
-      .catch(error => console.error('Error loading JSON:', error));
-}
 
+function GetWordsFromJSON(filename, index, callback) {
+  fetch(filename)
+    .then(response => response.json())
+    .then(data => {
+      if (index < 0 || index >= data.crucigramas.length) {
+        console.error("Índice fuera de rango");
+        return;
+      }
+      const selectedCrucigrama = data.crucigramas[index];
+      callback(selectedCrucigrama);
+    })
+    .catch(error => console.error("Error al cargar el archivo JSON:", error));
+}
 
 function GetWordsFromInput(){
   wordArr = [];  
@@ -521,7 +543,14 @@ function handleCompletedWord(word) {
 
 function showCompletionMessage() {
   console.log('¡Felicidades! Has completado todas las palabras del crucigrama.');
-  // Aquí podrías mostrar un mensaje en un div, modal, o realizar cualquier acción adicional
+
+  // Eliminar el resaltado de todas las palabras
+  wordsActive.forEach(word => {
+    word.inputs.forEach(input => {
+      input.classList.remove('highlight');
+    });
+  });
+
   // Disparar confeti cuando se completan todas las palabras
   fireConfetti();
 }
@@ -578,19 +607,34 @@ function displayWordHint(hint) {
 
 
 function moveBackOnBackspace(event) {
-    const currentInput = event.target;
-    if (event.key === 'Backspace' && currentInput.value === '') {
-        const word = wordsActive.find(word => word.inputs.includes(currentInput));
-        if (word) {
-            const currentIndex = word.inputs.indexOf(currentInput);
-            const prevInput = word.inputs[currentIndex - 1];
-            if (prevInput) {
-                prevInput.focus();
-            }
-        }
-    }
-}
+  const currentInput = event.target;
+  if (event.key === 'Backspace') {
+      // Verifica si la palabra asociada está marcada como completada.
+      const isWordCompleted = currentInput.classList.contains('completed');
+      
+      // Si la palabra está completada, no hacer nada.
+      if (isWordCompleted) {
+          event.preventDefault();
+          return; // Salir de la función para evitar borrar o mover el cursor.
+      }
 
+      // Si la casilla actual no está vacía, borra su contenido.
+      if (currentInput.value !== '') {
+          currentInput.value = ''; // Borra el contenido de la casilla actual.
+      } else {
+          // Si la casilla actual está vacía, mueve el cursor a la casilla anterior.
+          const word = wordsActive.find(word => word.inputs.includes(currentInput));
+          if (word) {
+              const currentIndex = word.inputs.indexOf(currentInput);
+              const prevInput = word.inputs[currentIndex - 1];
+              if (prevInput) {
+                  prevInput.focus();
+              }
+          }
+      }
+      event.preventDefault(); // Previene el comportamiento por defecto.
+  }
+}
 // Function to handle arrow key navigation
 function handleArrowKeys(event) {
     const currentInput = event.target;
