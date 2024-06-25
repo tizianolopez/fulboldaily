@@ -42,20 +42,19 @@
       },{
         "palabras": [
           { "word": "TREQUARTISTA", "clue": "Centrocampista ofensivo que juega detrás de los delanteros." },
-          { "word": "ULTRAS", "clue": "Estos aficionados son conocidos por su fervor y extrema pasión" },
+          { "word": "VUVUZELA", "clue": "Este instrumento ruidoso se hizo famoso durante la Copa Mundial de 2010 en Sudáfrica." },
           { "word": "FLAMENGO", "clue": "Uno de los clubes más grandes de Brasil, con una base de fans masiva." }
         ]
     },{
       "palabras": [
         { "word": "FERGUSON", "clue": "Legendario entrenador del Manchester United" },
         { "word": "INZAGHI", "clue": "Famoso por estar en el lugar correcto en el momento adecuado" },
-        { "word": "TIFO", "clue": "Exhibición coreografiada por los aficionados en las gradas." },
-        { "word": "WEMBLEY", "clue": "El estadio nacional de Inglaterra" }
+        { "word": "TIFO", "clue": "Exhibición coreografiada por los aficionados en las gradas." }
       ]
     },{
       "palabras": [
         { "word": "BOCAJUNIORS", "clue": "Este club argentino fue fundado por cinco jóvenes italianos en un barrio de inmigrantes." },
-
+        { "word": "INZAGHI", "clue": "Famoso por estar en el lugar correcto en el momento adecuado" },
         { "word": "FERGUSON", "clue": "Legendario entrenador del Manchester United" },
         { "word": "PIRLO", "clue": "Mediocampista italiano conocido por su elegancia y precisión en los pases" },
         { "word": "SANCHEZ", "clue": "Delantero chileno que jugó en el Manchester United" }
@@ -67,8 +66,8 @@
         { "word": "GUARDIOLA", "clue": "Entrenador famoso por su filosofía de posesión" },
         { "word": "ZIDANE", "clue": "Me enamoré del fútbol por su volea" },
         { "word": "LIBERTADORES", "clue": "Torneo sudamericano de clubes, equivalente a la Champions League" },
-        { "word": "ZAMORANO", "clue": "Jugador chileno que usó el número '1+8' en el Inter." }
-
+        { "word": "ZAMORANO", "clue": "Jugador chileno que usó el número '1+8' en el Inter." },
+        { "word": "SARRI", "clue": "Entrenador italiano conocido por su estilo de juego ofensivo y su amor por el tabaco" }
 
         
 
@@ -76,11 +75,11 @@
     },{
       "palabras": [
         { "word": "BIELSA", "clue": "Este entrenador es conocido por su 'locura' y por sentarse en un balde durante los partidos." },
-        { "word": "VUVUZELA", "clue": "Este instrumento ruidoso se hizo famoso durante la Copa Mundial de 2010 en Sudáfrica." },
-        { "word": "INZAGHI", "clue": "Famoso por estar en el lugar correcto en el momento adecuado" },
-        { "word": "SARRI", "clue": "Entrenador italiano conocido por su estilo de juego ofensivo y su amor por el tabaco" },
-        { "word": "MBAPPE", "clue": "El hermano de Leonardo, Michelangelo y Raphael" }
-  
+        { "word": "MBAPPE", "clue": "El hermano de Leonardo, Michelangelo y Raphael" },
+        { "word": "WEMBLEY", "clue": "El estadio nacional de Inglaterra" },
+        { "word": "ULTRAS", "clue": "Estos aficionados son conocidos por su fervor y extrema pasión" }
+
+
       ]
     },{
       "palabras": [
