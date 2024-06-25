@@ -2,17 +2,109 @@
   "crucigramas": [
     {
       "palabras": [
-        { "word": "MESSI", "clue": "Metió 91 goles en un año" },
-        { "word": "NEYMAR", "clue": "Se lesiona siempre para ver a la hermana" },
-        { "word": "SUAREZ", "clue": "Muerde más q la cobra" }
+        { "word": "CALCIO", "clue": "Este término para el fútbol en Italia proviene de un juego medieval que era más parecido al rugby." },
+        { "word": "CHILAVERT", "clue": "Portero paraguayo que anotó un hat-trick de penaltis." },
+        { "word": "HIGUITA", "clue": "Portero colombiano conocido por su 'escorpión'." },
+        { "word": "BEBETO", "clue": "Futbolista brasileño famoso por celebrar con la 'cuna'." },
+        { "word": "KAHN", "clue": "Portero alemán apodado 'el Titan'." },
+        { "word": "SOCRATES", "clue": "Jugador brasileño que también era médico." },
+        { "word": "LAHM", "clue": "Defensor alemán que nunca recibió una tarjeta roja." },
+        { "word": "BURRUCHAGA", "clue": "Marcó el gol decisivo en la final del Mundial 1986." },
+        { "word": "PIZZAGATE", "clue": "Incidente donde se lanzó una pizza a Sir Alex Ferguson." },
+        { "word": "FABREGAS", "clue": "Culpable de tirarle una pizza a Sir Alex Ferguson en un Arsenal vs Man Utd " },
+        { "word": "SAMBA", "clue": "Estilo de fútbol alegre asociado con Brasil." },
+        { "word": "TORINO", "clue": "Club italiano conocido por la tragedia de Superga." },
+        { "word": "DERBI", "clue": "Partido entre equipos de la misma ciudad." },
+        { "word": "MASCHERANO", "clue": "Debuto en la selección Argentina antes que en su club" },
+        { "word": "HULK", "clue": " Jugador brasileño famoso por su físico, apodado como un superhéroe." }
+
+
+
+
+
+
+
+
+
+
+
+
       ]
     },
-    {
+      {
+        "palabras": [
+          { "word": "BIELSA", "clue": "Este entrenador es conocido por su 'locura' y por sentarse en un balde durante los partidos." },
+          { "word": "WEMBLEY", "clue": "Estadio emblemático en Londres, sede de finales de la FA Cup y la Copa de la Liga" },
+          { "word": "CATENACCIO", "clue": "Táctica defensiva que literalmente significa 'cerrojo' en italiano." },
+          { "word": "LIBERO", "clue": "Defensor con libertad para moverse por detrás de la línea de defensa." },
+          { "word": "GEGENPRESSING", "clue": "Táctica de presión popularizada por equipos como el Borussia Dortmund bajo Jürgen Klopp." }
+
+        ]
+      },{
+        "palabras": [
+          { "word": "TREQUARTISTA", "clue": "Centrocampista ofensivo que juega detrás de los delanteros." },
+          { "word": "ULTRAS", "clue": "Estos aficionados son conocidos por su fervor y extrema pasión" },
+          { "word": "FLAMENGO", "clue": "Uno de los clubes más grandes de Brasil, con una base de fans masiva." }
+        ]
+    },{
+      "palabras": [
+        { "word": "FERGUSON", "clue": "Legendario entrenador del Manchester United" },
+        { "word": "INZAGHI", "clue": "Famoso por estar en el lugar correcto en el momento adecuado" },
+        { "word": "TIFO", "clue": "Exhibición coreografiada por los aficionados en las gradas." },
+        { "word": "WEMBLEY", "clue": "El estadio nacional de Inglaterra" }
+      ]
+    },{
+      "palabras": [
+        { "word": "FERGUSON", "clue": "Legendario entrenador del Manchester United" },
+        { "word": "INZAGHI", "clue": "Famoso por estar en el lugar correcto en el momento adecuado" },
+        { "word": "PIRLO", "clue": "Mediocampista italiano conocido por su elegancia y precisión en los pases" },
+        { "word": "SANCHEZ", "clue": "Delantero chileno que jugó en el Manchester United" }
+      ]
+    },{
+      "palabras": [
+        { "word": "ANFIELD", "clue": "Hogar del Liverpool FC" },
+        { "word": "RONALDINHO", "clue": "Conocido por su sonrisa y habilidades mágicas" },
+        { "word": "GUARDIOLA", "clue": "Entrenador famoso por su filosofía de posesión" },
+        { "word": "ZIDANE", "clue": "Me enamoré del fútbol por su volea" },
+        { "word": "LIBERTADORES", "clue": "Torneo sudamericano de clubes, equivalente a la Champions League" }
+
+        
+
+      ]
+    },{
+      "palabras": [
+        { "word": "VUVUZELA", "clue": "Este instrumento ruidoso se hizo famoso en todo el mundo durante la Copa Mundial de 2010 en Sudáfrica." },
+        { "word": "ZAMORANO", "clue": "Jugador chileno que usó el número '1+8' en el Inter." },
+        { "word": "BOCAJUNIORS", "clue": "Este club argentino fue fundado por cinco jóvenes italianos en un barrio de inmigrantes." },
+        { "word": "SARRI", "clue": "Entrenador italiano conocido por su estilo de juego ofensivo y su amor por el tabaco" },
+        { "word": "GALATASARAY", "clue": "Club turco conocido por su intensa rivalidad con Fenerbahçe." }       
+      ]
+    },{
+      "palabras": [
+        { "word": "GAZZETTA", "clue": "Nombre de un periódico deportivo italiano, conocido por su cobertura del fútbol" },
+        { "word": "SCHOLES", "clue": "Centrocampista inglés del Manchester United, famoso por su precisión en los pases" },
+        { "word": "KOMPANY", "clue": "Defensa belga del Manchester City, conocido por su liderazgo y habilidades defensivas" },
+        { "word": "DRIBLE", "clue": "Movimiento individual para superar a un adversario con la pelota" },
+        { "word": "CRUYFF", "clue": "Autor de la frase: 'Jugar al fútbol es muy sencillo, pero jugar un fútbol sencillo es lo más difícil que hay'" }
+      ]
+    },{
       "palabras": [
         { "word": "MBAPPE", "clue": "El hermano de Leonardo, Michelangelo y Raphael" },
         { "word": "CUCURELLA", "clue": "El David Luiz de España" },
         { "word": "LUKAKU", "clue": "Solo mete goles en offside" },
         { "word": "RONALDO", "clue": "Maximo asistidor de la Eurocopa" }
+      ]
+    },{
+      "palabras": [
+        { "word": "CAVANI", "clue": "Delantero uruguayo que jugó en el Napoli, PSG y Manchester United" },
+        { "word": "KLOPP", "clue": "Entrenador alemán del Liverpool, ganador de la Premier League y la Champions League" },
+        { "word": "KAKA", "clue": "Centrocampista brasileño, ganador del Balón de Oro en 2007 con el AC Milan" },
+        { "word": "MESSI", "clue": "Metió 91 goles en un año" },
+        { "word": "NEYMAR", "clue": "Se lesiona siempre para ver a la hermana" },
+        { "word": "SUAREZ", "clue": "Muerde más q la cobra" },
+        { "word": "RABONA", "clue": "Técnica que se dice que fue nombrada por la forma en que los niños en Buenos Aires faltaban a la escuela." },
+        { "word": "CHILENA", "clue": "Acrobacia aérea que comparte nombre con un país sudamericano." },
+        { "word": "PANENKA", "clue": "Jugador que pateo un penal historico que le dio la Eurocopa a checoslovaquia en 1976." }
 
 
       ]
