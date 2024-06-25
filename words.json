@@ -33,7 +33,6 @@
     },
       {
         "palabras": [
-          { "word": "BIELSA", "clue": "Este entrenador es conocido por su 'locura' y por sentarse en un balde durante los partidos." },
           { "word": "WEMBLEY", "clue": "Estadio emblemático en Londres, sede de finales de la FA Cup y la Copa de la Liga" },
           { "word": "CATENACCIO", "clue": "Táctica defensiva que literalmente significa 'cerrojo' en italiano." },
           { "word": "LIBERO", "clue": "Defensor con libertad para moverse por detrás de la línea de defensa." },
@@ -55,8 +54,9 @@
       ]
     },{
       "palabras": [
+        { "word": "BOCAJUNIORS", "clue": "Este club argentino fue fundado por cinco jóvenes italianos en un barrio de inmigrantes." },
+
         { "word": "FERGUSON", "clue": "Legendario entrenador del Manchester United" },
-        { "word": "INZAGHI", "clue": "Famoso por estar en el lugar correcto en el momento adecuado" },
         { "word": "PIRLO", "clue": "Mediocampista italiano conocido por su elegancia y precisión en los pases" },
         { "word": "SANCHEZ", "clue": "Delantero chileno que jugó en el Manchester United" }
       ]
@@ -73,11 +73,13 @@
       ]
     },{
       "palabras": [
-        { "word": "VUVUZELA", "clue": "Este instrumento ruidoso se hizo famoso en todo el mundo durante la Copa Mundial de 2010 en Sudáfrica." },
+        { "word": "BIELSA", "clue": "Este entrenador es conocido por su 'locura' y por sentarse en un balde durante los partidos." },
+        { "word": "VUVUZELA", "clue": "Este instrumento ruidoso se hizo famoso durante la Copa Mundial de 2010 en Sudáfrica." },
         { "word": "ZAMORANO", "clue": "Jugador chileno que usó el número '1+8' en el Inter." },
-        { "word": "BOCAJUNIORS", "clue": "Este club argentino fue fundado por cinco jóvenes italianos en un barrio de inmigrantes." },
+        { "word": "INZAGHI", "clue": "Famoso por estar en el lugar correcto en el momento adecuado" },
         { "word": "SARRI", "clue": "Entrenador italiano conocido por su estilo de juego ofensivo y su amor por el tabaco" },
-        { "word": "GALATASARAY", "clue": "Club turco conocido por su intensa rivalidad con Fenerbahçe." }       
+        { "word": "MBAPPE", "clue": "El hermano de Leonardo, Michelangelo y Raphael" }
+  
       ]
     },{
       "palabras": [
@@ -89,10 +91,11 @@
       ]
     },{
       "palabras": [
-        { "word": "MBAPPE", "clue": "El hermano de Leonardo, Michelangelo y Raphael" },
         { "word": "CUCURELLA", "clue": "El David Luiz de España" },
         { "word": "LUKAKU", "clue": "Solo mete goles en offside" },
-        { "word": "RONALDO", "clue": "Maximo asistidor de la Eurocopa" }
+        { "word": "RONALDO", "clue": "Maximo asistidor de la Eurocopa" },
+        { "word": "GALATASARAY", "clue": "Club turco conocido por su intensa rivalidad con Fenerbahçe." }     
+
       ]
     },{
       "palabras": [
