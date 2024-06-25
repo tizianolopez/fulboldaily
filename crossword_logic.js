@@ -490,14 +490,26 @@ function moveToNextInput(event) {
               input.addEventListener('keydown', preventBackspaceForCompletedInputs); // Añadir listener de prevención
           });
       }
-    }
-}
 
+      // Move to the next input if it exists
+      const nextIndex = currentIndex + 1;
+      if (nextIndex < word.inputs.length) {
+          const nextInput = word.inputs[nextIndex];
+          nextInput.focus();
+          highlightCurrentWord(nextInput);  
+      }
+      // Verificar si todas las palabras están completadas
+      const allWordsCompleted = wordsActive.every(word => word.completed);
+      if (allWordsCompleted) {
+          showCompletionMessage();
+        }
+  }
+}
 function preventBackspaceForCompletedInputs(event) {
-    // Solo actuar si el evento es una tecla de borrado
-    if (event.key === "Backspace") {
-        event.preventDefault(); // Prevenir la acción de borrado
-    }
+  const currentInput = event.target;
+  if (event.key === 'Backspace' && currentInput.classList.contains('completed')) {
+      event.preventDefault(); // Previene la acción de borrado
+  }
 }
 
 
