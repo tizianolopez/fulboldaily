@@ -462,55 +462,59 @@ RegisterEvents();
 
 
 function moveToNextInput(event) {
-   // Verificar si el evento de tecla es 'Backspace'
-   if (event && event.key === 'Backspace') {
-    return; // No hacer nada si se presiona 'Backspace'
-  }
-
-  
   const currentInput = event.target;
 
-  // Find the word that contains the current input
+  // Detectar si el evento es generado por la tecla 'Backspace'
+  if (event.inputType === 'deleteContentBackward') {
+    // Eliminar contenido actual y detener la propagación del evento
+    currentInput.value = '';
+    event.preventDefault();
+    return;
+  }
+
+  // Encuentra la palabra que contiene el input actual
   const word = wordsActive.find(word => word.inputs.includes(currentInput));
 
   if (word) {
-      const currentIndex = word.inputs.indexOf(currentInput);
+    const currentIndex = word.inputs.indexOf(currentInput);
 
-      // Check if the word is completed
-      let wordCompleted = true;
-      for (let i = 0; i < word.char.length; i++) {
-          const input = word.inputs[i];
-          if (input.value.toUpperCase() !== word.char[i].toUpperCase()) {
-              wordCompleted = false;
-              break;
-          }
+    // Comprueba si la palabra está completa
+    let wordCompleted = true;
+    for (let i = 0; i < word.char.length; i++) {
+      const input = word.inputs[i];
+      if (input.value.toUpperCase() !== word.char[i].toUpperCase()) {
+        wordCompleted = false;
+        break;
       }
+    }
 
-      if (wordCompleted) {
-          word.completed = true;
-          handleCompletedWord(word);
+    if (wordCompleted) {
+      word.completed = true;
+      handleCompletedWord(word);
 
-          // Change the background color of the inputs of the completed word to light green
-          word.inputs.forEach(input => {
-              input.classList.add('completed');
-              input.addEventListener('keydown', preventBackspaceForCompletedInputs); // Añadir listener de prevención
-          });
-      }
+      // Cambiar el color de fondo de los inputs de la palabra completa a verde claro
+      word.inputs.forEach(input => {
+        input.classList.add('completed');
+        input.addEventListener('keydown', preventBackspaceForCompletedInputs); // Añadir listener de prevención
+      });
+    }
 
-      // Move to the next input if it exists
-      const nextIndex = currentIndex + 1;
-      if (nextIndex < word.inputs.length) {
-          const nextInput = word.inputs[nextIndex];
-          nextInput.focus();
-          highlightCurrentWord(nextInput);  
-      }
-      // Verificar si todas las palabras están completadas
-      const allWordsCompleted = wordsActive.every(word => word.completed);
-      if (allWordsCompleted) {
-          showCompletionMessage();
-        }
+    // Moverse al siguiente input si existe
+    const nextIndex = currentIndex + 1;
+    if (nextIndex < word.inputs.length) {
+      const nextInput = word.inputs[nextIndex];
+      nextInput.focus();
+      highlightCurrentWord(nextInput);
+    }
+
+    // Verificar si todas las palabras están completadas
+    const allWordsCompleted = wordsActive.every(word => word.completed);
+    if (allWordsCompleted) {
+      showCompletionMessage();
+    }
   }
 }
+
 function preventBackspaceForCompletedInputs(event) {
   const currentInput = event.target;
   if (event.key === 'Backspace' && currentInput.classList.contains('completed')) {
