@@ -462,6 +462,12 @@ RegisterEvents();
 
 
 function moveToNextInput(event) {
+   // Verificar si el evento de tecla es 'Backspace'
+   if (event && event.key === 'Backspace') {
+    return; // No hacer nada si se presiona 'Backspace'
+  }
+
+  
   const currentInput = event.target;
 
   // Find the word that contains the current input
