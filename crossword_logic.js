@@ -70,38 +70,39 @@ function Play() {
 }
 
 
+var crucigramaIndex = 0; // Variable global para almacenar el índice del crucigrama
+
 function Create() {
- // Calcular el índice basado en la fecha actual
- offsetFromDate = new Date(2024, 5, 9); // Fecha base
- msOffset = Date.now() - offsetFromDate.getTime(); // Diferencia en milisegundos desde la fecha base
- dayOffset = msOffset / 1000 / 60 / 60 / 24; // Convertir milisegundos a días
+  crucigramaIndex++; // Incrementar el índice para obtener un nuevo crucigrama
 
-fetch('words.json')
-  .then(response => response.json())
-  .then(data => {
-     crucigramasLength = data.crucigramas.length;
-     crucigramaIndex = Math.floor(dayOffset) % crucigramasLength; // Índice del crucigrama basado en el offset de días
-     console.log("Índice del crucigrama seleccionado:", crucigramaIndex); // Agregar esta línea
+  fetch('words.json')
+    .then(response => response.json())
+    .then(data => {
+      crucigramasLength = data.crucigramas.length;
+      crucigramaIndex = crucigramaIndex % crucigramasLength; // Índice del crucigrama basado en el contador
 
-    // Ahora que tienes el índice, puedes llamar a GetWordsFromJSON con este índice
-    GetWordsFromJSON('words.json', crucigramaIndex, function(selectedCrucigrama) {
-      wordArr = selectedCrucigrama.palabras.map(item => item.word.toUpperCase());
-      cluesArr = selectedCrucigrama.palabras.map(item => item.clue);
+      console.log("Índice del crucigrama seleccionado:", crucigramaIndex); // Agregar esta línea
 
-      // Resto del código para crear el crucigrama...
-      for (var i = 0, isSuccess = false; i < 10 && !isSuccess; i++) {
-        CleanVars();
-        isSuccess = PopulateBoard();
-      }
+      // Ahora que tienes el índice, puedes llamar a GetWordsFromJSON con este índice
+      GetWordsFromJSON('words.json', crucigramaIndex, function(selectedCrucigrama) {
+        wordArr = selectedCrucigrama.palabras.map(item => item.word.toUpperCase());
+        cluesArr = selectedCrucigrama.palabras.map(item => item.clue);
 
-      document.getElementById("crossword").innerHTML =
-        (isSuccess) ? BoardToHtml(" ") : "Failed to find crossword.";
+        // Resto del código para crear el crucigrama...
+        for (var i = 0, isSuccess = false; i < 10 && !isSuccess; i++) {
+          CleanVars();
+          isSuccess = PopulateBoard();
+        }
 
-      Play();
-    });
-  })
-  .catch(error => console.error("Error al cargar el archivo JSON:", error));
+        document.getElementById("crossword").innerHTML =
+          (isSuccess) ? BoardToHtml(" ") : "Failed to find crossword.";
+
+        Play();
+      });
+    })
+    .catch(error => console.error("Error al cargar el archivo JSON:", error));
 }
+
 
 
 
