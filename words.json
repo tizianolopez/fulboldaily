@@ -66,7 +66,9 @@
         { "word": "RONALDINHO", "clue": "Conocido por su sonrisa y habilidades mágicas" },
         { "word": "GUARDIOLA", "clue": "Entrenador famoso por su filosofía de posesión" },
         { "word": "ZIDANE", "clue": "Me enamoré del fútbol por su volea" },
-        { "word": "LIBERTADORES", "clue": "Torneo sudamericano de clubes, equivalente a la Champions League" }
+        { "word": "LIBERTADORES", "clue": "Torneo sudamericano de clubes, equivalente a la Champions League" },
+        { "word": "ZAMORANO", "clue": "Jugador chileno que usó el número '1+8' en el Inter." }
+
 
         
 
@@ -75,7 +77,6 @@
       "palabras": [
         { "word": "BIELSA", "clue": "Este entrenador es conocido por su 'locura' y por sentarse en un balde durante los partidos." },
         { "word": "VUVUZELA", "clue": "Este instrumento ruidoso se hizo famoso durante la Copa Mundial de 2010 en Sudáfrica." },
-        { "word": "ZAMORANO", "clue": "Jugador chileno que usó el número '1+8' en el Inter." },
         { "word": "INZAGHI", "clue": "Famoso por estar en el lugar correcto en el momento adecuado" },
         { "word": "SARRI", "clue": "Entrenador italiano conocido por su estilo de juego ofensivo y su amor por el tabaco" },
         { "word": "MBAPPE", "clue": "El hermano de Leonardo, Michelangelo y Raphael" }
