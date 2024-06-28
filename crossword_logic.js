@@ -527,11 +527,31 @@ function moveToNextInput(event) {
 
     // Opcionalmente, podrías añadir lógica para mover a la siguiente palabra si es necesario
     if (activeWordIndex < wordsActive.length - 1) {
-      activeWordIndex++;
-      const nextWord = wordsActive[activeWordIndex];
-      nextWord.inputs[0].focus();
-      highlightCurrentWord(nextWord.inputs[0]);
+  let startIndex = activeWordIndex; // Guardar el índice de inicio para evitar bucles infinitos
+  do {
+    activeWordIndex++;
+    // Si alcanzamos el final, volvemos al inicio
+    if (activeWordIndex >= wordsActive.length) {
+      activeWordIndex = 0;
     }
+    // Si hemos dado la vuelta completa, detener el bucle
+    if (activeWordIndex == startIndex) {
+      break;
+    }
+  } while (wordsActive[activeWordIndex].completed);
+
+  const nextWord = wordsActive[activeWordIndex];
+  nextWord.inputs[0].focus();
+  highlightCurrentWord(nextWord.inputs[0]);
+} else {
+  // Si es la última palabra y está completada, volvemos al inicio
+  activeWordIndex = 0;
+  if (!wordsActive[activeWordIndex].completed) {
+    const nextWord = wordsActive[activeWordIndex];
+    nextWord.inputs[0].focus();
+    highlightCurrentWord(nextWord.inputs[0]);
+  }
+}
   } else {
     // Si la palabra no está completada, mover al siguiente input dentro de la palabra actual si existe
     const nextIndex = currentIndex + 1;
