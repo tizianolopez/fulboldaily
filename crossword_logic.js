@@ -504,9 +504,21 @@ RegisterEvents();
 
 function moveToNextInput(event) {
   const currentInput = event.target;
-  const currentWord = wordsActive[activeWordIndex]; // Acceder a la palabra activa usando activeWordIndex
+  const currentWord = wordsActive[activeWordIndex];
 
   const currentIndex = currentWord.inputs.indexOf(currentInput);
+
+  // Verificar si la palabra ya está marcada como completada
+  if (currentWord.completed) {
+    // Si ya está completada, simplemente mover al siguiente input dentro de la palabra actual si existe
+    const nextIndex = currentIndex + 1;
+    if (nextIndex < currentWord.inputs.length) {
+      const nextInput = currentWord.inputs[nextIndex];
+      nextInput.focus();
+      highlightCurrentWord(nextInput);
+    }
+    return; // Salir de la función para evitar acciones adicionales
+  }
 
   // Verificar si la palabra está completa
   let wordCompleted = true;
@@ -527,7 +539,7 @@ function moveToNextInput(event) {
       input.addEventListener('keydown', preventBackspaceForCompletedInputs); // Añadir listener de prevención
     });
 
-    // Opcionalmente, avanzar a la siguiente palabra si todas las palabras aún no están completadas
+    // Opcionalmente, podrías añadir lógica para mover a la siguiente palabra si es necesario
     if (activeWordIndex < wordsActive.length - 1) {
       activeWordIndex++;
       const nextWord = wordsActive[activeWordIndex];
@@ -535,7 +547,7 @@ function moveToNextInput(event) {
       highlightCurrentWord(nextWord.inputs[0]);
     }
   } else {
-    // Moverse al siguiente input dentro de la palabra actual si existe
+    // Si la palabra no está completada, mover al siguiente input dentro de la palabra actual si existe
     const nextIndex = currentIndex + 1;
     if (nextIndex < currentWord.inputs.length) {
       const nextInput = currentWord.inputs[nextIndex];
@@ -550,6 +562,7 @@ function moveToNextInput(event) {
     showCompletionMessage();
   }
 }
+
 
 
 
@@ -576,7 +589,21 @@ function handleArrowKeys(event) {
 
     if (nextInput) {
         nextInput.focus();
+        updateActiveWordIndex(nextInput);
+
     }
+}
+
+
+function updateActiveWordIndex(input) {
+  // Find the corresponding wordObj based on the clicked input
+  let wordObj = wordsActive.find(word => word.inputs.includes(input));
+
+  if (wordObj) {
+    activeWordIndex = wordsActive.indexOf(wordObj);
+    console.log(`Active word index updated to: ${activeWordIndex}`);
+    highlightCurrentWord(input);
+  }
 }
 
 
