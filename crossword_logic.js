@@ -168,30 +168,33 @@ function PrintCluesWithIndices() {
   cluesContainer.innerHTML = ''; // Limpiar el contenido anterior
 
   var cluesList = document.createElement('ul');
+  
+  // Invertir el array de palabras activas
+  var invertedWordsActive = wordsActive.slice().reverse();
 
+  // Crear elementos de lista para las pistas en el orden correcto
   cluesArr.forEach((clue, index) => {
     var listItem = document.createElement('li');
     listItem.textContent = `${index + 1}. ${clue}`;
     listItem.setAttribute('data-index', index); // Usar el índice normal
-    cluesList.appendChild(listItem);
-  });
 
-  cluesContainer.appendChild(cluesList);
-
-  // Añadir el event listener a los ítems de la lista
-  cluesList.querySelectorAll('li').forEach(item => {
-    item.addEventListener('click', function() {
+    listItem.addEventListener('click', function() {
       // Obtener el índice desde el atributo data-index
       var index = parseInt(this.getAttribute('data-index'));
       // Establecer activeWordIndex al índice correspondiente en el array invertido
       activeWordIndex = index;
       // Enfocar el primer input de la palabra seleccionada en el array invertido
-      wordsActive[activeWordIndex].inputs[0].focus(); // Cambiado a wordsActive en lugar de invertedWordsActive
+      invertedWordsActive[activeWordIndex].inputs[0].focus();
       // Resaltar la palabra seleccionada
-      highlightCurrentWord(wordsActive[activeWordIndex].inputs[0]);
+      highlightCurrentWord(invertedWordsActive[activeWordIndex].inputs[0]);
     });
+
+    cluesList.appendChild(listItem);
   });
+
+  cluesContainer.appendChild(cluesList);
 }
+
 
 
 
