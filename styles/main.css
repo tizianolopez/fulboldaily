@@ -1,13 +1,4 @@
-@import url(https://db.onlinewebfonts.com/c/cf3fb387331afda8f5d7f9c8dea3cd13?family=Jaturat);
-@font-face {
-    font-family: "Jaturat";
-    src: url("https://db.onlinewebfonts.com/t/cf3fb387331afda8f5d7f9c8dea3cd13.eot");
-    src: url("https://db.onlinewebfonts.com/t/cf3fb387331afda8f5d7f9c8dea3cd13.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/cf3fb387331afda8f5d7f9c8dea3cd13.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/cf3fb387331afda8f5d7f9c8dea3cd13.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/cf3fb387331afda8f5d7f9c8dea3cd13.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/cf3fb387331afda8f5d7f9c8dea3cd13.svg#Jaturat")format("svg");
-}
+
 ::after,
 ::before {
     box-sizing: border-box;
@@ -31,8 +22,6 @@ h1 {
     font-size: 1.5rem;
 }
 
-body {
-    font-family: "Jaturat";}
 
 .wrapper {
     display: flex;
@@ -44,6 +33,8 @@ body {
     overflow: hidden;
     transition: all 0.35s ease-in-out;
     background-color: #202020;
+    font-family: "Oxanium", sans-serif;
+
 }
 
 #sidebar {
