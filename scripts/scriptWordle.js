@@ -104,8 +104,8 @@ function submitGuess() {
   stopInteraction();
   let used = Array(WORD_LENGTH).fill(0);
   let marker = Array(WORD_LENGTH).fill(0);
-  activeTiles.forEach((tile, index, array) => markCorrect(tile, index, array, used, marker));
   activeTiles.forEach((tile, index, array) => markWrongLocation(tile, index, array, used, marker));
+  activeTiles.forEach((tile, index, array) => markCorrect(tile, index, array, used, marker));
   activeTiles.forEach((tile, index, array) => flipTile(tile, index, array, guess, marker));
 }
 
