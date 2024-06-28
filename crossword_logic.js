@@ -5,6 +5,7 @@
 
 var board, wordArr, wordBank, wordsActive, mode;
 var cluesArr = [];
+let activeWordIndex = 0; // Declarada globalmente para mantener el índice de la palabra activa
 
 var Bounds = {  
   top:0, right:0, bottom:0, left:0,
@@ -64,6 +65,7 @@ function Play() {
     mode = 0;
     ToggleInputBoxes(false);
     DisplayFirstCells();
+    HandleCellClicks();
     PrintCluesWithIndices();
 
 
@@ -140,19 +142,55 @@ function DisplayFirstCells() {
   });
 }
 
+
+
+function HandleCellClicks() {
+  wordsActive.forEach((wordObj, index) => {
+    wordObj.inputs.forEach(input => {
+      input.addEventListener('click', function() {
+        // Set activeWordIndex to the index of the wordObj
+        activeWordIndex = index;
+        console.log(`Clicked on word: ${wordObj.string}`);
+        console.log(`Active word index updated to: ${activeWordIndex}`);
+        
+        // Optionally, you can add logic here to focus on the clicked input and highlight the word
+        this.focus();
+        highlightCurrentWord(this);
+      });
+    });
+  });
+}
+
+
+
 function PrintCluesWithIndices() {
   var cluesContainer = document.getElementById('clues-container');
-  cluesContainer.innerHTML = ''; // Clear previous content
+  cluesContainer.innerHTML = ''; // Limpiar el contenido anterior
 
   var cluesList = document.createElement('ul');
 
   cluesArr.forEach((clue, index) => {
     var listItem = document.createElement('li');
     listItem.textContent = `${index + 1}. ${clue}`;
+    listItem.setAttribute('data-index', index); // Usar el índice normal
     cluesList.appendChild(listItem);
   });
 
   cluesContainer.appendChild(cluesList);
+
+  // Añadir el event listener a los ítems de la lista
+  cluesList.querySelectorAll('li').forEach(item => {
+    item.addEventListener('click', function() {
+      // Obtener el índice desde el atributo data-index
+      var index = parseInt(this.getAttribute('data-index'));
+      // Establecer activeWordIndex al índice correspondiente en el array invertido
+      activeWordIndex = index;
+      // Enfocar el primer input de la palabra seleccionada en el array invertido
+      wordsActive[activeWordIndex].inputs[0].focus(); // Cambiado a wordsActive en lugar de invertedWordsActive
+      // Resaltar la palabra seleccionada
+      highlightCurrentWord(wordsActive[activeWordIndex].inputs[0]);
+    });
+  });
 }
 
 
@@ -461,46 +499,84 @@ RegisterEvents();
 //   HELPER FUNCTIONS              //
 //---------------------------------//
 
-
 function moveToNextInput(event) {
- const currentInput = event.target;
+  const currentInput = event.target;
+  const currentWord = wordsActive[activeWordIndex]; // Acceder a la palabra activa usando activeWordIndex
 
- // Find the word that contains the current input
- const word = wordsActive.find(word => word.inputs.includes(currentInput));
- if (word) {
-     const currentIndex = word.inputs.indexOf(currentInput);
-     // Check if the word is completed
-     let wordCompleted = true;
-     for (let i = 0; i < word.char.length; i++) {
-         const input = word.inputs[i];
-         if (input.value.toUpperCase() !== word.char[i].toUpperCase()) {
-             wordCompleted = false;
-             break;
-         }
-     }
-     if (wordCompleted) {
-         word.completed = true;
-         handleCompletedWord(word);
-         // Change the background color of the inputs of the completed word to light green
-         word.inputs.forEach(input => {
-             input.classList.add('completed');
-             input.addEventListener('keydown', preventBackspaceForCompletedInputs); // Añadir listener de prevención
-         });
-     }
-     // Move to the next input if it exists
-     const nextIndex = currentIndex + 1;
-     if (nextIndex < word.inputs.length) {
-         const nextInput = word.inputs[nextIndex];
-         nextInput.focus();
-         highlightCurrentWord(nextInput);  
-     }
-     // Verificar si todas las palabras están completadas
-     const allWordsCompleted = wordsActive.every(word => word.completed);
-     if (allWordsCompleted) {
-         showCompletionMessage();
-       }
- }
+  const currentIndex = currentWord.inputs.indexOf(currentInput);
+
+  // Verificar si la palabra está completa
+  let wordCompleted = true;
+  for (let i = 0; i < currentWord.char.length; i++) {
+    const input = currentWord.inputs[i];
+    if (input.value.toUpperCase() !== currentWord.char[i].toUpperCase()) {
+      wordCompleted = false;
+      break;
+    }
+  }
+
+  if (wordCompleted) {
+    currentWord.completed = true;
+    handleCompletedWord(currentWord);
+    // Cambiar el color de fondo de los inputs de la palabra completada a verde claro
+    currentWord.inputs.forEach(input => {
+      input.classList.add('completed');
+      input.addEventListener('keydown', preventBackspaceForCompletedInputs); // Añadir listener de prevención
+    });
+
+    // Opcionalmente, avanzar a la siguiente palabra si todas las palabras aún no están completadas
+    if (activeWordIndex < wordsActive.length - 1) {
+      activeWordIndex++;
+      const nextWord = wordsActive[activeWordIndex];
+      nextWord.inputs[0].focus();
+      highlightCurrentWord(nextWord.inputs[0]);
+    }
+  } else {
+    // Moverse al siguiente input dentro de la palabra actual si existe
+    const nextIndex = currentIndex + 1;
+    if (nextIndex < currentWord.inputs.length) {
+      const nextInput = currentWord.inputs[nextIndex];
+      nextInput.focus();
+      highlightCurrentWord(nextInput);
+    }
+  }
+
+  // Verificar si todas las palabras están completadas
+  const allWordsCompleted = wordsActive.every(word => word.completed);
+  if (allWordsCompleted) {
+    showCompletionMessage();
+  }
 }
+
+
+
+
+
+function handleArrowKeys(event) {
+    const currentInput = event.target;
+    let nextInput;
+
+    switch (event.key) {
+        case 'ArrowRight':
+            nextInput = findNextInput(currentInput, 1, 0);
+            break;
+        case 'ArrowLeft':
+            nextInput = findNextInput(currentInput, -1, 0);
+            break;
+        case 'ArrowDown':
+            nextInput = findNextInput(currentInput, 0, 1);
+            break;
+        case 'ArrowUp':
+            nextInput = findNextInput(currentInput, 0, -1);
+            break;
+    }
+
+    if (nextInput) {
+        nextInput.focus();
+    }
+}
+
+
 function preventBackspaceForCompletedInputs(event) {
  const currentInput = event.target;
  if (event.key === 'Backspace' && currentInput.classList.contains('completed')) {
@@ -631,30 +707,7 @@ function moveBackOnBackspace(event) {
       event.preventDefault(); // Previene el comportamiento por defecto.
   }
 }
-// Function to handle arrow key navigation
-function handleArrowKeys(event) {
-    const currentInput = event.target;
-    let nextInput;
-
-    switch (event.key) {
-        case 'ArrowRight':
-            nextInput = findNextInput(currentInput, 1, 0);
-            break;
-        case 'ArrowLeft':
-            nextInput = findNextInput(currentInput, -1, 0);
-            break;
-        case 'ArrowDown':
-            nextInput = findNextInput(currentInput, 0, 1);
-            break;
-        case 'ArrowUp':
-            nextInput = findNextInput(currentInput, 0, -1);
-            break;
-    }
-
-    if (nextInput) {
-        nextInput.focus();
-    }
-}
+// Function to handle arrow key navigatio
 
 // Function to find the next input in the given direction
 function findNextInput(currentInput, dx, dy) {
