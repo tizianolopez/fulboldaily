@@ -1,0 +1,414 @@
+
+/* styles.css */
+
+#game {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#start-options {
+    display: none; /* Ocultar opciones de inicio al principio */
+    margin-top: 20px; /* Espacio arriba de las opciones */
+}
+
+#start-options p {
+    margin-bottom: 10px; /* Espacio bajo el texto de la pregunta */
+}
+
+#start-options button {
+    margin: 0 10px; /* Espacio entre los botones */
+}
+#country {
+    display: flex;
+    align-items: center;
+    font-size: 19px;
+}
+
+#controls {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#country-info {
+    display: flex;
+    align-items: center;
+}
+
+#country-flag {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
+
+#player-controls {
+    
+    margin-left: auto; /* Empuja los controles del jugador hacia la derecha */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinea los elementos del contenedor al extremo derecho */
+
+}
+
+#controls #playerInput {
+    padding: 3px 8px;
+    margin: 0 .5em 0 1em;
+    width: 80%; /* Ancho máximo para evitar que se haga demasiado pequeño */
+    max-width: 240px;
+    border-radius: 5px;
+
+}
+
+#controls button {
+max-width: auto;
+border-radius: 5px;
+}
+#submitButton{
+    padding: 4px 10px;
+
+}
+
+#message {
+    margin-left: 10px; /* Espacio a la izquierda del mensaje */
+}
+
+
+
+#country-info {
+    display: flex;
+    align-items: center;
+}
+
+#country-flag {
+    width: 40px; /* Ajusta el tamaño de la bandera según tus necesidades */
+    height: auto;
+    margin-right: 10px; /* Espacio entre la bandera y el nombre del país */
+}
+
+#player-controls {
+    flex: 1; /* Ocupa todo el espacio restante */
+    display: flex;
+    justify-content: flex-end; /* Alinea los elementos a la derecha dentro del contenedor */
+    align-items: center;
+}
+
+#playerInput {
+    margin-right: 10px; /* Espacio entre el campo de entrada y el botón */
+}
+
+#message {
+    margin-top: 10px; /* Espacio superior para el mensaje */
+}
+
+
+
+
+#controls p,
+#controls input,
+#controls button {
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+
+#message {
+    flex-basis: 100%; /* Hace que el mensaje ocupe toda la línea */
+    text-align: center;
+}
+
+#formation {
+    border: 4px solid white;
+    width: 800px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto 0;
+    background: 
+        radial-gradient(circle closest-side at center, #FFFFFF 1%, transparent 1%),
+        radial-gradient(circle closest-side at center, transparent 21%, #FFFFFF 21%, #FFFFFF 22%, transparent 22%),
+        linear-gradient(to bottom, transparent 49.75%, #FFFFFF 49.75%, #FFFFFF 50.25%, transparent 50.25%),
+        linear-gradient(to bottom,
+            #3B8735 0%, #3B8735 16.66%,
+            #4CAF50 16.66%, #4CAF50 33.33%,
+            #3B8735 33.33%, #3B8735 50%,
+            #4CAF50 50%, #4CAF50 66.66%,
+            #3B8735 66.66%, #3B8735 83.33%,
+            #4CAF50 83.33%, #4CAF50 100%
+        );
+}
+#controls #surrenderButton {
+    margin-left: 0.5em;
+    background-size: cover; /* Ajusta la imagen para cubrir todo el botón */
+    border: none; /* Opcional: elimina el borde del botón */
+    width: 40px; /* Ajusta al tamaño deseado */
+    height: 40px; /* Ajusta al tamaño deseado */
+    background-color: transparent;
+    border: 2px solid #ffffff;
+}
+#surrenderButton img {
+    width: 31px; /* Ajusta la imagen al tamaño del botón */
+    height: auto; /* Ajusta la altura automáticamente */
+}
+ h1{
+    padding: 0.5em 0 0 .5em;
+ }
+
+.position {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0.5em 0;
+}
+
+.position div {
+    width: 7em;
+    height: 3em;
+    text-align: center;
+}
+
+.position {
+    perspective: 1000px;
+}
+
+.card {
+    position: relative;
+    width: 1em;
+    height: 1.5em;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    background-color: transparent;
+    background-color: #ffffff;
+    border: 2px solid #202020;
+    color: #202020;
+    font-weight: 500;
+}
+
+.card.flipped {
+    transform: rotateY(180deg);
+}
+
+.card .side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.card .front {
+}
+
+.card .back {
+    transform: rotateY(180deg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; /* Color del texto en la parte posterior */
+}
+
+.card .back .text-container {
+    background-color: rgba(0, 0, 0, 0.75); /* Fondo semitransparente para el texto */
+    padding: .35em .35em;
+    border-radius: 1em;
+    text-align: center; /* Centra el texto horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    line-height: 1; /* Reducción del espaciado entre líneas */
+    text-transform: capitalize;
+
+    
+}
+
+/* CSS para el cuadro de selección de posición */
+.popup {
+    position: absolute;
+    top: 66%;
+    left: calc(50% + 35px);
+    transform: translate(-50%, -50%);
+    background-color: #420047;
+    border: 5px solid #8135c6;
+    padding: 10px;
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    display: none; /* Inicialmente oculto */
+        font-family: Tahoma, sans-serif; /* Ejemplo de fuente */
+        color: white;
+
+}
+.popup label {
+    font-size: 16px;
+    width: 100%;
+    padding: 0.3em;
+    display: block; /* Hacer que el label sea un bloque para ocupar todo el ancho disponible */
+    text-align: center; /* Centrar el texto horizontalmente */
+    margin: 0 auto; /* Centrar el label dentro de su contenedor */
+}
+
+.popup button{
+    width: 100%;
+    display: block; /* Hacer que el label sea un bloque para ocupar todo el ancho disponible */
+    text-align: center; /* Centrar el texto horizontalmente */
+    margin: 0 auto 1.5em; /* Centrar el label dentro de su contenedor */
+
+}
+.popup::after {
+    content: " VAR ";
+    position: absolute;
+    font-size: 25px;
+    bottom: -20px; /* Ajusta la posición verticalmente según sea necesario */
+    left: 50% ; /* Coloca el texto en el centro horizontalmente */
+    transform: translateX(-50%); /* Centra el texto exactamente en el centro */
+    background-color: #8135c6; /* Fondo del texto */
+    padding: 0 20px 0; /* Espacio alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #ffffff; /* Color del texto */
+    font-weight: bold;
+
+}
+
+
+
+#fullbacks,#wingers, #wideMidfielders {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#midfielders,#defensiveMidfielders,#attackingMidfielders, #attackers, #defenders{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#wingers .position {
+    margin: 0 1em 2em;
+}
+
+#defensiveMidfielders .position {
+    margin: 2.5em 10px 0;
+}
+#wideMidfielders .position {
+    margin: 2em 1em 1em;
+}
+#fullbacks .position {
+    margin: 0 1em 0;
+}
+#defenders{
+    margin: 0em 1em 0em;
+
+}
+
+#goalkeeper .position {
+    margin-bottom: 1em;
+}
+
+
+
+#timer-container {
+    width: 90vw; /* Ancho del 90% del viewport width */
+    max-width: 800px; /* Ancho máximo de 800px */
+    margin: 20px auto; /* Margen superior de 20px y auto para centrar horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente */
+}
+#timer-bar {
+    width: 100%; /* Tamaño de la barra de timer */
+    height: 20px; /* Altura de la barra */
+    background-color: #ccc; /* Color de fondo de la barra */
+    position: relative;
+    overflow: hidden; /* Para ocultar el progreso que se desborda */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+#timer-bar::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #4CAF50; /* Color de la barra de progreso */
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: timerAnimation 90s linear forwards; /* Animación del temporizador */
+}
+#timer-counter {
+    margin-left: 10px; /* Espacio entre la barra y el contador */
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+@keyframes timerAnimation {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0%;
+    }
+}
+
+
+
+
+@media (max-width: 700px) {
+    .position div {
+        width: 6em;
+        height: 2em;
+        text-align: center;
+    }
+    .text-container{
+        font-size: 0.8em;
+    }
+    .flag {
+        height: 16px;
+        margin-right: 5px;
+        display: inline-block !important; /* Mostrar la bandera para pantallas menores a 700px */
+    }
+    .card .back {
+        background-image: none !important; /* Eliminar la imagen de fondo */
+        background-color: transparent;
+        color: black;
+    }
+    .card .back .text-container {
+        background-color: rgba(255, 255, 255, 0);
+    }
+}
+
+
+p{
+    color: white;
+}
+.flag {
+    display: none; /* Inicialmente ocultar la bandera */
+}
+
+@media (max-width: 700px) {
+    #controls {
+        flex-direction: column; /* Cambia la dirección de los elementos a columna */
+        align-items: center; /* Centra los elementos horizontalmente */
+        justify-content: center; /* Centra los elementos verticalmente */
+        padding: 0px; /* Añade un margen interior para separar los elementos */
+    }
+
+    #country-info {
+        order: 1; /* Cambia el orden para que aparezca primero */
+        margin-bottom: 10px; /* Añade margen inferior */
+    }
+
+    #player-controls {
+        order: 2; /* Cambia el orden para que aparezca después */
+        margin-top: 10px; /* Añade margen superior */
+        margin-left: 0;
+    }
+    .popup {
+        left: 50% ;
+
+    }
+}
