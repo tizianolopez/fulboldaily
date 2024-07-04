@@ -18,7 +18,7 @@
 
 <body>
     <div class="wrapper">
-        <aside id="sidebar" class="d-none d-md-block">
+        <aside id="sidebar">
             <div class="d-flex">
                 <button class="toggle-btn" type="button">
                     <i class="lni lni-grid-alt"></i>
@@ -29,32 +29,47 @@
             </div>
             <ul class="sidebar-nav">
                 <li class="sidebar-item">
-                    <a href="wordle.html" class="sidebar-link">
-                        <img src="img/wordle.png" width="32px" height="32px" alt="">
+                    <a href="wordle.html" class="sidebar-link collapsed has-dropdown"
+                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        <img src="img/wordle.svg" width="32px" height="32px" alt="wordle">
                         <span>Wordle</span>
                     </a>
+                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="wordle.html" class="sidebar-link">Wordle</a>
+                        </li>
+                    </ul>
                 </li>
+
                 <li class="sidebar-item">
-                    <a href="crossword.html" class="sidebar-link">
-                        <img src="img/crossword.png" width="32px" height="32px" alt="">
+                    <a href="crossword.html" class="sidebar-link collapsed has-dropdown"
+                        data-bs-target="#wordledropdown" aria-expanded="false" aria-controls="wordledropdown">
+                        <img src="img/crossword.png" width="px" height="32px" alt="crucigrama de futbol">
                         <span>4-4-Cruz</span>
                     </a>
+                    <ul id="wordledropdown" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                        <li class="sidebar-item">
+                            <a href="crossword.html" class="sidebar-link">Crucigrama de futbol</a>
+                        </li>
+                    </ul>
                 </li>
+                
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
-                        data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
+                        data-bs-target="#crossworddropdown" aria-expanded="false" aria-controls="crossworddropdown">
                         <i class="lni lni-protection"></i>
                         <span>Starting 11 </span>
                     </a>
-                    <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                    <ul id="crossworddropdown" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                         <li class="sidebar-item">
                             <a href="#" class="sidebar-link">F11 Clubs</a>
                         </li>
                         <li class="sidebar-item">
-                            <a href="#" class="sidebar-link">F11 Countries</a>
+                            <a href="formation.html" class="sidebar-link">F11 Countries</a>
                         </li>
                     </ul>
                 </li>
+
                 <li class="sidebar-item">
                     <a href="#" class="sidebar-link">
                         <i class="lni lni-popup"></i>
@@ -69,7 +84,6 @@
                 </li>
             </ul>
         </aside>
-
       
 
         <div class="main">
