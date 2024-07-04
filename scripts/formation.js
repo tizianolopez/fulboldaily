@@ -146,7 +146,7 @@ function getRandomCountry() {
 
 function updateCountryFlag() {
     const countryFlagImg = document.getElementById("country-flag");
-    countryFlagImg.src = `flags/${currentCountry.toLowerCase()}.png`;
+    countryFlagImg.src = `img/flags/${currentCountry.toLowerCase()}.png`;
     countryFlagImg.alt = `${currentCountry} flag`;
 }
 
@@ -506,14 +506,14 @@ function updateFormation(newPlayerPos = null) {
                     const playerCountry = playerCountryMapping[player];
 
                     // Agregar la bandera al fondo de la carta
-                    back.style.backgroundImage = `url('../flags/${playerCountry}.png')`; // Ajusta la ruta según la estructura de tus archivos de banderas
+                    back.style.backgroundImage = `url('img/flags/${playerCountry}.png')`; // Ajusta la ruta según la estructura de tus archivos de banderas
                     const textContainer = document.createElement("div");
                     textContainer.classList.add('text-container');
 
                     // Crear la imagen de la bandera al lado del nombre del jugador
                     const flag = document.createElement("img");
                     flag.classList.add('flag');
-                    flag.src = `flags/${playerCountry}.png`; // Ruta a la bandera del país
+                    flag.src = `img/flags/${playerCountry}.png`; // Ruta a la bandera del país
                     flag.alt = `${playerCountry} flag`;
 
                     const playerNameText = document.createElement("span");
