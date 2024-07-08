@@ -1,0 +1,4935 @@
+[
+  {
+    "player_name": "Marc-Andre ter Stegen",
+    "season": "14/15",
+    "team_from": "Bor. M'gladbach",
+    "team_to": "Barcelona",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Marc-Andre ter Stegen",
+    "season": "10/11",
+    "team_from": "M'gladbach II",
+    "team_to": "Bor. M'gladbach",
+    "market_value": 200000
+  },
+  {
+    "player_name": "Marc-Andre ter Stegen",
+    "season": "10/11",
+    "team_from": "M'gladbach U19",
+    "team_to": "M'gladbach II",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Neto",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Bournemouth",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Neto",
+    "season": "19/20",
+    "team_from": "Valencia",
+    "team_to": "Barcelona",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Neto",
+    "season": "17/18",
+    "team_from": "Juventus",
+    "team_to": "Valencia",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Neto",
+    "season": "15/16",
+    "team_from": "Fiorentina",
+    "team_to": "Juventus",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Neto",
+    "season": "10/11",
+    "team_from": "Atletico-PR",
+    "team_to": "Fiorentina",
+    "market_value": 1800000
+  },
+  {
+    "player_name": "Ronald Araujo",
+    "season": "20/21",
+    "team_from": "Barcelona B",
+    "team_to": "Barcelona",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Ronald Araujo",
+    "season": "18/19",
+    "team_from": "Boston River",
+    "team_to": "Barcelona B",
+    "market_value": 175000
+  },
+  {
+    "player_name": "Ronald Araujo",
+    "season": "17/18",
+    "team_from": "Rentistas",
+    "team_to": "Boston River",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Clement Lenglet",
+    "season": "23/24",
+    "team_from": "Aston Villa",
+    "team_to": "Barcelona",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Clement Lenglet",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Aston Villa",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Clement Lenglet",
+    "season": "22/23",
+    "team_from": "Tottenham",
+    "team_to": "Barcelona",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Clement Lenglet",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Tottenham",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Clement Lenglet",
+    "season": "18/19",
+    "team_from": "Sevilla FC",
+    "team_to": "Barcelona",
+    "market_value": 36000000
+  },
+  {
+    "player_name": "Clement Lenglet",
+    "season": "16/17",
+    "team_from": "AS Nancy",
+    "team_to": "Sevilla FC",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Clement Lenglet",
+    "season": "14/15",
+    "team_from": "AS Nancy B",
+    "team_to": "AS Nancy",
+    "market_value": 150000
+  },
+  {
+    "player_name": "Gerard Pique",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Retired",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Gerard Pique",
+    "season": "08/09",
+    "team_from": "Man Utd",
+    "team_to": "Barcelona",
+    "market_value": 5500000
+  },
+  {
+    "player_name": "Gerard Pique",
+    "season": "06/07",
+    "team_from": "Real Zaragoza",
+    "team_to": "Man Utd",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Gerard Pique",
+    "season": "06/07",
+    "team_from": "Man Utd",
+    "team_to": "Real Zaragoza",
+    "market_value": 1750000
+  },
+  {
+    "player_name": "Samuel Umtiti",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "LOSC Lille",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Samuel Umtiti",
+    "season": "22/23",
+    "team_from": "Lecce",
+    "team_to": "Barcelona",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Samuel Umtiti",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Lecce",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Samuel Umtiti",
+    "season": "16/17",
+    "team_from": "Olympique Lyon",
+    "team_to": "Barcelona",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Samuel Umtiti",
+    "season": "11/12",
+    "team_from": "Olymp. Lyon B",
+    "team_to": "Olympique Lyon",
+    "market_value": 150000
+  },
+  {
+    "player_name": "Jordi Alba",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Miami",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Jordi Alba",
+    "season": "12/13",
+    "team_from": "Valencia",
+    "team_to": "Barcelona",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Jordi Alba",
+    "season": "08/09",
+    "team_from": "Gimnàstic",
+    "team_to": "Valencia",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Sergino Dest",
+    "season": "24/25",
+    "team_from": "Barcelona",
+    "team_to": "PSV Eindhoven",
+    "market_value": 22000000
+  },
+  {
+    "player_name": "Sergino Dest",
+    "season": "23/24",
+    "team_from": "PSV Eindhoven",
+    "team_to": "Barcelona",
+    "market_value": 22000000
+  },
+  {
+    "player_name": "Sergino Dest",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "PSV Eindhoven",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Sergino Dest",
+    "season": "22/23",
+    "team_from": "AC Milan",
+    "team_to": "Barcelona",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Sergino Dest",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "AC Milan",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Sergino Dest",
+    "season": "20/21",
+    "team_from": "Ajax",
+    "team_to": "Barcelona",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Sergino Dest",
+    "season": "19/20",
+    "team_from": "Ajax U21",
+    "team_to": "Ajax",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "season": "19/20",
+    "team_from": "Ajax",
+    "team_to": "Barcelona",
+    "market_value": 85000000
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "season": "16/17",
+    "team_from": "Ajax U21",
+    "team_to": "Ajax",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "season": "15/16",
+    "team_from": "Willem II",
+    "team_to": "Ajax U21",
+    "market_value": 400000
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "season": "15/16",
+    "team_from": "Ajax U21",
+    "team_to": "Willem II",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Frenkie de Jong",
+    "season": "15/16",
+    "team_from": "Willem II",
+    "team_to": "Ajax U21",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Pedri",
+    "season": "19/20",
+    "team_from": "UD Las Palmas",
+    "team_to": "Barcelona",
+    "market_value": 7200000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "24/25",
+    "team_from": "Sharjah FC",
+    "team_to": "Without Club",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Sharjah FC",
+    "market_value": 9500000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "21/22",
+    "team_from": "Besiktas",
+    "team_to": "Barcelona",
+    "market_value": 9500000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Besiktas",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Barcelona",
+    "market_value": 45000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "16/17",
+    "team_from": "AS Roma",
+    "team_to": "Juventus",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "11/12",
+    "team_from": "Olympique Lyon",
+    "team_to": "AS Roma",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "07/08",
+    "team_from": "FC Metz",
+    "team_to": "Olympique Lyon",
+    "market_value": 5500000
+  },
+  {
+    "player_name": "Carles Alena",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Getafe",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Carles Alena",
+    "season": "20/21",
+    "team_from": "Getafe",
+    "team_to": "Barcelona",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Carles Alena",
+    "season": "20/21",
+    "team_from": "Barcelona",
+    "team_to": "Getafe",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Carles Alena",
+    "season": "19/20",
+    "team_from": "Real Betis",
+    "team_to": "Barcelona",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Carles Alena",
+    "season": "19/20",
+    "team_from": "Barcelona",
+    "team_to": "Real Betis",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Carles Alena",
+    "season": "18/19",
+    "team_from": "Barcelona B",
+    "team_to": "Barcelona",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "23/24",
+    "team_from": "Al-Duhail SC",
+    "team_to": "Aston Villa",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "23/24",
+    "team_from": "Aston Villa",
+    "team_to": "Al-Duhail SC",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Aston Villa",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "21/22",
+    "team_from": "Aston Villa",
+    "team_to": "Barcelona",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Aston Villa",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "19/20",
+    "team_from": "Bayern Munich",
+    "team_to": "Barcelona",
+    "market_value": 56000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "19/20",
+    "team_from": "Barcelona",
+    "team_to": "Bayern Munich",
+    "market_value": 90000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "17/18",
+    "team_from": "Liverpool",
+    "team_to": "Barcelona",
+    "market_value": 90000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "12/13",
+    "team_from": "Inter",
+    "team_to": "Liverpool",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "11/12",
+    "team_from": "Espanyol",
+    "team_to": "Inter",
+    "market_value": 7000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "11/12",
+    "team_from": "Inter",
+    "team_to": "Espanyol",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "09/10",
+    "team_from": "Vasco da Gama",
+    "team_to": "Inter",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Philippe Coutinho",
+    "season": "08/09",
+    "team_from": "Inter",
+    "team_to": "Vasco da Gama",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "24/25",
+    "team_from": "Al-Arabi SC",
+    "team_to": "Without Club",
+    "market_value": 3800000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "22/23",
+    "team_from": "Paris SG",
+    "team_to": "Al-Arabi SC",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "21/22",
+    "team_from": "Real Sociedad",
+    "team_to": "Paris SG",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "21/22",
+    "team_from": "Paris SG",
+    "team_to": "Real Sociedad",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "20/21",
+    "team_from": "Barcelona",
+    "team_to": "Paris SG",
+    "market_value": 9500000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "19/20",
+    "team_from": "Celta de Vigo",
+    "team_to": "Barcelona",
+    "market_value": 9500000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "19/20",
+    "team_from": "Barcelona",
+    "team_to": "Celta de Vigo",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "17/18",
+    "team_from": "Inter",
+    "team_to": "Barcelona",
+    "market_value": 28000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "17/18",
+    "team_from": "Barcelona",
+    "team_to": "Inter",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "13/14",
+    "team_from": "Celta de Vigo",
+    "team_to": "Barcelona",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "13/14",
+    "team_from": "Barcelona",
+    "team_to": "Celta de Vigo",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "13/14",
+    "team_from": "Barcelona B",
+    "team_to": "Barcelona",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Ansu Fati",
+    "season": "23/24",
+    "team_from": "Brighton",
+    "team_to": "Barcelona",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Ansu Fati",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Brighton",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Ansu Fati",
+    "season": "20/21",
+    "team_from": "Barcelona B",
+    "team_to": "Barcelona",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Ansu Fati",
+    "season": "19/20",
+    "team_from": "Barça U19",
+    "team_to": "Barcelona B",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Lionel Messi",
+    "season": "23/24",
+    "team_from": "Paris SG",
+    "team_to": "Miami",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Lionel Messi",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Paris SG",
+    "market_value": 80000000
+  },
+  {
+    "player_name": "Lionel Messi",
+    "season": "05/06",
+    "team_from": "Barcelona B",
+    "team_to": "Barcelona",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Ousmane Dembele",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Paris SG",
+    "market_value": 60000000
+  },
+  {
+    "player_name": "Ousmane Dembele",
+    "season": "17/18",
+    "team_from": "Bor. Dortmund",
+    "team_to": "Barcelona",
+    "market_value": 33000000
+  },
+  {
+    "player_name": "Ousmane Dembele",
+    "season": "16/17",
+    "team_from": "Stade Rennais",
+    "team_to": "Bor. Dortmund",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Trincao",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Sporting CP",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Trincao",
+    "season": "22/23",
+    "team_from": "Sporting CP",
+    "team_to": "Barcelona",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Trincao",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Sporting CP",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Trincao",
+    "season": "21/22",
+    "team_from": "Wolves",
+    "team_to": "Barcelona",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Trincao",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Wolves",
+    "market_value": 22000000
+  },
+  {
+    "player_name": "Trincao",
+    "season": "20/21",
+    "team_from": "SC Braga",
+    "team_to": "Barcelona",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Trincao",
+    "season": "18/19",
+    "team_from": "Braga B",
+    "team_to": "SC Braga",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Atletico Madrid",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "22/23",
+    "team_from": "Atletico Madrid",
+    "team_to": "Barcelona",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Atletico Madrid",
+    "market_value": 60000000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "19/20",
+    "team_from": "Atletico Madrid",
+    "team_to": "Barcelona",
+    "market_value": 130000000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "14/15",
+    "team_from": "Real Sociedad",
+    "team_to": "Atletico Madrid",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Espanyol",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "19/20",
+    "team_from": "CD Leganes",
+    "team_to": "Barcelona",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "19/20",
+    "team_from": "Middlesbrough",
+    "team_to": "CD Leganes",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "18/19",
+    "team_from": "CD Leganes",
+    "team_to": "Middlesbrough",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "18/19",
+    "team_from": "Middlesbrough",
+    "team_to": "CD Leganes",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "17/18",
+    "team_from": "G. Bordeaux",
+    "team_to": "Middlesbrough",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "17/18",
+    "team_from": "Middlesbrough",
+    "team_to": "G. Bordeaux",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "17/18",
+    "team_from": "Toulouse",
+    "team_to": "Middlesbrough",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Martin Braithwaite",
+    "season": "13/14",
+    "team_from": "Esbjerg fB",
+    "team_to": "Toulouse",
+    "market_value": 850000
+  },
+  {
+    "player_name": "Manuel Neuer",
+    "season": "11/12",
+    "team_from": "FC Schalke 04",
+    "team_to": "Bayern Munich",
+    "market_value": 28000000
+  },
+  {
+    "player_name": "Manuel Neuer",
+    "season": "05/06",
+    "team_from": "Schalke 04 U19",
+    "team_to": "FC Schalke 04",
+    "market_value": 75000
+  },
+  {
+    "player_name": "David Alaba",
+    "season": "21/22",
+    "team_from": "Bayern Munich",
+    "team_to": "Real Madrid",
+    "market_value": 55000000
+  },
+  {
+    "player_name": "David Alaba",
+    "season": "10/11",
+    "team_from": "TSG Hoffenheim",
+    "team_to": "Bayern Munich",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "David Alaba",
+    "season": "10/11",
+    "team_from": "Bayern Munich",
+    "team_to": "TSG Hoffenheim",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "David Alaba",
+    "season": "10/11",
+    "team_from": "FC Bayern II",
+    "team_to": "Bayern Munich",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "David Alaba",
+    "season": "09/10",
+    "team_from": "FC Bayern U19",
+    "team_to": "FC Bayern II",
+    "market_value": 200000
+  },
+  {
+    "player_name": "David Alaba",
+    "season": "08/09",
+    "team_from": "A. Vienna Res.",
+    "team_to": "FC Bayern U19",
+    "market_value": 200000
+  },
+  {
+    "player_name": "Jerome Boateng",
+    "season": "24/25",
+    "team_from": "Salernitana",
+    "team_to": "LASK",
+    "market_value": 400000
+  },
+  {
+    "player_name": "Jerome Boateng",
+    "season": "23/24",
+    "team_from": "Without Club",
+    "team_to": "Salernitana",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Jerome Boateng",
+    "season": "23/24",
+    "team_from": "Olympique Lyon",
+    "team_to": "Without Club",
+    "market_value": 800000
+  },
+  {
+    "player_name": "Jerome Boateng",
+    "season": "21/22",
+    "team_from": "Bayern Munich",
+    "team_to": "Olympique Lyon",
+    "market_value": 8500000
+  },
+  {
+    "player_name": "Jerome Boateng",
+    "season": "11/12",
+    "team_from": "Man City",
+    "team_to": "Bayern Munich",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Jerome Boateng",
+    "season": "10/11",
+    "team_from": "Hamburger SV",
+    "team_to": "Man City",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Jerome Boateng",
+    "season": "07/08",
+    "team_from": "Hertha BSC",
+    "team_to": "Hamburger SV",
+    "market_value": 750000
+  },
+  {
+    "player_name": "Jerome Boateng",
+    "season": "06/07",
+    "team_from": "Hertha BSC II",
+    "team_to": "Hertha BSC",
+    "market_value": 175000
+  },
+  {
+    "player_name": "Dante",
+    "season": "16/17",
+    "team_from": "VfL Wolfsburg",
+    "team_to": "OGC Nice",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Dante",
+    "season": "15/16",
+    "team_from": "Bayern Munich",
+    "team_to": "VfL Wolfsburg",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Dante",
+    "season": "12/13",
+    "team_from": "Bor. M'gladbach",
+    "team_to": "Bayern Munich",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Dante",
+    "season": "08/09",
+    "team_from": "Standard Liège",
+    "team_to": "Bor. M'gladbach",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Dante",
+    "season": "06/07",
+    "team_from": "R Charleroi SC",
+    "team_to": "Standard Liège",
+    "market_value": 800000
+  },
+  {
+    "player_name": "Dante",
+    "season": "06/07",
+    "team_from": "LOSC Lille",
+    "team_to": "R Charleroi SC",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Dante",
+    "season": "05/06",
+    "team_from": "R Charleroi SC",
+    "team_to": "LOSC Lille",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Dante",
+    "season": "05/06",
+    "team_from": "LOSC Lille",
+    "team_to": "R Charleroi SC",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Philipp Lahm",
+    "season": "17/18",
+    "team_from": "Bayern Munich",
+    "team_to": "Retired",
+    "market_value": 11000000
+  },
+  {
+    "player_name": "Philipp Lahm",
+    "season": "04/05",
+    "team_from": "VfB Stuttgart",
+    "team_to": "Bayern Munich",
+    "market_value": 7000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "21/22",
+    "team_from": "Grêmio",
+    "team_to": "Sao Paulo",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "20/21",
+    "team_from": "Olympiacos",
+    "team_to": "Grêmio",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "20/21",
+    "team_from": "Flamengo",
+    "team_to": "Olympiacos",
+    "market_value": 2400000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "19/20",
+    "team_from": "Bayern Munich",
+    "team_to": "Flamengo",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "11/12",
+    "team_from": "Genoa",
+    "team_to": "Bayern Munich",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "10/11",
+    "team_from": "FC Schalke 04",
+    "team_to": "Genoa",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Rafinha",
+    "season": "05/06",
+    "team_from": "Coritiba FC",
+    "team_to": "FC Schalke 04",
+    "market_value": 4500000
+  },
+  {
+    "player_name": "Javi Martinez",
+    "season": "21/22",
+    "team_from": "Bayern Munich",
+    "team_to": "Qatar SC",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Javi Martinez",
+    "season": "12/13",
+    "team_from": "Athletic",
+    "team_to": "Bayern Munich",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "23/24",
+    "team_from": "Without Club",
+    "team_to": "Sao Paulo",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "23/24",
+    "team_from": "Al-Nassr",
+    "team_to": "Without Club",
+    "market_value": 800000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "22/23",
+    "team_from": "Fenerbahce",
+    "team_to": "Al-Nassr",
+    "market_value": 1200000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "19/20",
+    "team_from": "Marseille",
+    "team_to": "Fenerbahce",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "17/18",
+    "team_from": "VfL Wolfsburg",
+    "team_to": "Marseille",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "13/14",
+    "team_from": "Bayern Munich",
+    "team_to": "VfL Wolfsburg",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "10/11",
+    "team_from": "TSG Hoffenheim",
+    "team_to": "Bayern Munich",
+    "market_value": 6500000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "08/09",
+    "team_from": "Corinthians-AL",
+    "team_to": "TSG Hoffenheim",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Luiz Gustavo",
+    "season": "07/08",
+    "team_from": "TSG Hoffenheim",
+    "team_to": "Corinthians-AL",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Bor. Dortmund",
+    "market_value": 24000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "19/20",
+    "team_from": "Bor. Dortmund",
+    "team_to": "Juventus",
+    "market_value": 24000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "19/20",
+    "team_from": "Juventus",
+    "team_to": "Bor. Dortmund",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "18/19",
+    "team_from": "Liverpool",
+    "team_to": "Juventus",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "14/15",
+    "team_from": "B. Leverkusen",
+    "team_to": "Liverpool",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "13/14",
+    "team_from": "Bayern Munich",
+    "team_to": "B. Leverkusen",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "12/13",
+    "team_from": "FC Bayern II",
+    "team_to": "Bayern Munich",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Pierre-Emile Højbjerg",
+    "season": "20/21",
+    "team_from": "Southampton",
+    "team_to": "Tottenham",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Pierre-Emile Højbjerg",
+    "season": "16/17",
+    "team_from": "Bayern Munich",
+    "team_to": "Southampton",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Pierre-Emile Højbjerg",
+    "season": "15/16",
+    "team_from": "FC Schalke 04",
+    "team_to": "Bayern Munich",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Pierre-Emile Højbjerg",
+    "season": "15/16",
+    "team_from": "Bayern Munich",
+    "team_to": "FC Schalke 04",
+    "market_value": 6500000
+  },
+  {
+    "player_name": "Pierre-Emile Højbjerg",
+    "season": "14/15",
+    "team_from": "FC Augsburg",
+    "team_to": "Bayern Munich",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Pierre-Emile Højbjerg",
+    "season": "14/15",
+    "team_from": "Bayern Munich",
+    "team_to": "FC Augsburg",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Pierre-Emile Højbjerg",
+    "season": "13/14",
+    "team_from": "FC Bayern II",
+    "team_to": "Bayern Munich",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Bastian Schweinsteiger",
+    "season": "16/17",
+    "team_from": "Man Utd",
+    "team_to": "Chicago",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Bastian Schweinsteiger",
+    "season": "15/16",
+    "team_from": "Bayern Munich",
+    "team_to": "Man Utd",
+    "market_value": 22000000
+  },
+  {
+    "player_name": "Toni Kroos",
+    "season": "14/15",
+    "team_from": "Bayern Munich",
+    "team_to": "Real Madrid",
+    "market_value": 42000000
+  },
+  {
+    "player_name": "Toni Kroos",
+    "season": "09/10",
+    "team_from": "B. Leverkusen",
+    "team_to": "Bayern Munich",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Toni Kroos",
+    "season": "08/09",
+    "team_from": "Bayern Munich",
+    "team_to": "B. Leverkusen",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Toni Kroos",
+    "season": "07/08",
+    "team_from": "FC Bayern U19",
+    "team_to": "Bayern Munich",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "21/22",
+    "team_from": "Olympique Lyon",
+    "team_to": "Chicago",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "21/22",
+    "team_from": "Liverpool",
+    "team_to": "Olympique Lyon",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "18/19",
+    "team_from": "Stoke City",
+    "team_to": "Liverpool",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "15/16",
+    "team_from": "Inter",
+    "team_to": "Stoke City",
+    "market_value": 17000000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "15/16",
+    "team_from": "Bayern Munich",
+    "team_to": "Inter",
+    "market_value": 17000000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "14/15",
+    "team_from": "Inter",
+    "team_to": "Bayern Munich",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "14/15",
+    "team_from": "Bayern Munich",
+    "team_to": "Inter",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "12/13",
+    "team_from": "FC Basel",
+    "team_to": "Bayern Munich",
+    "market_value": 12500000
+  },
+  {
+    "player_name": "Xherdan Shaqiri",
+    "season": "09/10",
+    "team_from": "FC Basel U21",
+    "team_to": "FC Basel",
+    "market_value": 50000
+  },
+  {
+    "player_name": "Franck Ribery",
+    "season": "22/23",
+    "team_from": "Salernitana",
+    "team_to": "Retired",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Franck Ribery",
+    "season": "21/22",
+    "team_from": "Fiorentina",
+    "team_to": "Salernitana",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Franck Ribery",
+    "season": "19/20",
+    "team_from": "Bayern Munich",
+    "team_to": "Fiorentina",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Franck Ribery",
+    "season": "07/08",
+    "team_from": "Marseille",
+    "team_to": "Bayern Munich",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Franck Ribery",
+    "season": "05/06",
+    "team_from": "Galatasaray",
+    "team_to": "Marseille",
+    "market_value": 5250000
+  },
+  {
+    "player_name": "Franck Ribery",
+    "season": "04/05",
+    "team_from": "FC Metz",
+    "team_to": "Galatasaray",
+    "market_value": 5250000
+  },
+  {
+    "player_name": "Arjen Robben",
+    "season": "20/21",
+    "team_from": "Career break",
+    "team_to": "FC Groningen",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Arjen Robben",
+    "season": "09/10",
+    "team_from": "Real Madrid",
+    "team_to": "Bayern Munich",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Arjen Robben",
+    "season": "07/08",
+    "team_from": "Chelsea",
+    "team_to": "Real Madrid",
+    "market_value": 22800000
+  },
+  {
+    "player_name": "Thomas Muller",
+    "season": "09/10",
+    "team_from": "FC Bayern II",
+    "team_to": "Bayern Munich",
+    "market_value": 750000
+  },
+  {
+    "player_name": "Mario Gómez",
+    "season": "17/18",
+    "team_from": "VfL Wolfsburg",
+    "team_to": "VfB Stuttgart",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Mario Gómez",
+    "season": "16/17",
+    "team_from": "Fiorentina",
+    "team_to": "VfL Wolfsburg",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Mario Gómez",
+    "season": "15/16",
+    "team_from": "Besiktas",
+    "team_to": "Fiorentina",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Mario Gómez",
+    "season": "15/16",
+    "team_from": "Fiorentina",
+    "team_to": "Besiktas",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Mario Gómez",
+    "season": "13/14",
+    "team_from": "Bayern Munich",
+    "team_to": "Fiorentina",
+    "market_value": 28000000
+  },
+  {
+    "player_name": "Mario Gómez",
+    "season": "09/10",
+    "team_from": "VfB Stuttgart",
+    "team_to": "Bayern Munich",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Mario Gómez",
+    "season": "05/06",
+    "team_from": "Stuttgart II",
+    "team_to": "VfB Stuttgart",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "20/21",
+    "team_from": "Without Club",
+    "team_to": "AC Milan",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "20/21",
+    "team_from": "Al-Duhail SC",
+    "team_to": "Without Club",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "19/20",
+    "team_from": "Juventus",
+    "team_to": "Al-Duhail SC",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "15/16",
+    "team_from": "Atletico Madrid",
+    "team_to": "Juventus",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "14/15",
+    "team_from": "Bayern Munich",
+    "team_to": "Atletico Madrid",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "12/13",
+    "team_from": "VfL Wolfsburg",
+    "team_to": "Bayern Munich",
+    "market_value": 14000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "10/11",
+    "team_from": "Dinamo Zagreb",
+    "team_to": "VfL Wolfsburg",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "07/08",
+    "team_from": "NK Zagreb",
+    "team_to": "Dinamo Zagreb",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Willy Caballero",
+    "season": "23/24",
+    "team_from": "Southampton",
+    "team_to": "Retired",
+    "market_value": 150000
+  },
+  {
+    "player_name": "Willy Caballero",
+    "season": "21/22",
+    "team_from": "Without Club",
+    "team_to": "Southampton",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Willy Caballero",
+    "season": "21/22",
+    "team_from": "Chelsea",
+    "team_to": "Without Club",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Willy Caballero",
+    "season": "17/18",
+    "team_from": "Man City",
+    "team_to": "Chelsea",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Willy Caballero",
+    "season": "14/15",
+    "team_from": "Malaga CF",
+    "team_to": "Man City",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Willy Caballero",
+    "season": "10/11",
+    "team_from": "Elche CF",
+    "team_to": "Malaga CF",
+    "market_value": 1600000
+  },
+  {
+    "player_name": "Willy Caballero",
+    "season": "05/06",
+    "team_from": "Arsenal Sarandi",
+    "team_to": "Elche CF",
+    "market_value": 1250000
+  },
+  {
+    "player_name": "Willy Caballero",
+    "season": "05/06",
+    "team_from": "Elche CF",
+    "team_to": "Arsenal Sarandi",
+    "market_value": 1250000
+  },
+  {
+    "player_name": "Vincent Kompany",
+    "season": "19/20",
+    "team_from": "Man City",
+    "team_to": "RSC Anderlecht",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Vincent Kompany",
+    "season": "08/09",
+    "team_from": "Hamburger SV",
+    "team_to": "Man City",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Vincent Kompany",
+    "season": "06/07",
+    "team_from": "RSC Anderlecht",
+    "team_to": "Hamburger SV",
+    "market_value": 13500000
+  },
+  {
+    "player_name": "Martin Demichelis",
+    "season": "17/18",
+    "team_from": "Malaga CF",
+    "team_to": "Retired",
+    "market_value": 200000
+  },
+  {
+    "player_name": "Martin Demichelis",
+    "season": "16/17",
+    "team_from": "Espanyol",
+    "team_to": "Malaga CF",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Martin Demichelis",
+    "season": "16/17",
+    "team_from": "Man City",
+    "team_to": "Espanyol",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Martin Demichelis",
+    "season": "13/14",
+    "team_from": "Atletico Madrid",
+    "team_to": "Man City",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Martin Demichelis",
+    "season": "13/14",
+    "team_from": "Malaga CF",
+    "team_to": "Atletico Madrid",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Martin Demichelis",
+    "season": "10/11",
+    "team_from": "Bayern Munich",
+    "team_to": "Malaga CF",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Aleksandar Kolarov",
+    "season": "22/23",
+    "team_from": "Inter",
+    "team_to": "Retired",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Aleksandar Kolarov",
+    "season": "20/21",
+    "team_from": "AS Roma",
+    "team_to": "Inter",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Aleksandar Kolarov",
+    "season": "17/18",
+    "team_from": "Man City",
+    "team_to": "AS Roma",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Aleksandar Kolarov",
+    "season": "10/11",
+    "team_from": "Lazio",
+    "team_to": "Man City",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Aleksandar Kolarov",
+    "season": "07/08",
+    "team_from": "OFK Beograd",
+    "team_to": "Lazio",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "24/25",
+    "team_from": "RB Leipzig",
+    "team_to": "AS Roma",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "23/24",
+    "team_from": "AS Roma",
+    "team_to": "RB Leipzig",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "23/24",
+    "team_from": "RB Leipzig",
+    "team_to": "AS Roma",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "23/24",
+    "team_from": "Galatasaray",
+    "team_to": "RB Leipzig",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "23/24",
+    "team_from": "RB Leipzig",
+    "team_to": "Galatasaray",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "22/23",
+    "team_from": "TSG Hoffenheim",
+    "team_to": "RB Leipzig",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "22/23",
+    "team_from": "RB Leipzig",
+    "team_to": "TSG Hoffenheim",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "21/22",
+    "team_from": "Man City",
+    "team_to": "RB Leipzig",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "20/21",
+    "team_from": "RB Leipzig",
+    "team_to": "Man City",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "19/20",
+    "team_from": "Man City",
+    "team_to": "RB Leipzig",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "19/20",
+    "team_from": "PSV Eindhoven",
+    "team_to": "Man City",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "18/19",
+    "team_from": "Man City U23",
+    "team_to": "PSV Eindhoven",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "17/18",
+    "team_from": "NAC Breda",
+    "team_to": "Man City U23",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "17/18",
+    "team_from": "Man City U23",
+    "team_to": "NAC Breda",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "16/17",
+    "team_from": "RCD Mallorca",
+    "team_to": "Man City U23",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "16/17",
+    "team_from": "Man City U23",
+    "team_to": "RCD Mallorca",
+    "market_value": 300000
+  },
+  {
+    "player_name": "Angelino",
+    "season": "16/17",
+    "team_from": "Girona",
+    "team_to": "Man City U23",
+    "market_value": 300000
+  },
+  {
+    "player_name": "Jesús Navas",
+    "season": "24/25",
+    "team_from": "Sevilla FC",
+    "team_to": "Retired",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Jesús Navas",
+    "season": "17/18",
+    "team_from": "Man City",
+    "team_to": "Sevilla FC",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Jesús Navas",
+    "season": "13/14",
+    "team_from": "Sevilla FC",
+    "team_to": "Man City",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Pablo Zabaleta",
+    "season": "17/18",
+    "team_from": "Man City",
+    "team_to": "West Ham",
+    "market_value": 7000000
+  },
+  {
+    "player_name": "Pablo Zabaleta",
+    "season": "08/09",
+    "team_from": "Espanyol",
+    "team_to": "Man City",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Pablo Zabaleta",
+    "season": "05/06",
+    "team_from": "San Lorenzo",
+    "team_to": "Espanyol",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Micah Richards",
+    "season": "15/16",
+    "team_from": "Man City",
+    "team_to": "Aston Villa",
+    "market_value": 5500000
+  },
+  {
+    "player_name": "Micah Richards",
+    "season": "14/15",
+    "team_from": "Fiorentina",
+    "team_to": "Man City",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Micah Richards",
+    "season": "14/15",
+    "team_from": "Man City",
+    "team_to": "Fiorentina",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Micah Richards",
+    "season": "05/06",
+    "team_from": "Man City U18",
+    "team_to": "Man City",
+    "market_value": 200000
+  },
+  {
+    "player_name": "Fernandinho",
+    "season": "22/23",
+    "team_from": "Man City",
+    "team_to": "Athletico-PR",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Fernandinho",
+    "season": "13/14",
+    "team_from": "Shakhtar D.",
+    "team_to": "Man City",
+    "market_value": 32000000
+  },
+  {
+    "player_name": "Fernandinho",
+    "season": "05/06",
+    "team_from": "Atletico-PR",
+    "team_to": "Shakhtar D.",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Fernando",
+    "season": "23/24",
+    "team_from": "Vila Nova FC",
+    "team_to": "Internacional",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Fernando",
+    "season": "23/24",
+    "team_from": "Sevilla FC",
+    "team_to": "Vila Nova FC",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Fernando",
+    "season": "19/20",
+    "team_from": "Galatasaray",
+    "team_to": "Sevilla FC",
+    "market_value": 4500000
+  },
+  {
+    "player_name": "Fernando",
+    "season": "17/18",
+    "team_from": "Man City",
+    "team_to": "Galatasaray",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Fernando",
+    "season": "14/15",
+    "team_from": "FC Porto",
+    "team_to": "Man City",
+    "market_value": 17500000
+  },
+  {
+    "player_name": "Fernando",
+    "season": "07/08",
+    "team_from": "CF Estrela",
+    "team_to": "FC Porto",
+    "market_value": 700000
+  },
+  {
+    "player_name": "Fernando",
+    "season": "07/08",
+    "team_from": "FC Porto",
+    "team_to": "CF Estrela",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Yaya Toure",
+    "season": "19/20",
+    "team_from": "QD Huanghai",
+    "team_to": "Retired",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Yaya Toure",
+    "season": "19/20",
+    "team_from": "Without Club",
+    "team_to": "QD Huanghai",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Yaya Toure",
+    "season": "18/19",
+    "team_from": "Olympiacos",
+    "team_to": "Without Club",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Yaya Toure",
+    "season": "18/19",
+    "team_from": "Man City",
+    "team_to": "Olympiacos",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Yaya Toure",
+    "season": "10/11",
+    "team_from": "Barcelona",
+    "team_to": "Man City",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Yaya Toure",
+    "season": "07/08",
+    "team_from": "Monaco",
+    "team_to": "Barcelona",
+    "market_value": 11000000
+  },
+  {
+    "player_name": "Yaya Toure",
+    "season": "06/07",
+    "team_from": "Olympiacos",
+    "team_to": "Monaco",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Yaya Toure",
+    "season": "05/06",
+    "team_from": "Metalurg D.",
+    "team_to": "Olympiacos",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "James Milner",
+    "season": "23/24",
+    "team_from": "Liverpool",
+    "team_to": "Brighton",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "James Milner",
+    "season": "15/16",
+    "team_from": "Man City",
+    "team_to": "Liverpool",
+    "market_value": 14000000
+  },
+  {
+    "player_name": "James Milner",
+    "season": "10/11",
+    "team_from": "Aston Villa",
+    "team_to": "Man City",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "James Milner",
+    "season": "08/09",
+    "team_from": "Newcastle",
+    "team_to": "Aston Villa",
+    "market_value": 8750000
+  },
+  {
+    "player_name": "James Milner",
+    "season": "05/06",
+    "team_from": "Aston Villa",
+    "team_to": "Newcastle",
+    "market_value": 4700000
+  },
+  {
+    "player_name": "James Milner",
+    "season": "05/06",
+    "team_from": "Newcastle",
+    "team_to": "Aston Villa",
+    "market_value": 5500000
+  },
+  {
+    "player_name": "Frank Lampard",
+    "season": "16/17",
+    "team_from": "New York City",
+    "team_to": "Retired",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Frank Lampard",
+    "season": "14/15",
+    "team_from": "Man City",
+    "team_to": "New York City",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Frank Lampard",
+    "season": "14/15",
+    "team_from": "New York City",
+    "team_to": "Man City",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Frank Lampard",
+    "season": "14/15",
+    "team_from": "Chelsea",
+    "team_to": "New York City",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "David Silva",
+    "season": "23/24",
+    "team_from": "Real Sociedad",
+    "team_to": "Retired",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "David Silva",
+    "season": "20/21",
+    "team_from": "Man City",
+    "team_to": "Real Sociedad",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "David Silva",
+    "season": "10/11",
+    "team_from": "Valencia",
+    "team_to": "Man City",
+    "market_value": 32000000
+  },
+  {
+    "player_name": "David Silva",
+    "season": "05/06",
+    "team_from": "Celta de Vigo",
+    "team_to": "Valencia",
+    "market_value": 800000
+  },
+  {
+    "player_name": "Samir Nasri",
+    "season": "19/20",
+    "team_from": "West Ham",
+    "team_to": "RSC Anderlecht",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Samir Nasri",
+    "season": "18/19",
+    "team_from": "Ban",
+    "team_to": "West Ham",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Samir Nasri",
+    "season": "17/18",
+    "team_from": "Antalyaspor",
+    "team_to": "Ban",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Samir Nasri",
+    "season": "17/18",
+    "team_from": "Man City",
+    "team_to": "Antalyaspor",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Samir Nasri",
+    "season": "16/17",
+    "team_from": "Sevilla FC",
+    "team_to": "Man City",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Samir Nasri",
+    "season": "16/17",
+    "team_from": "Man City",
+    "team_to": "Sevilla FC",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Samir Nasri",
+    "season": "11/12",
+    "team_from": "Arsenal",
+    "team_to": "Man City",
+    "market_value": 26000000
+  },
+  {
+    "player_name": "Samir Nasri",
+    "season": "08/09",
+    "team_from": "Marseille",
+    "team_to": "Arsenal",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Sergio Aguero",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Retired",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Sergio Aguero",
+    "season": "21/22",
+    "team_from": "Man City",
+    "team_to": "Barcelona",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Sergio Aguero",
+    "season": "11/12",
+    "team_from": "Atletico Madrid",
+    "team_to": "Man City",
+    "market_value": 36000000
+  },
+  {
+    "player_name": "Sergio Aguero",
+    "season": "06/07",
+    "team_from": "Independiente",
+    "team_to": "Atletico Madrid",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Edin Dzeko",
+    "season": "23/24",
+    "team_from": "Inter",
+    "team_to": "Fenerbahce",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Edin Dzeko",
+    "season": "21/22",
+    "team_from": "AS Roma",
+    "team_to": "Inter",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Edin Dzeko",
+    "season": "16/17",
+    "team_from": "Man City",
+    "team_to": "AS Roma",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Edin Dzeko",
+    "season": "15/16",
+    "team_from": "AS Roma",
+    "team_to": "Man City",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Edin Dzeko",
+    "season": "15/16",
+    "team_from": "Man City",
+    "team_to": "AS Roma",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Edin Dzeko",
+    "season": "10/11",
+    "team_from": "VfL Wolfsburg",
+    "team_to": "Man City",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Edin Dzeko",
+    "season": "07/08",
+    "team_from": "Teplice",
+    "team_to": "VfL Wolfsburg",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "24/25",
+    "team_from": "Olympiacos",
+    "team_to": "Without Club",
+    "market_value": 700000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "23/24",
+    "team_from": "Hertha BSC",
+    "team_to": "Olympiacos",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "21/22",
+    "team_from": "Monaco",
+    "team_to": "Hertha BSC",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "17/18",
+    "team_from": "Inter",
+    "team_to": "Monaco",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "16/17",
+    "team_from": "Sevilla FC",
+    "team_to": "Inter",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "16/17",
+    "team_from": "Inter",
+    "team_to": "Sevilla FC",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "16/17",
+    "team_from": "Man City",
+    "team_to": "Inter",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "16/17",
+    "team_from": "Inter",
+    "team_to": "Man City",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "15/16",
+    "team_from": "Man City",
+    "team_to": "Inter",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "13/14",
+    "team_from": "Fiorentina",
+    "team_to": "Man City",
+    "market_value": 28000000
+  },
+  {
+    "player_name": "Stevan Jovetic",
+    "season": "08/09",
+    "team_from": "Partizan",
+    "team_to": "Fiorentina",
+    "market_value": 7000000
+  },
+  {
+    "player_name": "Lionel Messi",
+    "season": "23/24",
+    "team_from": "Paris SG",
+    "team_to": "Miami",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Lionel Messi",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Paris SG",
+    "market_value": 80000000
+  },
+  {
+    "player_name": "Lionel Messi",
+    "season": "05/06",
+    "team_from": "Barcelona B",
+    "team_to": "Barcelona",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Cristiano Ronaldo",
+    "season": "22/23",
+    "team_from": "Without Club",
+    "team_to": "Al-Nassr",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Cristiano Ronaldo",
+    "season": "22/23",
+    "team_from": "Man Utd",
+    "team_to": "Without Club",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Cristiano Ronaldo",
+    "season": "21/22",
+    "team_from": "Juventus",
+    "team_to": "Man Utd",
+    "market_value": 45000000
+  },
+  {
+    "player_name": "Cristiano Ronaldo",
+    "season": "18/19",
+    "team_from": "Real Madrid",
+    "team_to": "Juventus",
+    "market_value": 100000000
+  },
+  {
+    "player_name": "Cristiano Ronaldo",
+    "season": "09/10",
+    "team_from": "Man Utd",
+    "team_to": "Real Madrid",
+    "market_value": 60000000
+  },{
+    "player_name": "Cristiano Ronaldo",
+    "season": "03/04",
+    "team_from": "Sporting CP",
+    "team_to": "Man Utd",
+    "market_value": 60000000
+  },
+  {
+    "player_name": "Kylian Mbappe",
+    "season": "24/25",
+    "team_from": "Paris SG",
+    "team_to": "Real Madrid",
+    "market_value": 180000000
+  },
+  {
+    "player_name": "Kylian Mbappe",
+    "season": "18/19",
+    "team_from": "Monaco",
+    "team_to": "Paris SG",
+    "market_value": 120000000
+  },
+  {
+    "player_name": "Kylian Mbappe",
+    "season": "17/18",
+    "team_from": "Paris SG",
+    "team_to": "Monaco",
+    "market_value": 120000000
+  },
+  {
+    "player_name": "Kylian Mbappe",
+    "season": "17/18",
+    "team_from": "Monaco",
+    "team_to": "Paris SG",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Kylian Mbappe",
+    "season": "15/16",
+    "team_from": "Monaco U19",
+    "team_to": "Monaco",
+    "market_value": 50000
+  },
+  {
+    "player_name": "Neymar",
+    "season": "23/24",
+    "team_from": "Paris SG",
+    "team_to": "Al-Hilal",
+    "market_value": 60000000
+  },
+  {
+    "player_name": "Neymar",
+    "season": "17/18",
+    "team_from": "Barcelona",
+    "team_to": "Paris SG",
+    "market_value": 100000000
+  },
+  {
+    "player_name": "Neymar",
+    "season": "13/14",
+    "team_from": "Santos",
+    "team_to": "Barcelona",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Robert Lewandowski",
+    "season": "22/23",
+    "team_from": "Bayern Munich",
+    "team_to": "Barcelona",
+    "market_value": 45000000
+  },
+  {
+    "player_name": "Robert Lewandowski",
+    "season": "14/15",
+    "team_from": "Bor. Dortmund",
+    "team_to": "Bayern Munich",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Robert Lewandowski",
+    "season": "10/11",
+    "team_from": "Lech Poznan",
+    "team_to": "Bor. Dortmund",
+    "market_value": 4500000
+  },
+  {
+    "player_name": "Robert Lewandowski",
+    "season": "08/09",
+    "team_from": "Znicz Pruszkow",
+    "team_to": "Lech Poznan",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Kevin De Bruyne",
+    "season": "15/16",
+    "team_from": "VfL Wolfsburg",
+    "team_to": "Man City",
+    "market_value": 45000000
+  },
+  {
+    "player_name": "Kevin De Bruyne",
+    "season": "13/14",
+    "team_from": "Chelsea",
+    "team_to": "VfL Wolfsburg",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Kevin De Bruyne",
+    "season": "12/13",
+    "team_from": "Werder Bremen",
+    "team_to": "Chelsea",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Kevin De Bruyne",
+    "season": "12/13",
+    "team_from": "Chelsea",
+    "team_to": "Werder Bremen",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Kevin De Bruyne",
+    "season": "11/12",
+    "team_from": "KRC Genk",
+    "team_to": "Chelsea",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Kevin De Bruyne",
+    "season": "11/12",
+    "team_from": "Chelsea",
+    "team_to": "KRC Genk",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Kevin De Bruyne",
+    "season": "11/12",
+    "team_from": "KRC Genk",
+    "team_to": "Chelsea",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Sergio Ramos",
+    "season": "24/25",
+    "team_from": "Sevilla FC",
+    "team_to": "Without Club",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Sergio Ramos",
+    "season": "23/24",
+    "team_from": "Paris SG",
+    "team_to": "Sevilla FC",
+    "market_value": 4500000
+  },
+  {
+    "player_name": "Sergio Ramos",
+    "season": "21/22",
+    "team_from": "Real Madrid",
+    "team_to": "Paris SG",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Sergio Ramos",
+    "season": "05/06",
+    "team_from": "Sevilla FC",
+    "team_to": "Real Madrid",
+    "market_value": 27000000
+  },
+  {
+    "player_name": "Luka Modric",
+    "season": "24/25",
+    "team_from": "Real Madrid",
+    "team_to": "Without Club",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Luka Modric",
+    "season": "12/13",
+    "team_from": "Tottenham",
+    "team_to": "Real Madrid",
+    "market_value": 40000000
+  },
+  {
+    "player_name": "Luka Modric",
+    "season": "08/09",
+    "team_from": "Dinamo Zagreb",
+    "team_to": "Tottenham",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Mohamed Salah",
+    "season": "17/18",
+    "team_from": "AS Roma",
+    "team_to": "Liverpool",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Mohamed Salah",
+    "season": "16/17",
+    "team_from": "Chelsea",
+    "team_to": "AS Roma",
+    "market_value": 23000000
+  },
+  {
+    "player_name": "Mohamed Salah",
+    "season": "15/16",
+    "team_from": "AS Roma",
+    "team_to": "Chelsea",
+    "market_value": 23000000
+  },
+  {
+    "player_name": "Mohamed Salah",
+    "season": "15/16",
+    "team_from": "Chelsea",
+    "team_to": "AS Roma",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Mohamed Salah",
+    "season": "14/15",
+    "team_from": "Fiorentina",
+    "team_to": "Chelsea",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Mohamed Salah",
+    "season": "14/15",
+    "team_from": "Chelsea",
+    "team_to": "Fiorentina",
+    "market_value": 13000000
+  },
+  {
+    "player_name": "Mohamed Salah",
+    "season": "13/14",
+    "team_from": "FC Basel",
+    "team_to": "Chelsea",
+    "market_value": 8500000
+  },
+  {
+    "player_name": "Mohamed Salah",
+    "season": "12/13",
+    "team_from": "El Mokawloon",
+    "team_to": "FC Basel",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Harry Kane",
+    "season": "23/24",
+    "team_from": "Tottenham",
+    "team_to": "Bayern Munich",
+    "market_value": 90000000
+  },
+  {
+    "player_name": "Harry Kane",
+    "season": "12/13",
+    "team_from": "Leicester",
+    "team_to": "Tottenham",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Harry Kane",
+    "season": "12/13",
+    "team_from": "Tottenham",
+    "team_to": "Leicester",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Harry Kane",
+    "season": "12/13",
+    "team_from": "Norwich",
+    "team_to": "Tottenham",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Atletico Madrid",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "22/23",
+    "team_from": "Atletico Madrid",
+    "team_to": "Barcelona",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Atletico Madrid",
+    "market_value": 60000000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "19/20",
+    "team_from": "Atletico Madrid",
+    "team_to": "Barcelona",
+    "market_value": 130000000
+  },
+  {
+    "player_name": "Antoine Griezmann",
+    "season": "14/15",
+    "team_from": "Real Sociedad",
+    "team_to": "Atletico Madrid",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Erling Haaland",
+    "season": "22/23",
+    "team_from": "Bor. Dortmund",
+    "team_to": "Man City",
+    "market_value": 150000000
+  },
+  {
+    "player_name": "Erling Haaland",
+    "season": "19/20",
+    "team_from": "RB Salzburg",
+    "team_to": "Bor. Dortmund",
+    "market_value": 45000000
+  },
+  {
+    "player_name": "Erling Haaland",
+    "season": "18/19",
+    "team_from": "Molde FK",
+    "team_to": "RB Salzburg",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Erling Haaland",
+    "season": "16/17",
+    "team_from": "Bryne",
+    "team_to": "Molde FK",
+    "market_value": 200000
+  },
+  {
+    "player_name": "Paul Pogba",
+    "season": "22/23",
+    "team_from": "Man Utd",
+    "team_to": "Juventus",
+    "market_value": 48000000
+  },
+  {
+    "player_name": "Paul Pogba",
+    "season": "16/17",
+    "team_from": "Juventus",
+    "team_to": "Man Utd",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Paul Pogba",
+    "season": "12/13",
+    "team_from": "Man Utd U21",
+    "team_to": "Juventus",
+    "market_value": 3500000
+  },
+  {
+    "player_name": "Virgil van Dijk",
+    "season": "17/18",
+    "team_from": "Southampton",
+    "team_to": "Liverpool",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Virgil van Dijk",
+    "season": "15/16",
+    "team_from": "Celtic",
+    "team_to": "Southampton",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Virgil van Dijk",
+    "season": "13/14",
+    "team_from": "FC Groningen",
+    "team_to": "Celtic",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Virgil van Dijk",
+    "season": "11/12",
+    "team_from": "Gron./Cam. U21",
+    "team_to": "FC Groningen",
+    "market_value": 250000
+  },
+  {
+    "player_name": "Raheem Sterling",
+    "season": "22/23",
+    "team_from": "Man City",
+    "team_to": "Chelsea",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Raheem Sterling",
+    "season": "15/16",
+    "team_from": "Liverpool",
+    "team_to": "Man City",
+    "market_value": 40000000
+  },
+  {
+    "player_name": "Alisson",
+    "season": "18/19",
+    "team_from": "AS Roma",
+    "team_to": "Liverpool",
+    "market_value": 60000000
+  },
+  {
+    "player_name": "Alisson",
+    "season": "16/17",
+    "team_from": "Internacional",
+    "team_to": "AS Roma",
+    "market_value": 7000000
+  },
+  {
+    "player_name": "Alisson",
+    "season": "12/13",
+    "team_from": "Inter B",
+    "team_to": "Internacional",
+    "market_value": 150000
+  },
+  {
+    "player_name": "Toni Kroos",
+    "season": "14/15",
+    "team_from": "Bayern Munich",
+    "team_to": "Real Madrid",
+    "market_value": 42000000
+  },
+  {
+    "player_name": "Toni Kroos",
+    "season": "09/10",
+    "team_from": "B. Leverkusen",
+    "team_to": "Bayern Munich",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Toni Kroos",
+    "season": "08/09",
+    "team_from": "Bayern Munich",
+    "team_to": "B. Leverkusen",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Toni Kroos",
+    "season": "07/08",
+    "team_from": "FC Bayern U19",
+    "team_to": "Bayern Munich",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Gareth Bale",
+    "season": "22/23",
+    "team_from": "LAFC",
+    "team_to": "Retired",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Gareth Bale",
+    "season": "22/23",
+    "team_from": "Real Madrid",
+    "team_to": "LAFC",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Gareth Bale",
+    "season": "20/21",
+    "team_from": "Tottenham",
+    "team_to": "Real Madrid",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Gareth Bale",
+    "season": "20/21",
+    "team_from": "Real Madrid",
+    "team_to": "Tottenham",
+    "market_value": 28000000
+  },
+  {
+    "player_name": "Gareth Bale",
+    "season": "13/14",
+    "team_from": "Tottenham",
+    "team_to": "Real Madrid",
+    "market_value": 65000000
+  },
+  {
+    "player_name": "Gareth Bale",
+    "season": "07/08",
+    "team_from": "Southampton",
+    "team_to": "Tottenham",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Eden Hazard",
+    "season": "23/24",
+    "team_from": "Without Club",
+    "team_to": "Retired",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Eden Hazard",
+    "season": "23/24",
+    "team_from": "Real Madrid",
+    "team_to": "Without Club",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Eden Hazard",
+    "season": "19/20",
+    "team_from": "Chelsea",
+    "team_to": "Real Madrid",
+    "market_value": 150000000
+  },
+  {
+    "player_name": "Eden Hazard",
+    "season": "12/13",
+    "team_from": "LOSC Lille",
+    "team_to": "Chelsea",
+    "market_value": 33000000
+  },
+  {
+    "player_name": "Eden Hazard",
+    "season": "08/09",
+    "team_from": "LOSC Lille U19",
+    "team_to": "LOSC Lille",
+    "market_value": 400000
+  },
+  {
+    "player_name": "Sadio Mane",
+    "season": "23/24",
+    "team_from": "Bayern Munich",
+    "team_to": "Al-Nassr",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Sadio Mane",
+    "season": "22/23",
+    "team_from": "Liverpool",
+    "team_to": "Bayern Munich",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Sadio Mane",
+    "season": "16/17",
+    "team_from": "Southampton",
+    "team_to": "Liverpool",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Sadio Mane",
+    "season": "14/15",
+    "team_from": "RB Salzburg",
+    "team_to": "Southampton",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Sadio Mane",
+    "season": "12/13",
+    "team_from": "FC Metz",
+    "team_to": "RB Salzburg",
+    "market_value": 500000
+  },
+  {
+    "player_name": "N'Golo Kante",
+    "season": "23/24",
+    "team_from": "Chelsea",
+    "team_to": "Al-Ittihad",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "N'Golo Kante",
+    "season": "16/17",
+    "team_from": "Leicester",
+    "team_to": "Chelsea",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "N'Golo Kante",
+    "season": "15/16",
+    "team_from": "SM Caen",
+    "team_to": "Leicester",
+    "market_value": 4500000
+  },
+  {
+    "player_name": "N'Golo Kante",
+    "season": "13/14",
+    "team_from": "US Boulogne",
+    "team_to": "SM Caen",
+    "market_value": 50000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Atletico Madrid",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "23/24",
+    "team_from": "Atletico Madrid",
+    "team_to": "Barcelona",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "22/23",
+    "team_from": "Chelsea",
+    "team_to": "Atletico Madrid",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "22/23",
+    "team_from": "Atletico Madrid",
+    "team_to": "Chelsea",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "19/20",
+    "team_from": "Benfica",
+    "team_to": "Atletico Madrid",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "18/19",
+    "team_from": "Benfica B",
+    "team_to": "Benfica",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "17/18",
+    "team_from": "Benfica U19",
+    "team_to": "Benfica B",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "23/24",
+    "team_from": "Barcelona",
+    "team_to": "Atletico Madrid",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "23/24",
+    "team_from": "Atletico Madrid",
+    "team_to": "Barcelona",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "22/23",
+    "team_from": "Chelsea",
+    "team_to": "Atletico Madrid",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "22/23",
+    "team_from": "Atletico Madrid",
+    "team_to": "Chelsea",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "19/20",
+    "team_from": "Benfica",
+    "team_to": "Atletico Madrid",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "18/19",
+    "team_from": "Benfica B",
+    "team_to": "Benfica",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Joao Felix",
+    "season": "17/18",
+    "team_from": "Benfica U19",
+    "team_to": "Benfica B",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Kai Havertz",
+    "season": "23/24",
+    "team_from": "Chelsea",
+    "team_to": "Arsenal",
+    "market_value": 55000000
+  },
+  {
+    "player_name": "Kai Havertz",
+    "season": "20/21",
+    "team_from": "B. Leverkusen",
+    "team_to": "Chelsea",
+    "market_value": 81000000
+  },
+  {
+    "player_name": "Kai Havertz",
+    "season": "16/17",
+    "team_from": "Leverkusen U17",
+    "team_to": "B. Leverkusen",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Nicolas Pepe",
+    "season": "24/25",
+    "team_from": "Trabzonspor",
+    "team_to": "Without Club",
+    "market_value": 8500000
+  },
+  {
+    "player_name": "Nicolas Pepe",
+    "season": "23/24",
+    "team_from": "Arsenal",
+    "team_to": "Trabzonspor",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Nicolas Pepe",
+    "season": "22/23",
+    "team_from": "OGC Nice",
+    "team_to": "Arsenal",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Nicolas Pepe",
+    "season": "22/23",
+    "team_from": "Arsenal",
+    "team_to": "OGC Nice",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Nicolas Pepe",
+    "season": "19/20",
+    "team_from": "LOSC Lille",
+    "team_to": "Arsenal",
+    "market_value": 65000000
+  },
+  {
+    "player_name": "Nicolas Pepe",
+    "season": "17/18",
+    "team_from": "Angers SCO",
+    "team_to": "LOSC Lille",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Wojciech Szczesny",
+    "season": "17/18",
+    "team_from": "Arsenal",
+    "team_to": "Juventus",
+    "market_value": 17000000
+  },
+  {
+    "player_name": "Wojciech Szczesny",
+    "season": "16/17",
+    "team_from": "AS Roma",
+    "team_to": "Arsenal",
+    "market_value": 17000000
+  },
+  {
+    "player_name": "Wojciech Szczesny",
+    "season": "15/16",
+    "team_from": "Arsenal",
+    "team_to": "AS Roma",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Wojciech Szczesny",
+    "season": "09/10",
+    "team_from": "Brentford",
+    "team_to": "Arsenal",
+    "market_value": 475000
+  },
+  {
+    "player_name": "Wojciech Szczesny",
+    "season": "09/10",
+    "team_from": "Arsenal",
+    "team_to": "Brentford",
+    "market_value": 50000
+  },
+  {
+    "player_name": "Wojciech Szczesny",
+    "season": "08/09",
+    "team_from": "Arsenal U18",
+    "team_to": "Arsenal",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Gianluigi Buffon",
+    "season": "23/24",
+    "team_from": "Parma",
+    "team_to": "Retired",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Gianluigi Buffon",
+    "season": "21/22",
+    "team_from": "Juventus",
+    "team_to": "Parma",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Gianluigi Buffon",
+    "season": "19/20",
+    "team_from": "Paris SG",
+    "team_to": "Juventus",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Gianluigi Buffon",
+    "season": "18/19",
+    "team_from": "Juventus",
+    "team_to": "Paris SG",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Matthijs de Ligt",
+    "season": "22/23",
+    "team_from": "Juventus",
+    "team_to": "Bayern Munich",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Matthijs de Ligt",
+    "season": "19/20",
+    "team_from": "Ajax",
+    "team_to": "Juventus",
+    "market_value": 75000000
+  },
+  {
+    "player_name": "Matthijs de Ligt",
+    "season": "16/17",
+    "team_from": "Ajax U21",
+    "team_to": "Ajax",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Matthijs de Ligt",
+    "season": "16/17",
+    "team_from": "Ajax U19",
+    "team_to": "Ajax U21",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "24/25",
+    "team_from": "Fenerbahce",
+    "team_to": "Retired",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "23/24",
+    "team_from": "Union Berlin",
+    "team_to": "Fenerbahce",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "23/24",
+    "team_from": "Juventus",
+    "team_to": "Union Berlin",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "18/19",
+    "team_from": "AC Milan",
+    "team_to": "Juventus",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "17/18",
+    "team_from": "Juventus",
+    "team_to": "AC Milan",
+    "market_value": 45000000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "10/11",
+    "team_from": "Bari",
+    "team_to": "Juventus",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "09/10",
+    "team_from": "Genoa",
+    "team_to": "Bari",
+    "market_value": 400000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "09/10",
+    "team_from": "Inter",
+    "team_to": "Genoa",
+    "market_value": 400000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "08/09",
+    "team_from": "AC Pisa",
+    "team_to": "Inter",
+    "market_value": 400000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "08/09",
+    "team_from": "Inter",
+    "team_to": "AC Pisa",
+    "market_value": 300000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "08/09",
+    "team_from": "Treviso",
+    "team_to": "Inter",
+    "market_value": 300000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "07/08",
+    "team_from": "Inter",
+    "team_to": "Treviso",
+    "market_value": 50000
+  },
+  {
+    "player_name": "Leonardo Bonucci",
+    "season": "06/07",
+    "team_from": "Inter U19",
+    "team_to": "Inter",
+    "market_value": 50000
+  },
+  {
+    "player_name": "Danilo",
+    "season": "19/20",
+    "team_from": "Man City",
+    "team_to": "Juventus",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Danilo",
+    "season": "17/18",
+    "team_from": "Real Madrid",
+    "team_to": "Man City",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Danilo",
+    "season": "15/16",
+    "team_from": "FC Porto",
+    "team_to": "Real Madrid",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Danilo",
+    "season": "11/12",
+    "team_from": "Santos",
+    "team_to": "FC Porto",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Danilo",
+    "season": "11/12",
+    "team_from": "FC Porto",
+    "team_to": "Santos",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Danilo",
+    "season": "11/12",
+    "team_from": "Santos",
+    "team_to": "FC Porto",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Danilo",
+    "season": "10/11",
+    "team_from": "America-MG",
+    "team_to": "Santos",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Giorgio Chiellini",
+    "season": "23/24",
+    "team_from": "LAFC",
+    "team_to": "Retired",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Giorgio Chiellini",
+    "season": "22/23",
+    "team_from": "Juventus",
+    "team_to": "LAFC",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Giorgio Chiellini",
+    "season": "05/06",
+    "team_from": "Fiorentina",
+    "team_to": "Juventus",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Mattia De Sciglio",
+    "season": "20/21",
+    "team_from": "Olympique Lyon",
+    "team_to": "Juventus",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Mattia De Sciglio",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Olympique Lyon",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Mattia De Sciglio",
+    "season": "17/18",
+    "team_from": "AC Milan",
+    "team_to": "Juventus",
+    "market_value": 8500000
+  },
+  {
+    "player_name": "Mattia De Sciglio",
+    "season": "11/12",
+    "team_from": "Milan U19",
+    "team_to": "AC Milan",
+    "market_value": 150000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Bor. Dortmund",
+    "market_value": 24000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "19/20",
+    "team_from": "Bor. Dortmund",
+    "team_to": "Juventus",
+    "market_value": 24000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "19/20",
+    "team_from": "Juventus",
+    "team_to": "Bor. Dortmund",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "18/19",
+    "team_from": "Liverpool",
+    "team_to": "Juventus",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "14/15",
+    "team_from": "B. Leverkusen",
+    "team_to": "Liverpool",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "13/14",
+    "team_from": "Bayern Munich",
+    "team_to": "B. Leverkusen",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Emre Can",
+    "season": "12/13",
+    "team_from": "FC Bayern II",
+    "team_to": "Bayern Munich",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "24/25",
+    "team_from": "Sharjah FC",
+    "team_to": "Without Club",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "22/23",
+    "team_from": "Barcelona",
+    "team_to": "Sharjah FC",
+    "market_value": 9500000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "21/22",
+    "team_from": "Besiktas",
+    "team_to": "Barcelona",
+    "market_value": 9500000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "21/22",
+    "team_from": "Barcelona",
+    "team_to": "Besiktas",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Barcelona",
+    "market_value": 45000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "16/17",
+    "team_from": "AS Roma",
+    "team_to": "Juventus",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "11/12",
+    "team_from": "Olympique Lyon",
+    "team_to": "AS Roma",
+    "market_value": 9000000
+  },
+  {
+    "player_name": "Miralem Pjanic",
+    "season": "07/08",
+    "team_from": "FC Metz",
+    "team_to": "Olympique Lyon",
+    "market_value": 5500000
+  },
+  {
+    "player_name": "Rodrigo Bentancur",
+    "season": "21/22",
+    "team_from": "Juventus",
+    "team_to": "Tottenham",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Rodrigo Bentancur",
+    "season": "17/18",
+    "team_from": "Boca Juniors",
+    "team_to": "Juventus",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "23/24",
+    "team_from": "OGC Nice",
+    "team_to": "Cardiff",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "22/23",
+    "team_from": "Juventus",
+    "team_to": "OGC Nice",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "21/22",
+    "team_from": "Rangers",
+    "team_to": "Juventus",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "21/22",
+    "team_from": "Juventus",
+    "team_to": "Rangers",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "19/20",
+    "team_from": "Arsenal",
+    "team_to": "Juventus",
+    "market_value": 40000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "10/11",
+    "team_from": "Cardiff",
+    "team_to": "Arsenal",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "10/11",
+    "team_from": "Arsenal",
+    "team_to": "Cardiff",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "10/11",
+    "team_from": "Nottm Forest",
+    "team_to": "Arsenal",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "10/11",
+    "team_from": "Arsenal",
+    "team_to": "Nottm Forest",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Aaron Ramsey",
+    "season": "08/09",
+    "team_from": "Cardiff",
+    "team_to": "Arsenal",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Adrien Rabiot",
+    "season": "24/25",
+    "team_from": "Juventus",
+    "team_to": "Without Club",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Adrien Rabiot",
+    "season": "19/20",
+    "team_from": "Paris SG",
+    "team_to": "Juventus",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Adrien Rabiot",
+    "season": "12/13",
+    "team_from": "Toulouse",
+    "team_to": "Paris SG",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Adrien Rabiot",
+    "season": "12/13",
+    "team_from": "Paris SG",
+    "team_to": "Toulouse",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Blaise Matuidi",
+    "season": "22/23",
+    "team_from": "Miami",
+    "team_to": "Retired",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Blaise Matuidi",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Miami",
+    "market_value": 10500000
+  },
+  {
+    "player_name": "Blaise Matuidi",
+    "season": "17/18",
+    "team_from": "Paris SG",
+    "team_to": "Juventus",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Blaise Matuidi",
+    "season": "11/12",
+    "team_from": "Saint-etienne",
+    "team_to": "Paris SG",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Blaise Matuidi",
+    "season": "07/08",
+    "team_from": "Troyes",
+    "team_to": "Saint-etienne",
+    "market_value": 1850000
+  },
+  {
+    "player_name": "Sami Khedira",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Hertha BSC",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Sami Khedira",
+    "season": "15/16",
+    "team_from": "Real Madrid",
+    "team_to": "Juventus",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Sami Khedira",
+    "season": "10/11",
+    "team_from": "VfB Stuttgart",
+    "team_to": "Real Madrid",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Sami Khedira",
+    "season": "06/07",
+    "team_from": "Stuttgart II",
+    "team_to": "VfB Stuttgart",
+    "market_value": 700000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "24/25",
+    "team_from": "Inter",
+    "team_to": "Without Club",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "23/24",
+    "team_from": "Juventus",
+    "team_to": "Inter",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "17/18",
+    "team_from": "Chelsea",
+    "team_to": "Juventus",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "16/17",
+    "team_from": "Juventus",
+    "team_to": "Chelsea",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "16/17",
+    "team_from": "Chelsea",
+    "team_to": "Juventus",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "15/16",
+    "team_from": "Juventus",
+    "team_to": "Chelsea",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "15/16",
+    "team_from": "Chelsea",
+    "team_to": "Juventus",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "14/15",
+    "team_from": "Fiorentina",
+    "team_to": "Chelsea",
+    "market_value": 32000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "13/14",
+    "team_from": "Udinese Calcio",
+    "team_to": "Fiorentina",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "12/13",
+    "team_from": "Fiorentina",
+    "team_to": "Udinese Calcio",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "12/13",
+    "team_from": "Udinese Calcio",
+    "team_to": "Fiorentina",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "11/12",
+    "team_from": "Lecce",
+    "team_to": "Udinese Calcio",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Juan Cuadrado",
+    "season": "11/12",
+    "team_from": "Udinese Calcio",
+    "team_to": "Lecce",
+    "market_value": 800000
+  },
+  {
+    "player_name": "Federico Bernardeschi",
+    "season": "22/23",
+    "team_from": "Juventus",
+    "team_to": "Toronto",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Federico Bernardeschi",
+    "season": "17/18",
+    "team_from": "Fiorentina",
+    "team_to": "Juventus",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Federico Bernardeschi",
+    "season": "13/14",
+    "team_from": "Crotone",
+    "team_to": "Fiorentina",
+    "market_value": 1200000
+  },
+  {
+    "player_name": "Federico Bernardeschi",
+    "season": "13/14",
+    "team_from": "Fiorentina",
+    "team_to": "Crotone",
+    "market_value": 200000
+  },
+  {
+    "player_name": "Federico Bernardeschi",
+    "season": "13/14",
+    "team_from": "Fiorentina U19",
+    "team_to": "Fiorentina",
+    "market_value": 200000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "23/24",
+    "team_from": "Without Club",
+    "team_to": "Fluminense",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "23/24",
+    "team_from": "Los Angeles",
+    "team_to": "Without Club",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "22/23",
+    "team_from": "Juventus",
+    "team_to": "Los Angeles",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "21/22",
+    "team_from": "Los Angeles",
+    "team_to": "Juventus",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "21/22",
+    "team_from": "Juventus",
+    "team_to": "Los Angeles",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "21/22",
+    "team_from": "Grêmio",
+    "team_to": "Juventus",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Grêmio",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "20/21",
+    "team_from": "Bayern Munich",
+    "team_to": "Juventus",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Bayern Munich",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "18/19",
+    "team_from": "Bayern Munich",
+    "team_to": "Juventus",
+    "market_value": 55000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "17/18",
+    "team_from": "Juventus",
+    "team_to": "Bayern Munich",
+    "market_value": 55000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "17/18",
+    "team_from": "Bayern Munich",
+    "team_to": "Juventus",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "15/16",
+    "team_from": "Shakhtar D.",
+    "team_to": "Bayern Munich",
+    "market_value": 23000000
+  },
+  {
+    "player_name": "Douglas Costa",
+    "season": "09/10",
+    "team_from": "Grêmio",
+    "team_to": "Shakhtar D.",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Paulo Dybala",
+    "season": "22/23",
+    "team_from": "Juventus",
+    "team_to": "AS Roma",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Paulo Dybala",
+    "season": "15/16",
+    "team_from": "US Palermo",
+    "team_to": "Juventus",
+    "market_value": 28000000
+  },
+  {
+    "player_name": "Paulo Dybala",
+    "season": "12/13",
+    "team_from": "Instituto ACC",
+    "team_to": "US Palermo",
+    "market_value": 2000000
+  },{
+    "player_name": "Gonzalo Higuain",
+    "season": "22/23",
+    "team_from": "Miami",
+    "team_to": "Retired",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Gonzalo Higuain",
+    "season": "20/21",
+    "team_from": "Juventus",
+    "team_to": "Miami",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Gonzalo Higuain",
+    "season": "18/19",
+    "team_from": "Chelsea",
+    "team_to": "Juventus",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Gonzalo Higuain",
+    "season": "18/19",
+    "team_from": "Juventus",
+    "team_to": "Chelsea",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Gonzalo Higuain",
+    "season": "18/19",
+    "team_from": "AC Milan",
+    "team_to": "Juventus",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Gonzalo Higuain",
+    "season": "18/19",
+    "team_from": "Juventus",
+    "team_to": "AC Milan",
+    "market_value": 55000000
+  },
+  {
+    "player_name": "Gonzalo Higuain",
+    "season": "16/17",
+    "team_from": "SSC Napoli",
+    "team_to": "Juventus",
+    "market_value": 65000000
+  },
+  {
+    "player_name": "Gonzalo Higuain",
+    "season": "13/14",
+    "team_from": "Real Madrid",
+    "team_to": "SSC Napoli",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Gonzalo Higuain",
+    "season": "06/07",
+    "team_from": "River Plate",
+    "team_to": "Real Madrid",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "20/21",
+    "team_from": "Without Club",
+    "team_to": "AC Milan",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "20/21",
+    "team_from": "Al-Duhail SC",
+    "team_to": "Without Club",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "19/20",
+    "team_from": "Juventus",
+    "team_to": "Al-Duhail SC",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "15/16",
+    "team_from": "Atletico Madrid",
+    "team_to": "Juventus",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "14/15",
+    "team_from": "Bayern Munich",
+    "team_to": "Atletico Madrid",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "12/13",
+    "team_from": "VfL Wolfsburg",
+    "team_to": "Bayern Munich",
+    "market_value": 14000000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "10/11",
+    "team_from": "Dinamo Zagreb",
+    "team_to": "VfL Wolfsburg",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Mario Mandzukic",
+    "season": "07/08",
+    "team_from": "NK Zagreb",
+    "team_to": "Dinamo Zagreb",
+    "market_value": 600000
+  },
+  {
+    "player_name": "David de Gea",
+    "season": "23/24",
+    "team_from": "Man Utd",
+    "team_to": "Without Club",
+    "market_value": 13000000
+  },
+  {
+    "player_name": "David de Gea",
+    "season": "11/12",
+    "team_from": "Atletico Madrid",
+    "team_to": "Man Utd",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "David de Gea",
+    "season": "09/10",
+    "team_from": "Atl. Madrid B",
+    "team_to": "Atletico Madrid",
+    "market_value": 100000
+  },
+  {
+    "player_name": "David de Gea",
+    "season": "08/09",
+    "team_from": "Atl. Madrid U19",
+    "team_to": "Atl. Madrid B",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Sergio Romero",
+    "season": "22/23",
+    "team_from": "Venezia",
+    "team_to": "Boca Juniors",
+    "market_value": 700000
+  },
+  {
+    "player_name": "Sergio Romero",
+    "season": "21/22",
+    "team_from": "Without Club",
+    "team_to": "Venezia",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Sergio Romero",
+    "season": "21/22",
+    "team_from": "Man Utd",
+    "team_to": "Without Club",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Sergio Romero",
+    "season": "15/16",
+    "team_from": "Sampdoria",
+    "team_to": "Man Utd",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Sergio Romero",
+    "season": "13/14",
+    "team_from": "Monaco",
+    "team_to": "Sampdoria",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Sergio Romero",
+    "season": "13/14",
+    "team_from": "Sampdoria",
+    "team_to": "Monaco",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Sergio Romero",
+    "season": "11/12",
+    "team_from": "AZ Alkmaar",
+    "team_to": "Sampdoria",
+    "market_value": 7000000
+  },
+  {
+    "player_name": "Eric Bailly",
+    "season": "23/24",
+    "team_from": "Besiktas",
+    "team_to": "Villarreal",
+    "market_value": 3400000
+  },
+  {
+    "player_name": "Eric Bailly",
+    "season": "23/24",
+    "team_from": "Man Utd",
+    "team_to": "Besiktas",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Eric Bailly",
+    "season": "22/23",
+    "team_from": "Marseille",
+    "team_to": "Man Utd",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Eric Bailly",
+    "season": "22/23",
+    "team_from": "Man Utd",
+    "team_to": "Marseille",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Eric Bailly",
+    "season": "16/17",
+    "team_from": "Villarreal",
+    "team_to": "Man Utd",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Eric Bailly",
+    "season": "14/15",
+    "team_from": "Espanyol",
+    "team_to": "Villarreal",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Marcos Rojo",
+    "season": "20/21",
+    "team_from": "Man Utd",
+    "team_to": "Boca Juniors",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Marcos Rojo",
+    "season": "19/20",
+    "team_from": "Estudiantes LP",
+    "team_to": "Man Utd",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Marcos Rojo",
+    "season": "19/20",
+    "team_from": "Man Utd",
+    "team_to": "Estudiantes LP",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Marcos Rojo",
+    "season": "14/15",
+    "team_from": "Sporting CP",
+    "team_to": "Man Utd",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Marcos Rojo",
+    "season": "12/13",
+    "team_from": "Spartak Moscow",
+    "team_to": "Sporting CP",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Marcos Rojo",
+    "season": "10/11",
+    "team_from": "Estudiantes LP",
+    "team_to": "Spartak Moscow",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Marcos Rojo",
+    "season": "09/10",
+    "team_from": "Estudiantes II",
+    "team_to": "Estudiantes LP",
+    "market_value": 75000
+  },
+  {
+    "player_name": "Chris Smalling",
+    "season": "20/21",
+    "team_from": "Man Utd",
+    "team_to": "AS Roma",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Chris Smalling",
+    "season": "19/20",
+    "team_from": "AS Roma",
+    "team_to": "Man Utd",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Chris Smalling",
+    "season": "19/20",
+    "team_from": "Man Utd",
+    "team_to": "AS Roma",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Chris Smalling",
+    "season": "10/11",
+    "team_from": "Fulham",
+    "team_to": "Man Utd",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Daley Blind",
+    "season": "23/24",
+    "team_from": "Bayern Munich",
+    "team_to": "Girona",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Daley Blind",
+    "season": "22/23",
+    "team_from": "Ajax",
+    "team_to": "Bayern Munich",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Daley Blind",
+    "season": "18/19",
+    "team_from": "Man Utd",
+    "team_to": "Ajax",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Daley Blind",
+    "season": "14/15",
+    "team_from": "Ajax",
+    "team_to": "Man Utd",
+    "market_value": 12000000
+  },
+  {
+    "player_name": "Daley Blind",
+    "season": "09/10",
+    "team_from": "FC Groningen",
+    "team_to": "Ajax",
+    "market_value": 750000
+  },
+  {
+    "player_name": "Daley Blind",
+    "season": "09/10",
+    "team_from": "Ajax",
+    "team_to": "FC Groningen",
+    "market_value": 750000
+  },
+  {
+    "player_name": "Daley Blind",
+    "season": "08/09",
+    "team_from": "Ajax U21",
+    "team_to": "Ajax",
+    "market_value": 100000
+  },
+  {
+    "player_name": "Antonio Valencia",
+    "season": "20/21",
+    "team_from": "Without Club",
+    "team_to": "Queretaro FC",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Antonio Valencia",
+    "season": "20/21",
+    "team_from": "LDU Quito",
+    "team_to": "Without Club",
+    "market_value": 3200000
+  },
+  {
+    "player_name": "Antonio Valencia",
+    "season": "19/20",
+    "team_from": "Man Utd",
+    "team_to": "LDU Quito",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Antonio Valencia",
+    "season": "09/10",
+    "team_from": "Wigan",
+    "team_to": "Man Utd",
+    "market_value": 11000000
+  },
+  {
+    "player_name": "Antonio Valencia",
+    "season": "07/08",
+    "team_from": "Villarreal",
+    "team_to": "Wigan",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Antonio Valencia",
+    "season": "07/08",
+    "team_from": "Wigan",
+    "team_to": "Villarreal",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Antonio Valencia",
+    "season": "06/07",
+    "team_from": "Villarreal",
+    "team_to": "Wigan",
+    "market_value": 2250000
+  },
+  {
+    "player_name": "Antonio Valencia",
+    "season": "05/06",
+    "team_from": "Recr. Huelva",
+    "team_to": "Villarreal",
+    "market_value": 2250000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "23/24",
+    "team_from": "Stade Rennais",
+    "team_to": "Olympique Lyon",
+    "market_value": 3500000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "23/24",
+    "team_from": "AS Roma",
+    "team_to": "Stade Rennais",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "22/23",
+    "team_from": "Man Utd",
+    "team_to": "AS Roma",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "17/18",
+    "team_from": "Chelsea",
+    "team_to": "Man Utd",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "13/14",
+    "team_from": "Benfica",
+    "team_to": "Chelsea",
+    "market_value": 27000000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "11/12",
+    "team_from": "Chelsea",
+    "team_to": "Benfica",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "10/11",
+    "team_from": "Vitesse",
+    "team_to": "Chelsea",
+    "market_value": 3000000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "10/11",
+    "team_from": "Chelsea",
+    "team_to": "Vitesse",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Nemanja Matic",
+    "season": "09/10",
+    "team_from": "MFK Košice",
+    "team_to": "Chelsea",
+    "market_value": 1500000
+  },
+  {
+    "player_name": "Paul Pogba",
+    "season": "22/23",
+    "team_from": "Man Utd",
+    "team_to": "Juventus",
+    "market_value": 48000000
+  },
+  {
+    "player_name": "Paul Pogba",
+    "season": "16/17",
+    "team_from": "Juventus",
+    "team_to": "Man Utd",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Paul Pogba",
+    "season": "12/13",
+    "team_from": "Man Utd U21",
+    "team_to": "Juventus",
+    "market_value": 3500000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "22/23",
+    "team_from": "AS Roma",
+    "team_to": "Inter",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "20/21",
+    "team_from": "Arsenal",
+    "team_to": "AS Roma",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "19/20",
+    "team_from": "AS Roma",
+    "team_to": "Arsenal",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "19/20",
+    "team_from": "Arsenal",
+    "team_to": "AS Roma",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "17/18",
+    "team_from": "Man Utd",
+    "team_to": "Arsenal",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "16/17",
+    "team_from": "Bor. Dortmund",
+    "team_to": "Man Utd",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "13/14",
+    "team_from": "Shakhtar D.",
+    "team_to": "Bor. Dortmund",
+    "market_value": 22000000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "10/11",
+    "team_from": "Metalurg D.",
+    "team_to": "Shakhtar D.",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Henrikh Mkhitaryan",
+    "season": "09/10",
+    "team_from": "Pyunik Yerevan",
+    "team_to": "Metalurg D.",
+    "market_value": 600000
+  },
+  {
+    "player_name": "Ander Herrera",
+    "season": "22/23",
+    "team_from": "Paris SG",
+    "team_to": "Athletic",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Ander Herrera",
+    "season": "22/23",
+    "team_from": "Athletic",
+    "team_to": "Paris SG",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Ander Herrera",
+    "season": "22/23",
+    "team_from": "Paris SG",
+    "team_to": "Athletic",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Ander Herrera",
+    "season": "19/20",
+    "team_from": "Man Utd",
+    "team_to": "Paris SG",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Ander Herrera",
+    "season": "14/15",
+    "team_from": "Athletic",
+    "team_to": "Man Utd",
+    "market_value": 20000000
+  },
+  {
+    "player_name": "Ander Herrera",
+    "season": "11/12",
+    "team_from": "Real Zaragoza",
+    "team_to": "Athletic",
+    "market_value": 7500000
+  },
+  {
+    "player_name": "Marouane Fellaini",
+    "season": "23/24",
+    "team_from": "SD Taishan",
+    "team_to": "Retired",
+    "market_value": 500000
+  },
+  {
+    "player_name": "Marouane Fellaini",
+    "season": "18/19",
+    "team_from": "Man Utd",
+    "team_to": "SD Luneng",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Marouane Fellaini",
+    "season": "13/14",
+    "team_from": "Everton",
+    "team_to": "Man Utd",
+    "market_value": 28000000
+  },
+  {
+    "player_name": "Marouane Fellaini",
+    "season": "08/09",
+    "team_from": "Standard Liège",
+    "team_to": "Everton",
+    "market_value": 7000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "23/24",
+    "team_from": "Without Club",
+    "team_to": "FC Seoul",
+    "market_value": 6000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "23/24",
+    "team_from": "Nottm Forest",
+    "team_to": "Without Club",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "22/23",
+    "team_from": "Man Utd",
+    "team_to": "Nottm Forest",
+    "market_value": 18000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "20/21",
+    "team_from": "West Ham",
+    "team_to": "Man Utd",
+    "market_value": 22000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "20/21",
+    "team_from": "Man Utd",
+    "team_to": "West Ham",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "14/15",
+    "team_from": "Derby",
+    "team_to": "Man Utd",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "14/15",
+    "team_from": "Man Utd",
+    "team_to": "Derby",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "14/15",
+    "team_from": "Man Utd U21",
+    "team_to": "Man Utd",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "13/14",
+    "team_from": "Brighton",
+    "team_to": "Man Utd U21",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "13/14",
+    "team_from": "Man Utd U21",
+    "team_to": "Brighton",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Jesse Lingard",
+    "season": "13/14",
+    "team_from": "Birmingham",
+    "team_to": "Man Utd U21",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Juan Mata",
+    "season": "23/24",
+    "team_from": "Vissel Kobe",
+    "team_to": "Without Club",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Juan Mata",
+    "season": "23/24",
+    "team_from": "Galatasaray",
+    "team_to": "Vissel Kobe",
+    "market_value": 1000000
+  },
+  {
+    "player_name": "Juan Mata",
+    "season": "22/23",
+    "team_from": "Man Utd",
+    "team_to": "Galatasaray",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Juan Mata",
+    "season": "13/14",
+    "team_from": "Chelsea",
+    "team_to": "Man Utd",
+    "market_value": 38000000
+  },
+  {
+    "player_name": "Juan Mata",
+    "season": "11/12",
+    "team_from": "Valencia",
+    "team_to": "Chelsea",
+    "market_value": 26000000
+  },
+  {
+    "player_name": "Juan Mata",
+    "season": "07/08",
+    "team_from": "RM Castilla",
+    "team_to": "Valencia",
+    "market_value": 1100000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "23/24",
+    "team_from": "AS Roma",
+    "team_to": "Chelsea",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "23/24",
+    "team_from": "Chelsea",
+    "team_to": "AS Roma",
+    "market_value": 40000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "22/23",
+    "team_from": "Inter",
+    "team_to": "Chelsea",
+    "market_value": 40000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "22/23",
+    "team_from": "Chelsea",
+    "team_to": "Inter",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "21/22",
+    "team_from": "Inter",
+    "team_to": "Chelsea",
+    "market_value": 100000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "19/20",
+    "team_from": "Man Utd",
+    "team_to": "Inter",
+    "market_value": 75000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "17/18",
+    "team_from": "Everton",
+    "team_to": "Man Utd",
+    "market_value": 50000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "14/15",
+    "team_from": "Chelsea",
+    "team_to": "Everton",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "13/14",
+    "team_from": "Everton",
+    "team_to": "Chelsea",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "13/14",
+    "team_from": "Chelsea",
+    "team_to": "Everton",
+    "market_value": 24000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "12/13",
+    "team_from": "West Brom",
+    "team_to": "Chelsea",
+    "market_value": 19000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "12/13",
+    "team_from": "Chelsea",
+    "team_to": "West Brom",
+    "market_value": 14000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "11/12",
+    "team_from": "RSC Anderlecht",
+    "team_to": "Chelsea",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Romelu Lukaku",
+    "season": "09/10",
+    "team_from": "Anderlecht U17",
+    "team_to": "RSC Anderlecht",
+    "market_value": 400000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "24/25",
+    "team_from": "Inter",
+    "team_to": "Without Club",
+    "market_value": 2500000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "23/24",
+    "team_from": "Marseille",
+    "team_to": "Inter",
+    "market_value": 4000000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "22/23",
+    "team_from": "Inter",
+    "team_to": "Marseille",
+    "market_value": 3500000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "20/21",
+    "team_from": "Man Utd",
+    "team_to": "Inter",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "19/20",
+    "team_from": "Inter",
+    "team_to": "Man Utd",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "19/20",
+    "team_from": "Man Utd",
+    "team_to": "Inter",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "17/18",
+    "team_from": "Arsenal",
+    "team_to": "Man Utd",
+    "market_value": 70000000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "14/15",
+    "team_from": "Barcelona",
+    "team_to": "Arsenal",
+    "market_value": 30000000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "11/12",
+    "team_from": "Udinese Calcio",
+    "team_to": "Barcelona",
+    "market_value": 25000000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "07/08",
+    "team_from": "River Plate",
+    "team_to": "Udinese",
+    "market_value": 3400000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "07/08",
+    "team_from": "Udinese",
+    "team_to": "River Plate",
+    "market_value": 50000
+  },
+  {
+    "player_name": "Alexis Sanchez",
+    "season": "06/07",
+    "team_from": "Colo-Colo",
+    "team_to": "Udinese",
+    "market_value": 50000
+  },
+  {
+    "player_name": "Anthony Martial",
+    "season": "24/25",
+    "team_from": "Man Utd",
+    "team_to": "Without Club",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Anthony Martial",
+    "season": "21/22",
+    "team_from": "Sevilla FC",
+    "team_to": "Man Utd",
+    "market_value": 16000000
+  },
+  {
+    "player_name": "Anthony Martial",
+    "season": "21/22",
+    "team_from": "Man Utd",
+    "team_to": "Sevilla FC",
+    "market_value": 32000000
+  },
+  {
+    "player_name": "Anthony Martial",
+    "season": "15/16",
+    "team_from": "Monaco",
+    "team_to": "Man Utd",
+    "market_value": 8000000
+  },
+  {
+    "player_name": "Wayne Rooney",
+    "season": "20/21",
+    "team_from": "Derby",
+    "team_to": "Retired",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Wayne Rooney",
+    "season": "19/20",
+    "team_from": "D.C. United",
+    "team_to": "Derby",
+    "market_value": 4500000
+  },
+  {
+    "player_name": "Wayne Rooney",
+    "season": "18/19",
+    "team_from": "Everton",
+    "team_to": "D.C. United",
+    "market_value": 10000000
+  },
+  {
+    "player_name": "Wayne Rooney",
+    "season": "17/18",
+    "team_from": "Man Utd",
+    "team_to": "Everton",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "23/24",
+    "team_from": "AC Milan",
+    "team_to": "Retired",
+    "market_value": 2000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "19/20",
+    "team_from": "Los Angeles",
+    "team_to": "AC Milan",
+    "market_value": 3500000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "17/18",
+    "team_from": "Man Utd",
+    "team_to": "Los Angeles",
+    "market_value": 5000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "16/17",
+    "team_from": "Paris SG",
+    "team_to": "Man Utd",
+    "market_value": 15000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "12/13",
+    "team_from": "AC Milan",
+    "team_to": "Paris SG",
+    "market_value": 37000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "11/12",
+    "team_from": "Barcelona",
+    "team_to": "AC Milan",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "10/11",
+    "team_from": "AC Milan",
+    "team_to": "Barcelona",
+    "market_value": 35000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "10/11",
+    "team_from": "Barcelona",
+    "team_to": "AC Milan",
+    "market_value": 46000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "09/10",
+    "team_from": "Inter",
+    "team_to": "Barcelona",
+    "market_value": 45000000
+  },
+  {
+    "player_name": "Zlatan Ibrahimovic",
+    "season": "06/07",
+    "team_from": "Juventus",
+    "team_to": "Inter",
+    "market_value": 25000000
+  }
+]

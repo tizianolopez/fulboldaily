@@ -1,0 +1,171 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #202020;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 150vh;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#guess-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#guess-input {
+  width: 66%;
+  padding: 8px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+#skip-button {
+  width: 15%;
+  padding: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #cd4831;
+  color: #ffffff;
+  border: none;
+  border-radius: .5em;
+}
+
+#skip-button:hover {
+  background-color: #b92727;
+  transition: .2s;
+}
+
+#table-container {
+  width: 90vw; /* Ancho del contenedor de la tabla */
+  max-width: 550px; /* Ancho máximo del contenedor de la tabla */
+  margin-top: 20px;
+  overflow-x: auto; /* Añadir desplazamiento horizontal si es necesario */
+  margin: 0 auto; /* Centrar el contenedor de la tabla */
+}
+
+#transfer-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 20px; /* Añadir margen inferior */
+}
+
+#transfer-table th, #transfer-table td {
+  border: 1px solid #555555;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+#transfer-table th:first-child, #transfer-table td:first-child {
+  width: 2em;
+}
+
+#transfer-table th:not(:first-child), #transfer-table td:not(:first-child) {
+  width: 7em;
+}
+
+#transfer-table th {
+  background-color: #FAFB63;
+  color: #000000;
+}
+
+#transfer-table td {
+  background-color: #444;
+}
+
+#transfer-table td:first-child {
+  max-width: 2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#transfer-table td:not(:first-child) {
+  max-width: 7em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#message {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+#suggestions {
+  position: absolute;
+  background-color: #444;
+  color: #ffffff;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+#suggestions li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+#suggestions li:hover, #suggestions li.active {
+  background-color: #666;
+}
+
+@keyframes textReveal {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  animation: textReveal 0.5s ease-out;
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+
+.shake {
+  animation: shake 0.5s;
+}
+
+@keyframes dance {
+  0%, 100% { transform: translateY(0); }
+  25% { transform: translateY(-5px); }
+  50% { transform: translateY(5px); }
+  75% { transform: translateY(-5px); }
+}
+
+.dance {
+  animation: dance 0.5s;
+}
+
+.lost {
+  color: gray;
+}

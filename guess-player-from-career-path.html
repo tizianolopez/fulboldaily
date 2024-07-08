@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess the Player from Career</title>
+  <link rel="stylesheet" href="styles/career.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="game-container">
+    <div id="table-container">
+      <table id="transfer-table">
+        <thead>
+          <tr>
+            <th>Season</th>
+            <th>Team From</th>
+            <th>Team To</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Filas de la tabla serán generadas dinámicamente -->
+        </tbody>
+      </table>
+    </div>
+    <div id="input-container">
+      <div id="search-container">
+        <input type="text" id="guess-input" placeholder="Guess the player">
+        <ul id="suggestions"></ul>
+        <button id="skip-button">Skip</button>
+      </div>
+    </div>
+    <p id="message"></p>
+  </div>
+  <script src="scripts/career.js"></script>
+</body>
+</html>

@@ -18,6 +18,22 @@
 #start-options button {
     margin: 0 10px; /* Espacio entre los botones */
 }
+
+#welcome-screen {
+    display: none; /* Oculto por defecto, se muestra con JavaScript */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
 #country {
     display: flex;
     align-items: center;
@@ -149,6 +165,16 @@ border-radius: 5px;
     width: 31px; /* Ajusta la imagen al tamaño del botón */
     height: auto; /* Ajusta la altura automáticamente */
 }
+
+
+#game,
+#formation,
+#timer-container {
+    visibility: hidden;
+}
+
+
+
  h1{
     padding: 0.5em 0 0 .5em;
  }
@@ -157,7 +183,7 @@ border-radius: 5px;
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 0.5em 0;
+    margin: 0.35em 0;
 }
 
 .position div {
@@ -286,6 +312,9 @@ border-radius: 5px;
     justify-content: space-evenly;
 }
 
+#offensiveMidfielders{
+   margin-top: -1em;
+}
 
 #wingers .position {
     margin: 0 1em 2em;
@@ -298,7 +327,7 @@ border-radius: 5px;
     margin: 2em 1em 1em;
 }
 #fullbacks .position {
-    margin: 0 1em 0;
+    margin: 1em 1em 0;
 }
 #defenders{
     margin: 0em 1em 0em;

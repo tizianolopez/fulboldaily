@@ -117,7 +117,29 @@ function getRandomFormation() {
     const randomIndex = Math.floor(Math.random() * formations.length);
     return formations[randomIndex];
 }
+
+function showWelcomeScreen() {
+    const welcomeScreen = document.getElementById('welcome-screen');
+    welcomeScreen.style.display = 'block';
+
+    document.getElementById('start-no-timer').addEventListener('click', function() {
+        welcomeScreen.style.display = 'none';
+        startGame(); // Llama a startGame sin temporizador
+    });
+
+    document.getElementById('start-timer').addEventListener('click', function() {
+        welcomeScreen.style.display = 'none';
+        startGame(); // Llama a startGame
+        startTimer(); // Luego crea el temporizador
+    });
+}
+
 function startGame() {
+    
+     // Mostrar los elementos del juego al iniciar
+     document.getElementById('game').style.visibility = 'visible';
+     document.getElementById('formation').style.visibility = 'visible';
+
     formation = getRandomFormation();
     currentCountry = getRandomCountry();
     updateCountryFlag(); // Actualiza la bandera del país al inicio
@@ -414,7 +436,7 @@ function confirmPosition(playerName, nationalityName) {
 
 
 function surrender() {
-    clearInterval(timerInterval); // Detener el temporizador cuando llegue a cero
+    clearInterval(interval); // Detener el temporizador cuando llegue a cero
     document.getElementById('timer-container').style.display = 'none';
     document.getElementById('playerInput').disabled = true;
     document.querySelector('button[onclick="submitPlayer()"]').disabled = true;
@@ -555,7 +577,7 @@ function updateFormation(newPlayerPos = null) {
     document.getElementById('playerInput').disabled = true;
     document.querySelector('button[onclick="submitPlayer()"]').disabled = true;
         stop_submitting = true; // Marcar como rendido
-        clearInterval(timerInterval); // Detener el temporizador si se han completado los 11 jugadores
+        clearInterval(interval); // Detener el temporizador si se han completado los 11 jugadores
         fireConfetti();
 
 
@@ -615,31 +637,38 @@ function getPlayerCountry(playerName) {
 console.log(player);
     return player ? player.nationality_name.toLowerCase() : "";
 }
-const timerDuration = 90; // Duración del temporizador en segundos
-let timer = timerDuration;
-const timerCounter = document.getElementById('timer-counter');
 
-// Función para actualizar el contador de tiempo
-function updateTimer() {
-    timer--;
-    timerCounter.textContent = timer;
 
-    if (timer === 0) {
-        surrender(); // Rendirse automáticamente cuando se acabe el tiempo
-    }
+let interval; // Declarar interval en un ámbito superior
+
+function startTimer() {
+    document.getElementById('timer-container').style.visibility = 'visible';
+
+    const timerContainer = document.getElementById('timer-container');
+    timerContainer.style.display = 'flex'; // Muestra el contenedor del temporizador
+
+    const timerBar = document.getElementById('timer-bar');
+    const timerCounter = document.getElementById('timer-counter');
+
+    let timer = 90;
+    interval = setInterval(() => {
+        timer--;
+        timerCounter.textContent = timer;
+        timerBar.style.width = `${(timer / 90) * 100}%`;
+        if (timer <= 0) {
+            clearInterval(interval);
+            // Aquí puedes manejar lo que pasa cuando el tiempo se agota
+            console.log("El tiempo se ha agotado");
+        }
+    }, 1000);
 }
-
-
-
-// Iniciar el temporizador
-const timerInterval = setInterval(updateTimer, 1000); // Actualizar cada segundo
-
 function restartGame() {
     startGame();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    startGame();
+    showWelcomeScreen(); // Muestra la pantalla de bienvenida
+
     document.getElementById("playerInput").addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
             event.preventDefault(); // Evita el envío del formulario si existe
@@ -647,3 +676,4 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 });
+
