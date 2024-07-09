@@ -36,7 +36,9 @@
             <li class="sidebar-item">
                 <a href="wordle.html" class="sidebar-link collapsed has-dropdown"
                     data-bs-target="#auth" aria-expanded="false" aria-controls="auth">
-                    <img src="img/wordle.svg" width="32px" height="32px" alt="wordle">
+                    <div class="icon-container">
+                        <img src="img/wordle.svg" alt="wordle">
+                    </div>
                     <span>Wordle</span>
                 </a>
                 <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
@@ -45,11 +47,13 @@
                     </li>
                 </ul>
             </li>
-
+    
             <li class="sidebar-item">
                 <a href="crossword.html" class="sidebar-link collapsed has-dropdown"
                     data-bs-target="#crossworddropdown" aria-expanded="false" aria-controls="wordledropdown">
-                    <img src="img/crossword.png" width="px" height="32px" alt="crucigrama de futbol">
+                    <div class="icon-container">
+                        <img src="img/crossword.png" alt="crucigrama de futbol">
+                    </div>
                     <span>4-4-Cruz</span>
                 </a>
                 <ul id="crossworddropdown" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
@@ -61,11 +65,13 @@
             
             <li class="sidebar-item">
                 <a href="#" class="sidebar-link collapsed has-dropdown" data-bs-toggle="collapse"
-                    data-bs-target="#crossworddropdown" aria-expanded="false" aria-controls="crossworddropdown">
-                    <i class="lni lni-protection"></i>
-                    <span>Starting 11 </span>
+                    data-bs-target="#formationdropdown" aria-expanded="false" aria-controls="formationdropdown">
+                    <div class="icon-container">
+                        <img src="img/formation.svg" alt="starting 11">
+                    </div>
+                    <span>Starting 11</span>
                 </a>
-                <ul id="crossworddropdown" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
+                <ul id="formationdropdown" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                     <li class="sidebar-item">
                         <a href="#" class="sidebar-link">F11 Clubs</a>
                     </li>
@@ -74,11 +80,13 @@
                     </li>
                 </ul>
             </li>
-
+    
             <li class="sidebar-item">
                 <a href="guess-player-from-career-path.html" class="sidebar-link collapsed has-dropdown"
                     data-bs-target="#careerpathdropdown" aria-expanded="false" aria-controls="wordledropdown">
-                    <img src="img/crossword.png" width="px" height="32px" alt="crucigrama de futbol">
+                    <div class="icon-container">
+                        <img src="img/guess.svg" alt="guess player from career path game">
+                    </div>
                     <span>Guess player from career</span>
                 </a>
                 <ul id="careerpathdropdown" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
@@ -95,7 +103,7 @@
             </li>
         </ul>
     </aside>
-
+    
   
 
     <div class="main">
@@ -114,7 +122,7 @@
                         <div class="col-6">
                             <li class="nav-item">
                                 <a class="nav-link" href="wordle.html">
-                                    <img src="img/wordle.png" width="48px" height="48px" alt="">
+                                    <img src="img/wordle.svg" width="48px" height="48px" alt="">
                                     <span>Wordle</span>
                                 </a>
                             </li>
@@ -133,8 +141,8 @@
                             <li class="nav-item">
                                 <a class="nav-link collapsed has-dropdown" data-bs-toggle="collapse"
                                     data-bs-target="#authMobile" aria-expanded="false" aria-controls="authMobile">
-                                    <i class="lni lni-protection"></i>
-                                    <span>Starting 11 </span>
+                                    <img src="img/formation.svg" height="52px" alt="crucigrama de futbol">
+                                    <span>Formation 11 </span>
                                 </a>
                                 <ul id="authMobile" class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">F11 Clubs</a></li>
@@ -145,7 +153,7 @@
                         <div class="col-6">
                             <li class="nav-item">
                                 <a class="nav-link" href="guess-player-from-career-path.html">
-                                    <i class="lni lni-popup"></i>
+                                    <img src="img/guess.svg" width="px" height="52px" alt="crucigrama de futbol">
                                     <span>Guess player from career</span>
                                 </a>
                             </li>

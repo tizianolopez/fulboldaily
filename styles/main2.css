@@ -85,14 +85,19 @@ h1 {
     padding: 2rem 0;
     flex: 1 1 auto;
 }
-
 a.sidebar-link {
-    padding: 1rem 1.625rem;
+    padding: 1rem 0.5rem;
     color: #000000;
-    display: block;
     font-size: 0.9rem;
     white-space: nowrap;
     border-left: 3px solid transparent;
+}
+
+.sidebar-item a.sidebar-link {
+height: 66px;}
+.sidebar-link i {
+    font-size: 1.1rem;
+    margin-right: .75rem;
 }
 
 .sidebar-link i {
@@ -194,3 +199,27 @@ img {
     }
 }
 
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px; /* Ajusta el ancho según sea necesario */
+    height: 34px; /* Ajusta la altura según sea necesario */
+    overflow: hidden;
+}
+
+.icon-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Asegura que la imagen mantenga sus proporciones */
+}
+
+/* Estilo adicional para centrar el contenido en los enlaces de la barra lateral */
+.sidebar-link {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-link span {
+    margin-left: 10px; /* Espacio entre el icono y el texto */
+}
