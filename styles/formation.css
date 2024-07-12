@@ -20,6 +20,8 @@
 }
 
 #welcome-screen {
+    max-width: 500px;
+    width: 80%;
     display: none; /* Oculto por defecto, se muestra con JavaScript */
     position: fixed;
     top: 50%;
@@ -173,11 +175,6 @@ border-radius: 5px;
     visibility: hidden;
 }
 
-
-
- h1{
-    padding: 0.5em 0 0 .5em;
- }
 
 .position {
     width: 100%;
@@ -366,7 +363,6 @@ border-radius: 5px;
     position: absolute;
     top: 0;
     left: 0;
-    animation: timerAnimation 90s linear forwards; /* Animación del temporizador */
 }
 #timer-counter {
     margin-left: 10px; /* Espacio entre la barra y el contador */
@@ -382,7 +378,9 @@ border-radius: 5px;
         width: 0%;
     }
 }
-
+#timer-bar.start::before {
+    animation: timerAnimation 90s linear forwards; /* Animación del temporizador */
+}
 
 
 

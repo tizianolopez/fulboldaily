@@ -187,7 +187,7 @@ function shakeTiles(tiles) {
 
 function checkWinLose(guess, tiles) {
   if (guess === targetWord) {
-    showAlert("¡¡Bien ahí papá, ganaste!!", 5000);
+    showAlert("Well done, you won today's wordle!!", 5000);
     danceTiles(tiles);
     fireConfetti();
 
@@ -198,7 +198,7 @@ function checkWinLose(guess, tiles) {
 
   
 function fireConfetti() {
-  const count = 100,
+  const count = 200,
       defaults = {
           origin: { y: 1 },
       };
@@ -242,7 +242,7 @@ function fireConfetti() {
 
   const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])");
   if (remainingTiles.length === 0) {
-    showAlert("Perdiste flaco, era " + targetWord.toUpperCase(), null);
+    showAlert("Im sorry, you lost. The player was " + targetWord.toUpperCase(), null);
     stopInteraction();
     newGameButton.classList.remove("hidden");
   }

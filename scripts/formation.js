@@ -186,14 +186,14 @@ function submitPlayer() {
     );
 
     if (filteredPlayers.length === 0) {
-        document.getElementById("message").textContent = "Jugador no encontrado.";
+        document.getElementById("message").textContent = "Player not found.";
         return;
     }
 
     const playersInCountry = filteredPlayers.filter(p => p.nationality_name.toLowerCase() === currentCountry.toLowerCase());
 
     if (playersInCountry.length === 0) {
-        document.getElementById("message").textContent = "El jugador no pertenece al país seleccionado.";
+        document.getElementById("message").textContent = "The player doesn't belong to the selected country.";
         return;
     }
 
@@ -207,7 +207,7 @@ function submitPlayer() {
 
     // Verificar si el jugador ya está en la formación
     if (Object.values(formation).includes(playerName)) {
-        document.getElementById("message").textContent = "El jugador ya está en la formación.";
+        document.getElementById("message").textContent = "The player is already on the formation.";
         return;
     }
 
@@ -217,7 +217,7 @@ function submitPlayer() {
     );
 
     if (positions.length === 0) {
-        document.getElementById("message").textContent = "El jugador no puede jugar en ninguna posición de la formación.";
+        document.getElementById("message").textContent = "This player can't play in any position in this formation.";
         return;
     }
 
@@ -248,7 +248,7 @@ function submitPlayer() {
         } else if (availablePositions.length > 1) {
             displayPositionOptions(playerName, player.nationality_name, availablePositions); // Pasar playerName y nationalityName
         } else {
-            document.getElementById("message").textContent = "Todas las posiciones del jugador ya están ocupadas.";
+            document.getElementById("message").textContent = "There are no remaingn positions for this player.";
         }
     }
     
@@ -261,7 +261,7 @@ function displayPlayerOptions(playerName, players) {
 
     // Crear el mensaje dentro del popup
     const message = document.createElement("p");
-    message.innerHTML = `Se encontraron varios jugadores con el nombre ${playerName}. Elige uno:<br>`;
+    message.innerHTML = `Multiple players with the name ${playerName} have been found. Choose one:<br>`;
     popup.appendChild(message);
 
     // Crear los radio buttons para los jugadores
@@ -279,7 +279,7 @@ function displayPlayerOptions(playerName, players) {
 
     // Crear el botón de confirmación
     const submitButton = document.createElement("button");
-    submitButton.textContent = "Confirmar decisión VAR";
+    submitButton.textContent = "Confirm VAR decission";
     submitButton.onclick = () => {
         confirmPlayerOption(playerName, players);
         document.body.removeChild(popup); // Eliminar el popup del DOM
@@ -310,7 +310,7 @@ function confirmPlayerOption(playerName, players) {
         );
 
         if (positions.length === 0) {
-            document.getElementById("message").textContent = "El jugador no puede jugar en ninguna posición de la formación.";
+            document.getElementById("message").textContent = "The player cannot play in any position in the formation.";
             return;
         }
 
@@ -328,7 +328,7 @@ function confirmPlayerOption(playerName, players) {
             displayPositionOptions(playerName, selectedPlayer.nationality_name, availablePositions); // Pasar playerName y nationalityName
         }
     } else {
-        document.getElementById("message").textContent = "Por favor, selecciona una opción de jugador.";
+        document.getElementById("message").textContent = "Please select a player option.";
     }
 }
 
@@ -344,7 +344,7 @@ function displayPositionOptions(playerName, nationalityName, positions) {
 
     // Crear el mensaje dentro del popup
     const message = document.createElement("p");
-    message.textContent = `Elige la posición para ${playerName}:`;
+    message.textContent = `Choose the position for ${playerName}:`;
     popup.appendChild(message);
 
     // Crear los radio buttons para las posiciones
@@ -365,7 +365,7 @@ function displayPositionOptions(playerName, nationalityName, positions) {
 
     // Crear el botón de confirmación
     const submitButton = document.createElement("button");
-    submitButton.textContent = "Confirmar decisión VAR";
+    submitButton.textContent = "Confirm VAR decission";
     submitButton.onclick = () => {
         confirmPosition(playerName, nationalityName); // Pasar playerName y nationalityName
         document.body.removeChild(popup); // Eliminar el popup del DOM
@@ -427,10 +427,10 @@ function confirmPosition(playerName, nationalityName) {
             currentCountry = getRandomCountry(); // Selecciona un nuevo país
             document.getElementById("country").textContent = `${currentCountry}`;
         } else {
-            document.getElementById("message").textContent = "Todas las posiciones del jugador ya están ocupadas.";
+            document.getElementById("message").textContent = "All player positions are already occupied.";
         }
     } else {
-        document.getElementById("message").textContent = "Por favor, selecciona una posición.";
+        document.getElementById("message").textContent = "Please select a position.";               
     }
 }
 
@@ -651,14 +651,17 @@ function startTimer() {
     const timerCounter = document.getElementById('timer-counter');
 
     let timer = 90;
+    // Iniciar la animación
+    timerBar.classList.add('start');
+
+
     interval = setInterval(() => {
         timer--;
         timerCounter.textContent = timer;
-        timerBar.style.width = `${(timer / 90) * 100}%`;
         if (timer <= 0) {
             clearInterval(interval);
             // Aquí puedes manejar lo que pasa cuando el tiempo se agota
-            console.log("El tiempo se ha agotado");
+            console.log("Time's up!");
         }
     }, 1000);
 }
