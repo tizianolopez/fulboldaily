@@ -1,46 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Guess the Player from Career Path | Football Trivia Game</title>
-  <meta name="description" content="Play Guess the Player from Career Path, a fun football trivia game. Test your knowledge by identifying footballers based on their transfer history.">
-    
-  <meta property="og:title" content="Guess the Player from Career Path | Football Trivia Game">
-  <meta property="og:description" content="Play Guess the Player from Career Path, a fun football trivia game. Test your knowledge by identifying footballers based on their transfer history.">
-  <meta property="og:image" content="https://www.yourwebsite.com/path-to-image.jpg">
-  <meta property="og:url" content="https://www.yourwebsite.com/guess-player-from-career-path.html">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FulbolWordle</title>
+    <meta name="description" content="Play Football Wordle, a fun and challenging soccer-themed word guessing game. Test your knowledge and enjoy other exciting soccer minigames.">
+    <meta name="keywords" content="football games, soccer games, football wordle, futbol wordle, soccer wordle,futbol minigames, futbol minijuegos, futbol 11 juegos">
 
-
-  <link rel="stylesheet" href="styles/bootstrap.min.css">
-  <link rel="stylesheet" href="styles/career.css">
-  <link rel="stylesheet" href="styles/main.css">
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebPage",
-      "name": "Guess the Player from Career Path",
-      "description": "Play Guess the Player from Career Path, a fun football trivia game. Test your knowledge by identifying footballers based on their transfer history.",
-      "url": "https://www.yourwebsite.com/guess-player-from-career-path.html",
-      "image": "https://www.yourwebsite.com/path-to-image.jpg"
-    }
-    </script>
-   <!-- Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_TRACKING_ID"></script>
-   <script>
-     window.dataLayer = window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);}
-     gtag('js', new Date());
-     gtag('config', 'YOUR_TRACKING_ID');
-   </script>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/styleWordle.css">
 </head>
+
 <body>
 
-  <div class="wrapper">
+    <!-- 
+                ---------------------------
+                     SIDEBAR BOOTSTRAP 5
+                ---------------------------- 
+-->
+<div class="wrapper">
     <aside id="sidebar">
         <div class="d-flex">
-            <button class="toggle-btn" type="button" aria-label="Toggle sidebar">
+            <button class="toggle-btn" type="button">
                 <div class="icon-container">
                         <img src="img/grid-alt.svg" alt="Aside Toggle Icon">
                     </div>
@@ -182,76 +166,99 @@
             </div>
         </nav>
 
+<!-- 
+                ---------------------------
+                INICIO DEL CODIGO DEL WORDLE
+                ---------------------------- 
+-->
 
-        <div class="p-3">
-            <h1>Guess the Player from Career Path</h1>
-            <!-- Instructions Icon -->
-            <div class="instructions-icon">
-                <img src="img/info-icon.svg" alt="Instructions for Guess the Player game" id="instructionsBtn" style="cursor:pointer;width:24px;height:24px;">
-            </div>
-        
-            <!-- Modal for Instructions -->
-            <div id="instructionsModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h3>How to Play Guess the Player</h3>
-                    <h4>Welcome to the Guess the Player from career game! Test your knowledge of football players' careers by identifying players based on their transfer history.</h4>
-                    <p>Here are the basic rules:</p>
-                    <ul>
-                        <li>You will see a table with columns for "Season", "Team From", and "Team To".</li>
-                        <li>Initially, the details in the table will be hidden.</li>
-                        <li>Start by guessing the player based on the unknown career path.</li>
-                        <li>If your guess is incorrect, or if you click "Skip", a new row (transfer) will be revealed</li>
-                        <li>Your goal is to identify the player before all rows are revealed.</li>
-                    </ul>
-                    <p>Tips:</p>
-                    <ul>
-                        <li>Think of the well-known clubs to narrow down your guesses.</li>
-                        <li>Pay close attention to the year the transfer was made, it's very useful!</li>
-                        <li>A players first club might help you deduce his nationality</li>
-                        <li>If a player has many transfers on the same year he might be Loaned</li>
-                        <li>We show if a player is retired or not, use that to see if the player is still active</li>
-                    </ul>
-                    <p>Enjoy the challenge and showcase your football trivia knowledge!</p>
-                </div>
-            </div>
-            <h2>Identify the Player from Their Career Moves</h2>
+
+            <div class="p-3">
+                <h1>
+                    Football Wordle
+                </h1>
+                <!-- Instructions Icon -->
+    <div class="instructions-icon">
+        <img src="img/info-icon.svg" alt="Instructions football wordle" id="instructionsBtn" style="cursor:pointer;width:24px;height:24px;">
+    </div>
+
+    <!-- Modal for Instructions -->
+    <div id="instructionsModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>How to Play Football Wordle</h3>
+            <h4>Welcome to Fulbol Wordle! This football-themed wordle challenges your knowledge of football players.</h4>
+            <p> Here are the basic rules:</p>
+            <ul>
+                <li>Guess the hidden football player within six attempts.</li>
+                <li>After each guess, the color of the tiles will change to show how close your guess was to the word.</li>
+                <li>Green indicates the letter is correct and in the right position.</li>
+                <li>Yellow indicates the letter is correct but in the wrong position.</li>
+                <li>Gray indicates the letter is not in the word.</li>
+            </ul>
+            <p>Tips:</p>
+            <ul>
+                <li>Think of common player names.</li>
+                <li>Use vowels and common consonants in your initial guesses to get more hints.</li>
+            </ul>
+            <p>Enjoy the game and test your footy knowledge!</p>
         </div>
-
-          <div id="game-container">
-            <div id="table-container">
-              <table id="transfer-table">
-                <thead>
-                  <tr>
-                    <th>Season</th>
-                    <th>Team From</th>
-                    <th>Team To</th>
-                  </tr>
-                </thead>
-                <tbody id="table-body">
-                  <!-- Filas de la tabla serán generadas dinámicamente -->
-                </tbody>
-              </table>
+    </div>
+<h2>A football themed word guessing game</h2>
             </div>
-            <div id="input-container">
-              <div id="search-container">
-                <input type="text" id="guess-input" placeholder="Guess the player">
-                <ul id="suggestions"></ul>
-                <button id="skip-button">Skip</button>
+            
+              <div class="alert-container" data-alert-container></div>
+              <div class="guess-grid-container">
+              <div data-guess-grid class="guess-grid"></div>
+            </div>
+
+              <div data-keyboard class="keyboard">
+                <button class="key" data-key="Q">Q</button>
+                <button class="key" data-key="W">W</button>
+                <button class="key" data-key="E">E</button>
+                <button class="key" data-key="R">R</button>
+                <button class="key" data-key="T">T</button>
+                <button class="key" data-key="Y">Y</button>
+                <button class="key" data-key="U">U</button>
+                <button class="key" data-key="I">I</button>
+                <button class="key" data-key="O">O</button>
+                <button class="key" data-key="P">P</button>
+                <div class="space"></div>
+                <button class="key" data-key="A">A</button>
+                <button class="key" data-key="S">S</button>
+                <button class="key" data-key="D">D</button>
+                <button class="key" data-key="F">F</button>
+                <button class="key" data-key="G">G</button>
+                <button class="key" data-key="H">H</button>
+                <button class="key" data-key="J">J</button>
+                <button class="key" data-key="K">K</button>
+                <button class="key" data-key="L">L</button>
+                <div class="space"></div>
+                <button data-enter class="key large">Enter</button>
+                <button class="key" data-key="Z">Z</button>
+                <button class="key" data-key="X">X</button>
+                <button class="key" data-key="C">C</button>
+                <button class="key" data-key="V">V</button>
+                <button class="key" data-key="B">B</button>
+                <button class="key" data-key="N">N</button>
+                <button class="key" data-key="M">M</button>
+                <button data-delete class="key large">
+                  Delete
+                </button>
               </div>
-              <p id="message"></p>
+              <button class="key new-game hidden" id="newGameButton">New game?</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <!-- tambien contiene las instrucciones -->
+    <script src="scripts/scripthb.js" defer></script>     
+    <script src="scripts/scriptWordle.js" defer type="module"></script>
+    <!-- confetti -->
+<script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js" defer></script>
 
-            </div>
-
-          </div>
-      
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-  crossorigin="anonymous"></script>
-<script src="scripts/scripthb.js"></script>
-<script src="scripts/career.js"></script>
 
 </body>
+
 </html>

@@ -221,8 +221,6 @@ border-radius: 5px;
     border-radius: 3px;
 }
 
-.card .front {
-}
 
 .card .back {
     transform: rotateY(180deg);

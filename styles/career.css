@@ -10,18 +10,6 @@ body {
   text-align: center;
 }
 
-h1{
-  padding: 0.5em 0 0 .5em;
-    margin-bottom: 1em;
-
-}
-h2{
-
-  font-size: small;
-  padding: 0.5em 0 0 .5em;
-
-}
-
 .main #guess-container {
   font-family: "Montserrat", sans-serif !important;
 
