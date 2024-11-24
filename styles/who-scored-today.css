@@ -36,7 +36,7 @@ body {
     margin: 0;
     width: 66%; /* Igual al ancho del input */
     max-width: 363px;
-    max-height: 150px; /* Limitar la altura máxima */
+    max-height: 60px; /* Limitar la altura máxima */
     overflow-y: auto; /* Habilitar desplazamiento vertical */
     z-index: 1000;
     border-radius: 0 0 5px 5px; /* Bordes redondeados en la parte inferior */
@@ -89,6 +89,7 @@ body {
   
   /* Sección de goles */
   .goals-container {
+    margin-left: 10vw;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -113,6 +114,7 @@ body {
   }
   
   .goal-list span {
+    margin-left: 10px;
     font-weight: bold;
     color: #ffee32;
   }
@@ -235,7 +237,27 @@ body {
   }
   
 
-  #next-match-button {
-    display: block;
-    margin: 20px auto;
+  .team-goals {
+  display: flex;
+  flex-direction: column; /* Alinear verticalmente */
+  align-items: flex-start; /* Alinear a la izquierda */
+  margin: 0;
+  padding: 0;
+}
+
+.team-goals .goal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.team-goals .goal-list li {
+  display: flex;
+  justify-content: space-between; /* Espaciado entre el minuto y los "??" */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 5px 0;
+}
+
+.goal-list li span {
+  text-align: left; /* Alinea el texto de los minutos a la izquierda */
 }
