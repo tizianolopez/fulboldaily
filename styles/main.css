@@ -280,6 +280,8 @@ img {
     cursor: pointer;
   }
 
+  
+
 @media (max-width: 767.98px) {
     #sidebar {
         display: none;

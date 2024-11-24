@@ -1,19 +1,23 @@
 {
     "matches": [
       {
-        "date": "2024-11-24",
+        "date": "UEFA Champions League 14/07/2020",
         "teams": {
-          "home": { "name": "Barcelona", "logo": "img/barcelona-logo.png" },
-          "away": { "name": "Bayern Munich", "logo": "img/bayern-logo.png" }
+          "home": { "name": "Barcelona", "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg"
+        },
+          "away": { "name": "Bayern Munich", "logo": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50037.png" }
         },
         "score": { "home": 2, "away": 8 },
         "goals": [
           { "minute": 7, "scorerFull": "David Alaba", "scorerShort": "Alaba", "flag": "austria", "team": "home" },
           { "minute": 57, "scorerFull": "Luis Suarez", "scorerShort": "Suarez", "flag": "uruguay", "team": "home" },
-          { "minute": 22, "scorerFull": "Ivan Perisic", "scorerShort": "Perisic", "flag": "croatia", "team": "away" },
+          { "minute": [4,31], "scorerFull": "Thomas Muller", "scorerShort": "Muller", "flag": "germany", "team": "away" },
+          { "minute": 2, "scorerFull": "Ivan Perisic", "scorerShort": "Perisic", "flag": "croatia", "team": "away" },
           { "minute": 27, "scorerFull": "Serge Gnabry", "scorerShort": "Gnabry", "flag": "germany", "team": "away" },
           { "minute": 63, "scorerFull": "Joshua Kimmich", "scorerShort": "Kimmich", "flag": "germany", "team": "away" },
-          { "minute": 82, "scorerFull": "Robert Lewandowski", "scorerShort": "Lewandowski", "flag": "poland", "team": "away" }
+          { "minute": 82, "scorerFull": "Robert Lewandowski", "scorerShort": "Lewandowski", "flag": "poland", "team": "away" },
+          { "minute": [85,89], "scorerFull": "Philippe Coutinho", "scorerShort": "Coutinho", "flag": "brazil", "team": "away" }
+
         ]
       }
     ]
