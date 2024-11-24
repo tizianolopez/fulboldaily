@@ -1,68 +1,63 @@
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Página cargada, inicializando el juego...");
+document.addEventListener("DOMContentLoaded", async () => {
+    console.log("Inicializando juego Who Scored Today");
   
     const gameContainer = document.getElementById("game-container");
     const guessInput = document.getElementById("guess-input");
     const suggestionsContainer = document.getElementById("suggestions");
+    const feedbackMessage = document.getElementById("feedback-message");
     const skipButton = document.getElementById("skip-button");
   
     let playersList = [];
     let remainingLives = 3;
+    let shownHints = new Set();
+    let currentMatch;
   
-    const matches = [
-      {
-        id: 1,
-        date: "2020-08-14",
-        teams: {
-          home: { name: "Barcelona", logo: "img/barcelona-logo.png" },
-          away: { name: "Bayern Munich", logo: "img/bayern-logo.png" },
-        },
-        score: { home: 2, away: 8 },
-        goals: [
-          { minute: 7, scorer: "David Alaba", hint: "🇦🇹", ownGoal: true, team: "home" },
-          { minute: 57, scorer: "Luis Suarez", hint: "🇺🇾", team: "home" },
-          { minute: 22, scorer: "Perisic", hint: "🇭🇷", team: "away" },
-          { minute: 27, scorer: "Gnabry", hint: "🇩🇪", team: "away" },
-          { minute: 63, scorer: "Joshua Kimmich", hint: "🇩🇪", team: "away" },
-          { minute: 82, scorer: "Lewandowski", hint: "🇵🇱", team: "away" },
-        ],
-      },
-    ];
+    // Cargar partidos y seleccionar el partido del día
+    async function loadMatch() {
+      const response = await fetch("scripts/games.json");
+      const data = await response.json();
+      const matches = data.matches;
   
-    const match = matches[0]; // Selección del partido inicial
+      const today = new Date();
+      const index = today.getDate() % matches.length; // Seleccionar partido del día
+      currentMatch = matches[index];
   
-    // Inflar el HTML del partido
+      inflateMatchData();
+    }
+  
+    // Cargar lista de jugadores
+    async function loadPlayersList() {
+      const response = await fetch("scripts/players.json");
+      const data = await response.json();
+      playersList = data.list;
+    }
+  
+    // Mostrar el partido en el HTML
     function inflateMatchData() {
       const matchHeader = `
         <div class="match-header">
           <div class="team-logo">
-            <img src="${match.teams.home.logo}" alt="${match.teams.home.name} Logo">
+            <img src="${currentMatch.teams.home.logo}" alt="${currentMatch.teams.home.name} Logo">
           </div>
           <div class="score">
-            <span>${match.score.home}</span>
+            <span>${currentMatch.score.home}</span>
             <span>-</span>
-            <span>${match.score.away}</span>
+            <span>${currentMatch.score.away}</span>
           </div>
           <div class="team-logo">
-            <img src="${match.teams.away.logo}" alt="${match.teams.away.name} Logo">
+            <img src="${currentMatch.teams.away.logo}" alt="${currentMatch.teams.away.name} Logo">
           </div>
         </div>
       `;
   
-      const homeGoals = match.goals
+      const homeGoals = currentMatch.goals
         .filter((goal) => goal.team === "home")
-        .map(
-          (goal) =>
-            `<li>${goal.minute}' <span id="goal-minute-${goal.minute}">??</span></li>`
-        )
+        .map((goal) => `<li>${goal.minute}' <span id="goal-minute-${goal.minute}">??</span></li>`)
         .join("");
   
-      const awayGoals = match.goals
+      const awayGoals = currentMatch.goals
         .filter((goal) => goal.team === "away")
-        .map(
-          (goal) =>
-            `<li>${goal.minute}' <span id="goal-minute-${goal.minute}">??</span></li>`
-        )
+        .map((goal) => `<li>${goal.minute}' <span id="goal-minute-${goal.minute}">??</span></li>`)
         .join("");
   
       const goalsContainer = `
@@ -79,22 +74,10 @@ document.addEventListener("DOMContentLoaded", () => {
       gameContainer.innerHTML = matchHeader + goalsContainer;
     }
   
-    // Cargar la lista de jugadores
-    async function loadPlayersList() {
-      try {
-        const response = await fetch("scripts/players.json"); // Ruta del archivo JSON
-        const data = await response.json();
-        playersList = data.list;
-        console.log("Lista de jugadores cargada:", playersList);
-      } catch (error) {
-        console.error("Error al cargar la lista de jugadores:", error);
-      }
-    }
-  
-    // Mostrar sugerencias dinámicas
+    // Mostrar sugerencias
     function showSuggestions(input) {
-      suggestionsContainer.innerHTML = ""; // Limpiar sugerencias anteriores
-      if (input.length < 2) return; // No mostrar sugerencias si el input es muy corto
+      suggestionsContainer.innerHTML = "";
+      if (input.length < 2) return;
   
       const suggestions = playersList.filter((player) =>
         player.toLowerCase().includes(input.toLowerCase())
@@ -107,105 +90,111 @@ document.addEventListener("DOMContentLoaded", () => {
         li.addEventListener("click", () => {
           guessInput.value = suggestion;
           suggestionsContainer.innerHTML = "";
-          checkGuess(suggestion); // Verificar si es correcto
+          checkGuess(suggestion);
         });
   
         suggestionsContainer.appendChild(li);
       });
     }
-
-     // Función para manejar el envío del jugador
-     function handleGuess() {
-        const guess = guessInput.value.trim();
-        if (guess) {
-          console.log(`Jugador adivinado: ${guess}`);
-          checkGuess(guess);
-          // Aquí puedes agregar la lógica para verificar el jugador adivinado
-          guessInput.value = ""; // Limpiar el texto del input
-          suggestionsContainer.innerHTML = ""; // Limpiar las sugerencias
-
-        }
-      }
-    
-      // Evento para detectar la tecla Enter en el input
-      guessInput.addEventListener("keydown", (event) => {
-        if (event.key === "Enter") {
-          event.preventDefault();
-          handleGuess();
-        }
-      });
   
-    // Comprobar si el jugador es correcto
+    // Verificar adivinanza
     function checkGuess(guess) {
-      const allGoals = [...match.goals];
-      const foundGoal = allGoals.find(
-        (goal) =>
-          goal.scorer.toLowerCase() === guess.toLowerCase() && !goal.guessed
+      const goal = currentMatch.goals.find(
+        (g) => g.scorerFull.toLowerCase() === guess.toLowerCase() && !g.guessed
       );
   
-      if (foundGoal) {
-        revealGoal(foundGoal);
+      if (goal) {
+        revealGoal(goal);
       } else {
         handleIncorrectGuess();
       }
+      // Limpiar el texto del input y las sugerencias
+      guessInput.value = "";
+      suggestionsContainer.innerHTML = "";
     }
   
-    // Revelar un gol correctamente adivinado
+    // Revelar el gol
     function revealGoal(goal) {
       const goalElement = document.getElementById(`goal-minute-${goal.minute}`);
-      goalElement.textContent = goal.scorer;
+      goalElement.textContent = goal.scorerShort; // Mostrar nombre corto
       goal.guessed = true;
+  
       checkWinCondition();
     }
   
-    // Manejar errores de adivinanza
+    // Manejar error
     function handleIncorrectGuess() {
       remainingLives--;
-      if (remainingLives > 0) {
-        revealHint();
-      } else {
+      if (remainingLives === 0) {
         endGame(false);
+      } else {
+        revealHint();
       }
     }
   
-    // Mostrar pista (bandera de un goleador aleatorio no adivinado)
+    // Mostrar pista única
     function revealHint() {
-      const unguessedGoals = match.goals.filter((goal) => !goal.guessed);
+        remainingLives--;
+        if (remainingLives === 0) {
+            endGame(false);
+            return;
+        }
+      const unguessedGoals = currentMatch.goals.filter((goal) => !goal.guessed);
+      const randomGoal = unguessedGoals.find((goal) => !shownHints.has(goal.minute));
   
-      if (unguessedGoals.length > 0) {
-        const randomGoal =
-          unguessedGoals[Math.floor(Math.random() * unguessedGoals.length)];
-        const goalElement = document.getElementById(
-          `goal-minute-${randomGoal.minute}`
-        );
-        goalElement.textContent += ` ${randomGoal.hint}`;
+      if (randomGoal) {
+        shownHints.add(randomGoal.minute);
+        const goalElement = document.getElementById(`goal-minute-${randomGoal.minute}`);
+        const flagPath = `img/flags/${randomGoal.flag}.png`; // Ruta de la bandera
+        goalElement.innerHTML += ` <img src="${flagPath}" alt="Flag of ${randomGoal.flag}" class="flag-icon">`;
       }
     }
   
     // Verificar condición de victoria
     function checkWinCondition() {
-      if (match.goals.every((goal) => goal.guessed)) {
+      if (currentMatch.goals.every((goal) => goal.guessed)) {
         endGame(true);
       }
     }
   
     // Terminar el juego
     function endGame(win) {
-      const feedbackMessage = document.getElementById("feedback-message");
-      feedbackMessage.textContent = win
+        feedbackMessage.textContent = win
         ? "Congratulations! You guessed all the scorers!"
         : "Game Over! Better luck next time!";
+        
+        // Deshabilitar los botones y el input
+        guessInput.disabled = true;
+        skipButton.disabled = true;
+    
+        // Mostrar los nombres de los jugadores si has perdido
+        if (!win) {
+        currentMatch.goals.forEach(goal => {
+            if (!goal.guessed) {
+            const goalElement = document.getElementById(`goal-minute-${goal.minute}`);
+            goalElement.textContent = goal.scorerShort; // Mostrar nombre corto
+            }
+        });
+        }
     }
   
-    // Manejar entradas del usuario
+    // Eventos
     guessInput.addEventListener("input", () => {
       showSuggestions(guessInput.value);
     });
   
+    guessInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        checkGuess(guessInput.value.trim());
+        guessInput.value = "";
+      }
+    });
+  
     skipButton.addEventListener("click", revealHint);
   
-    // Inicializar el sistema
-    inflateMatchData();
-    loadPlayersList();
+    // Inicializar
+    await loadPlayersList();
+    await loadMatch();
   });
   

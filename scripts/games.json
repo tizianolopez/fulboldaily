@@ -1,0 +1,21 @@
+{
+    "matches": [
+      {
+        "date": "2024-11-24",
+        "teams": {
+          "home": { "name": "Barcelona", "logo": "img/barcelona-logo.png" },
+          "away": { "name": "Bayern Munich", "logo": "img/bayern-logo.png" }
+        },
+        "score": { "home": 2, "away": 8 },
+        "goals": [
+          { "minute": 7, "scorerFull": "David Alaba", "scorerShort": "Alaba", "flag": "austria", "team": "home" },
+          { "minute": 57, "scorerFull": "Luis Suarez", "scorerShort": "Suarez", "flag": "uruguay", "team": "home" },
+          { "minute": 22, "scorerFull": "Ivan Perisic", "scorerShort": "Perisic", "flag": "croatia", "team": "away" },
+          { "minute": 27, "scorerFull": "Serge Gnabry", "scorerShort": "Gnabry", "flag": "germany", "team": "away" },
+          { "minute": 63, "scorerFull": "Joshua Kimmich", "scorerShort": "Kimmich", "flag": "germany", "team": "away" },
+          { "minute": 82, "scorerFull": "Robert Lewandowski", "scorerShort": "Lewandowski", "flag": "poland", "team": "away" }
+        ]
+      }
+    ]
+  }
+  
