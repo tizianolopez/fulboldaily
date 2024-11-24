@@ -234,3 +234,8 @@ body {
     vertical-align: middle;
   }
   
+
+  #next-match-button {
+    display: block;
+    margin: 20px auto;
+}

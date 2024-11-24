@@ -7,12 +7,14 @@ document.addEventListener("DOMContentLoaded", async () => {
     const feedbackMessage = document.getElementById("feedback-message");
     const skipButton = document.getElementById("skip-button");
     const alertContainer = document.getElementById("alert-container");
+    
 
   
     let playersList = [];
     let remainingLives = 3;
     let shownHints = new Set();
     let currentMatch;
+    let offset = 0;
   
     // Cargar partidos y seleccionar el partido del día
     async function loadMatch() {
@@ -21,7 +23,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       const matches = data.matches;
   
       const today = new Date();
-      const index = today.getDate() % matches.length; // Seleccionar partido del día
+      const index = today.getDate() % matches.length+offset; // Seleccionar partido del día
       currentMatch = matches[index];
   
       inflateMatchData();
@@ -201,6 +203,24 @@ document.addEventListener("DOMContentLoaded", async () => {
         
     }
 
+    function resetGame() {
+      remainingLives = 3; // Reiniciar vidas
+      shownHints.clear(); // Limpiar pistas mostradas
+      updateAttemptsDisplay(); // Actualizar visualización de intentos
+    
+      // Limpiar input y sugerencias
+      guessInput.value = "";
+      suggestionsContainer.innerHTML = "";
+    
+      // Habilitar input y botón de saltar
+      guessInput.disabled = false;
+      skipButton.disabled = false;
+    
+      // Limpiar alertas si hay alguna
+      alertContainer.innerHTML = "";
+    }
+    
+
     function showAlert(message, duration = 1000) {
         const alert = document.createElement("div");
         alert.textContent = message;
@@ -251,6 +271,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         guessInput.value = "";
       }
     });
+
+    document.getElementById("next-match-button").addEventListener("click", async () => {
+      offset += 1; // Incrementar el offset
+      await loadMatch(); // Cargar el siguiente partido
+      resetGame(); // Reiniciar el juego
+    });
+    
   
     skipButton.addEventListener("click", revealHint);
   
