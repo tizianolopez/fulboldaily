@@ -19,7 +19,293 @@
           { "minute": [85,89], "scorerFull": "Philippe Coutinho", "scorerShort": "Coutinho", "flag": "brazil", "team": "away" }
 
         ]
+      },
+      {
+        "date": "UEFA Champions League Final 25/05/2005",
+        "teams": {
+          "home": { "name": "AC Milan", "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg" },
+          "away": { "name": "Liverpool", "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" }
+        },
+        "score": { "home": 3, "away": 3 },
+        "goals": [
+          { "minute": 1, "scorerFull": "Paolo Maldini", "scorerShort": "Maldini", "flag": "italy", "team": "home" },
+          { "minute": [39, 44], "scorerFull": "Hernan Crespo", "scorerShort": "Crespo", "flag": "argentina", "team": "home" },
+          { "minute": 54, "scorerFull": "Steven Gerrard", "scorerShort": "Gerrard", "flag": "england", "team": "away" },
+          { "minute": 56, "scorerFull": "Vladimir Smicer", "scorerShort": "Smicer", "flag": "czechia", "team": "away" },
+          { "minute": 60, "scorerFull": "Xabi Alonso", "scorerShort": "Alonso", "flag": "spain", "team": "away" }
+        ]
+      },
+      {
+        "date": "UEFA Champions League Final 26/05/1999",
+        "teams": {
+          "home": { "name": "Bayern Munich", "logo": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50037.png" },
+          "away": { "name": "Manchester United", "logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" }
+        },
+        "score": { "home": 1, "away": 2 },
+        "goals": [
+          { "minute": 6, "scorerFull": "Mario Basler", "scorerShort": "Basler", "flag": "germany", "team": "home" },
+          { "minute": 90, "scorerFull": "Teddy Sheringham", "scorerShort": "Sheringham", "flag": "england", "team": "away" },
+          { "minute": 93, "scorerFull": "Ole Gunnar Solskjaer", "scorerShort": "Solskjaer", "flag": "norway", "team": "away" }
+        ]
+      },
+      {
+        "date": "UEFA Champions League Semi-Final 01/05/2019",
+        "teams": {
+          "home": { "name": "Barcelona", "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" },
+          "away": { "name": "Liverpool", "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" }
+        },
+        "score": { "home": 3, "away": 0 },
+        "goals": [
+          { "minute": 26, "scorerFull": "Luis Suarez", "scorerShort": "Suarez", "flag": "uruguay", "team": "home" },
+          { "minute": [75, 82], "scorerFull": "Lionel Messi", "scorerShort": "Messi", "flag": "argentina", "team": "home" }
+        ]
+      },
+      {
+        "date": "Premier League 13/05/2012",
+        "teams": {
+          "home": { "name": "Manchester City", "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg" },
+          "away": { "name": "Queens Park Rangers", "logo": "https://upload.wikimedia.org/wikipedia/an/7/79/QPR_Logo.png?20111026090106" }
+        },
+        "score": { "home": 3, "away": 2 },
+        "goals": [
+          { "minute": 39, "scorerFull": "Pablo Zabaleta", "scorerShort": "Zabaleta", "flag": "argentina", "team": "home" },
+          { "minute": 48, "scorerFull": "Djibril Cisse", "scorerShort": "Cissé", "flag": "france", "team": "away" },
+          { "minute": 66, "scorerFull": "Jamie Mackie", "scorerShort": "Mackie", "flag": "scotland", "team": "away" },
+          { "minute": 90, "scorerFull": "Edin Dzeko", "scorerShort": "Džeko", "flag": "bosnia", "team": "home" },
+          { "minute": 93, "scorerFull": "Sergio Aguero", "scorerShort": "Agüero", "flag": "argentina", "team": "home" }
+        ]
+      },
+      {
+        "date": "La Liga 23/04/2017",
+        "teams": {
+          "home": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" },
+          "away": { "name": "Barcelona", "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" }
+        },
+        "score": { "home": 2, "away": 3 },
+        "goals": [
+          { "minute": 28, "scorerFull": "Casemiro", "scorerShort": "Casemiro", "flag": "brazil", "team": "home" },
+          { "minute": 33, "scorerFull": "Lionel Messi", "scorerShort": "Messi", "flag": "argentina", "team": "away" },
+          { "minute": 73, "scorerFull": "Ivan Rakitic", "scorerShort": "Rakitic", "flag": "croatia", "team": "away" },
+          { "minute": 85, "scorerFull": "James Rodríguez", "scorerShort": "Rodríguez", "flag": "colombia", "team": "home" },
+          { "minute": 92, "scorerFull": "Lionel Messi", "scorerShort": "Messi", "flag": "argentina", "team": "away" }
+        ]
+      },
+      {
+        "date": "UEFA Champions League Round of 16 08/03/2017",
+        "teams": {
+          "home": { "name": "Barcelona", "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" },
+          "away": { "name": "Paris Saint-Germain", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" }
+        },
+        "score": { "home": 6, "away": 1 },
+        "goals": [
+          { "minute": 3, "scorerFull": "Luis Suarez", "scorerShort": "Suarez", "flag": "uruguay", "team": "home" },
+          { "minute": 40, "scorerFull": "Layvin Kurzawa", "scorerShort": "Kurzawa (OG)", "flag": "france", "team": "home" },
+          { "minute": 50, "scorerFull": "Lionel Messi", "scorerShort": "Messi", "flag": "argentina", "team": "home" },
+          { "minute": 62, "scorerFull": "Edinson Cavani", "scorerShort": "Cavani", "flag": "uruguay", "team": "away" },
+          { "minute": 88, "scorerFull": "Neymar", "scorerShort": "Neymar", "flag": "brazil", "team": "home" },
+          { "minute": 91, "scorerFull": "Neymar", "scorerShort": "Neymar", "flag": "brazil", "team": "home" },
+          { "minute": 95, "scorerFull": "Sergi Roberto", "scorerShort": "Roberto", "flag": "spain", "team": "home" }
+        ]
+      },
+      {
+        "date": "Premier League 27/02/2011",
+        "teams": {
+          "home": { "name": "Arsenal", "logo": "https://upload.wikimedia.org/wikipedia/en/5/53/Arsenal_FC.svg" },
+          "away": { "name": "Tottenham Hotspur", "logo": "https://upload.wikimedia.org/wikipedia/en/b/b4/Tottenham_Hotspur.svg" }
+        },
+        "score": { "home": 4, "away": 4 },
+        "goals": [
+          { "minute": 5, "scorerFull": "Theo Walcott", "scorerShort": "Walcott", "flag": "england", "team": "home" },
+          { "minute": 40, "scorerFull": "Rafael van der Vaart", "scorerShort": "van der Vaart", "flag": "netherlands", "team": "away" },
+          { "minute": 49, "scorerFull": "Samir Nasri", "scorerShort": "Nasri", "flag": "france", "team": "home" },
+          { "minute": 60, "scorerFull": "Gareth Bale", "scorerShort": "Bale", "flag": "wales", "team": "away" },
+          { "minute": 74, "scorerFull": "Robin van Persie", "scorerShort": "van Persie", "flag": "netherlands", "team": "home" },
+          { "minute": 86, "scorerFull": "Younes Kaboul", "scorerShort": "Kaboul", "flag": "france", "team": "away" }
+        ]
+      },
+      {
+        "date": "UEFA Champions League Final 23/05/2007",
+        "teams": {
+          "home": { "name": "AC Milan", "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg" },
+          "away": { "name": "Liverpool", "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" }
+        },
+        "score": { "home": 2, "away": 1 },
+        "goals": [
+          { "minute": 45, "scorerFull": "Filippo Inzaghi", "scorerShort": "Inzaghi", "flag": "italy", "team": "home" },
+          { "minute": 82, "scorerFull": "Filippo Inzaghi", "scorerShort": "Inzaghi", "flag": "italy", "team": "home" },
+          { "minute": 88, "scorerFull": "Dirk Kuyt", "scorerShort": "Kuyt", "flag": "netherlands", "team": "away" }
+        ]
+      },
+      {
+        "date": "La Liga 29/11/2010",
+        "teams": {
+          "home": { "name": "Barcelona", "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" },
+          "away": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" }
+        },
+        "score": { "home": 5, "away": 0 },
+        "goals": [
+          { "minute": 10, "scorerFull": "Xavi Hernandez", "scorerShort": "Xavi", "flag": "spain", "team": "home" },
+          { "minute": 18, "scorerFull": "Pedro Rodriguez", "scorerShort": "Pedro", "flag": "spain", "team": "home" },
+          { "minute": 55, "scorerFull": "David Villa", "scorerShort": "Villa", "flag": "spain", "team": "home" },
+          { "minute": 58, "scorerFull": "David Villa", "scorerShort": "Villa", "flag": "spain", "team": "home" },
+          { "minute": 90, "scorerFull": "Jeffren Suarez", "scorerShort": "Jeffren", "flag": "venezuela", "team": "home" }
+        ]
+      },
+      {
+        "date": "UEFA Champions League Final 24/05/2014",
+        "teams": {
+          "home": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" },
+          "away": { "name": "Atletico Madrid", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Atletico_Madrid_Logo_2024.png/640px-Atletico_Madrid_Logo_2024.png" }
+        },
+        "score": { "home": 4, "away": 1 },
+        "goals": [
+          { "minute": 36, "scorerFull": "Diego Godin", "scorerShort": "Godin", "flag": "uruguay", "team": "away" },
+          { "minute": 90, "scorerFull": "Sergio Ramos", "scorerShort": "Ramos", "flag": "spain", "team": "home" },
+          { "minute": 110, "scorerFull": "Gareth Bale", "scorerShort": "Bale", "flag": "wales", "team": "home" },
+          { "minute": 118, "scorerFull": "Marcelo Vieira", "scorerShort": "Marcelo", "flag": "brazil", "team": "home" },
+          { "minute": 120, "scorerFull": "Cristiano Ronaldo", "scorerShort": "Ronaldo", "flag": "portugal", "team": "home" }
+        ]
+      },
+      {
+        "date": "UEFA Champions League Semi-Final 04/05/2022",
+        "teams": {
+          "home": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" },
+          "away": { "name": "Manchester City", "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg" }
+        },
+        "score": { "home": 3, "away": 1 },
+        "goals": [
+          { "minute": 73, "scorerFull": "Riyad Mahrez", "scorerShort": "Mahrez", "flag": "algeria", "team": "away" },
+          { "minute": 90, "scorerFull": "Rodrygo Goes", "scorerShort": "Rodrygo", "flag": "brazil", "team": "home" },
+          { "minute": 91, "scorerFull": "Rodrygo Goes", "scorerShort": "Rodrygo", "flag": "brazil", "team": "home" },
+          { "minute": 95, "scorerFull": "Karim Benzema", "scorerShort": "Benzema", "flag": "france", "team": "home" }
+        ]
+      },
+      {
+        "date": "Premier League 08/05/2022",
+        "teams": {
+          "home": { "name": "Manchester City", "logo": "https://upload.wikimedia.org/wikipedia/en/e/eb/Manchester_City_FC_badge.svg" },
+          "away": { "name": "Aston Villa", "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Aston_Villa_FC_new_crest.svg/1200px-Aston_Villa_FC_new_crest.svg.png" }
+        },
+        "score": { "home": 3, "away": 2 },
+        "goals": [
+          { "minute": 37, "scorerFull": "Matty Cash", "scorerShort": "Cash", "flag": "poland", "team": "away" },
+          { "minute": 69, "scorerFull": "Philippe Coutinho", "scorerShort": "Coutinho", "flag": "brazil", "team": "away" },
+          { "minute": 76, "scorerFull": "Ilkay Gundogan", "scorerShort": "Gundogan", "flag": "germany", "team": "home" },
+          { "minute": 78, "scorerFull": "Rodri", "scorerShort": "Rodri", "flag": "spain", "team": "home" },
+          { "minute": 81, "scorerFull": "Ilkay Gundogan", "scorerShort": "Gundogan", "flag": "germany", "team": "home" }
+        ]
+      },
+      {
+        "date": "La Liga 01/03/2020",
+        "teams": {
+          "home": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" },
+          "away": { "name": "Barcelona", "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" }
+        },
+        "score": { "home": 2, "away": 0 },
+        "goals": [
+          { "minute": 71, "scorerFull": "Vinicius Junior", "scorerShort": "Vinicius", "flag": "brazil", "team": "home" },
+          { "minute": 92, "scorerFull": "Mariano Diaz", "scorerShort": "Mariano", "flag": "dominican republic", "team": "home" }
+        ]
+      },
+      {
+        "date": "Serie A 05/02/2022",
+        "teams": {
+          "home": { "name": "Inter Milan", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/640px-FC_Internazionale_Milano_2021.svg.png" },
+          "away": { "name": "AC Milan", "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logo_of_AC_Milan.svg" }
+        },
+        "score": { "home": 1, "away": 2 },
+        "goals": [
+          { "minute": 38, "scorerFull": "Ivan Perisic", "scorerShort": "Perisic", "flag": "croatia", "team": "home" },
+          { "minute": [75,78], "scorerFull": "Olivier Giroud", "scorerShort": "Giroud", "flag": "france", "team": "away" }
+        ]
+      },
+      {
+        "date": "UEFA Champions League Round of 16 16/02/2022",
+        "teams": {
+          "home": { "name": "Paris Saint-Germain", "logo": "https://upload.wikimedia.org/wikipedia/en/a/a7/Paris_Saint-Germain_F.C..svg" },
+          "away": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" }
+        },
+        "score": { "home": 3, "away": 2 },
+        "goals": [
+          { "minute": 12, "scorerFull": "Kylian Mbappe", "scorerShort": "Mbappé", "flag": "france", "team": "home" },
+          { "minute": 47, "scorerFull": "Lionel Messi", "scorerShort": "Messi", "flag": "argentina", "team": "home" },
+          { "minute": 62, "scorerFull": "Karim Benzema", "scorerShort": "Benzema", "flag": "france", "team": "away" },
+          { "minute": 79, "scorerFull": "Vinicius Junior", "scorerShort": "Vinicius", "flag": "brazil", "team": "away" },
+          { "minute": 86, "scorerFull": "Kylian Mbappé", "scorerShort": "Mbappé", "flag": "france", "team": "home" }
+        ]
+      },
+      {
+        "date": "Premier League 12/05/2021",
+        "teams": {
+          "home": { "name": "Manchester United", "logo": "https://upload.wikimedia.org/wikipedia/en/7/7a/Manchester_United_FC_crest.svg" },
+          "away": { "name": "Liverpool", "logo": "https://upload.wikimedia.org/wikipedia/en/0/0c/Liverpool_FC.svg" }
+        },
+        "score": { "home": 2, "away": 4 },
+        "goals": [
+          { "minute": 10, "scorerFull": "Bruno Fernandes", "scorerShort": "Fernandes", "flag": "portugal", "team": "home" },
+          { "minute": 34, "scorerFull": "Diogo Jota", "scorerShort": "Jota", "flag": "portugal", "team": "away" },
+          { "minute": 45, "scorerFull": "Roberto Firmino", "scorerShort": "Firmino", "flag": "brazil", "team": "away" },
+          { "minute": 47, "scorerFull": "Roberto Firmino", "scorerShort": "Firmino", "flag": "brazil", "team": "away" },
+          { "minute": 59, "scorerFull": "Marcus Rashford", "scorerShort": "Rashford", "flag": "england", "team": "home" },
+          { "minute": 90, "scorerFull": "Mohamed Salah", "scorerShort": "Salah", "flag": "egypt", "team": "away" }
+        ]
+      },
+      {
+        "date": "La Liga 06/05/2018",
+        "teams": {
+          "home": { "name": "Barcelona", "logo": "https://upload.wikimedia.org/wikipedia/en/4/47/FC_Barcelona_%28crest%29.svg" },
+          "away": { "name": "Real Madrid", "logo": "https://upload.wikimedia.org/wikipedia/en/5/56/Real_Madrid_CF.svg" }
+        },
+        "score": { "home": 2, "away": 2 },
+        "goals": [
+          { "minute": 10, "scorerFull": "Luis Suarez", "scorerShort": "Suarez", "flag": "uruguay", "team": "home" },
+          { "minute": 14, "scorerFull": "Cristiano Ronaldo", "scorerShort": "Ronaldo", "flag": "portugal", "team": "away" },
+          { "minute": 52, "scorerFull": "Lionel Messi", "scorerShort": "Messi", "flag": "argentina", "team": "home" },
+          { "minute": 72, "scorerFull": "Gareth Bale", "scorerShort": "Bale", "flag": "wales", "team": "away" }
+        ]
+      },
+      {
+        "date": "Serie A 07/05/2023",
+        "teams": {
+          "home": { "name": "Napoli", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/SSC_Napoli_2007.svg/640px-SSC_Napoli_2007.svg.png" },
+          "away": { "name": "Inter Milan", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/640px-FC_Internazionale_Milano_2021.svg.png" }
+        },
+        "score": { "home": 3, "away": 1 },
+        "goals": [
+          { "minute": 14, "scorerFull": "Victor Osimhen", "scorerShort": "Osimhen", "flag": "nigeria", "team": "home" },
+          { "minute": 37, "scorerFull": "Giovanni Di Lorenzo", "scorerShort": "Di Lorenzo", "flag": "italy", "team": "home" },
+          { "minute": 65, "scorerFull": "Romelu Lukaku", "scorerShort": "Lukaku", "flag": "belgium", "team": "away" },
+          { "minute": 85, "scorerFull": "Khvicha Kvaratskhelia", "scorerShort": "Kvaratskhelia", "flag": "georgia", "team": "home" }
+        ]
+      },
+      {
+        "date": "Bundesliga 06/04/2019",
+        "teams": {
+          "home": { "name": "Bayern Munich", "logo": "https://img.uefa.com/imgml/TP/teams/logos/240x240/50037.png" },
+          "away": { "name": "Borussia Dortmund", "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/768px-Borussia_Dortmund_logo.svg.png?20230826131904" }
+        },
+        "score": { "home": 5, "away": 0 },
+        "goals": [
+          { "minute": 10, "scorerFull": "Mats Hummels", "scorerShort": "Hummels", "flag": "germany", "team": "home" },
+          { "minute": 17, "scorerFull": "Robert Lewandowski", "scorerShort": "Lewandowski", "flag": "poland", "team": "home" },
+          { "minute": 40, "scorerFull": "Javi Martinez", "scorerShort": "Martinez", "flag": "spain", "team": "home" },
+          { "minute": 43, "scorerFull": "Serge Gnabry", "scorerShort": "Gnabry", "flag": "germany", "team": "home" },
+          { "minute": 89, "scorerFull": "Robert Lewandowski", "scorerShort": "Lewandowski", "flag": "poland", "team": "home" }
+        ]
       }
+      
+
+
+
+
     ]
+
+
+
+    
+       
+      
+    
+
   }
   

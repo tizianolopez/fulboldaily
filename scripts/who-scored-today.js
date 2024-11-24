@@ -220,7 +220,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     function fireConfetti() {
         const count = 200;
         const defaults = {
-          origin: { y: 0.6 }, // Ajusta la posición del confeti
+          origin: { y: 1 }, // Ajusta la posición del confeti
         };
       
         function fire(particleRatio, opts) {

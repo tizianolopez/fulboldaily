@@ -36,13 +36,12 @@ body {
     margin: 0;
     width: 66%; /* Igual al ancho del input */
     max-width: 363px;
-    max-height: 100px; /* Limitar la altura máxima */
+    max-height: 150px; /* Limitar la altura máxima */
     overflow-y: auto; /* Habilitar desplazamiento vertical */
     z-index: 1000;
     border-radius: 0 0 5px 5px; /* Bordes redondeados en la parte inferior */
     top: 100%; /* Se posiciona justo debajo del input */
     left: 0; /* Alineado con el input */
-    transform: translateY(5px); /* Espaciado debajo del input */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra opcional para visibilidad */
   }
   
