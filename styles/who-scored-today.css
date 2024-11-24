@@ -13,7 +13,6 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
   }
   
   /* Título del juego */
@@ -59,6 +58,11 @@ body {
   
   
   /* Encabezado del partido */
+
+  .match-date{
+    margin-bottom: 10px;
+  }
+
   .match-header {
     display: flex;
     align-items: center;

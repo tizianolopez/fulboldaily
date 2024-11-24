@@ -37,6 +37,9 @@ document.addEventListener("DOMContentLoaded", async () => {
     // Mostrar el partido en el HTML
     function inflateMatchData() {
       const matchHeader = `
+           <div class="match-date">
+            <h6>${currentMatch.date}</h6>
+            </div>
         <div class="match-header">
           <div class="team-logo">
             <img src="${currentMatch.teams.home.logo}" alt="${currentMatch.teams.home.name} Logo">
