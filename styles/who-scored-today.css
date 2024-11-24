@@ -1,0 +1,182 @@
+/* Estilos principales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Oxanium", sans-serif;
+    background-color: #202020;
+    color: #fff;
+  }
+  
+  /* Contenedor principal */
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Título del juego */
+  h1 {
+    font-size: 2rem;
+    font-style: italic;
+    color: #ffee32;
+    margin-bottom: 10px;
+  }
+  
+  .p-3 {
+    color: white;
+  }
+
+  #suggestions {
+    position: absolute;
+    background-color: #444;
+    color: #ffffff;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 66%; /* Igual al ancho del input */
+    max-width: 363px;
+    max-height: 300px; /* Limitar la altura máxima */
+    overflow-y: auto; /* Habilitar desplazamiento vertical */
+    z-index: 1000;
+    border-radius: 0 0 5px 5px; /* Bordes redondeados en la parte inferior */
+    top: 100%; /* Se posiciona justo debajo del input */
+    left: 0; /* Alineado con el input */
+    transform: translateY(5px); /* Espaciado debajo del input */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Sombra opcional para visibilidad */
+  }
+  
+  #suggestions li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  #suggestions li:hover,
+  #suggestions li.active {
+    background-color: #666;
+  }
+  
+  
+  /* Encabezado del partido */
+  .match-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .match-header .team-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .match-header .team-logo img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  
+  .match-header .score {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffee32;
+    margin: 0 20px;
+  }
+  
+  /* Sección de goles */
+  .goals-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 20px;
+  }
+  
+  .team-goals {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .goal-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .goal-list li {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .goal-list span {
+    font-weight: bold;
+    color: #ffee32;
+  }
+  
+  /* Contenedor de entrada */
+  .input-container {
+    position: relative;
+    width: 90%; /* Ancho adaptable */
+    max-width: 550px; /* Ancho máximo */
+    margin: 0 auto; /* Centrado horizontal */
+    text-align: left;
+  }
+  
+  
+ 
+.main #guess-container {
+    font-family: "Montserrat", sans-serif !important;
+  
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #guess-input {
+    width: 66%;
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  #skip-button {
+    min-width: 4em;
+    width: 20%;
+    padding: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #cd4831;
+    color: #ffffff;
+    border: none;
+    border-radius: .5em;
+  }
+  
+  #skip-button:hover {
+    background-color: #b92727;
+    transition: .2s;
+  }
+  
+  #table-container {
+    width: 90vw; /* Ancho del contenedor de la tabla */
+    max-width: 550px; /* Ancho máximo del contenedor de la tabla */
+    margin-top: 20px;
+    overflow-x: auto; /* Añadir desplazamiento horizontal si es necesario */
+    margin: 0 auto; /* Centrar el contenedor de la tabla */
+  }
+  
+  #input-container {
+    width: 90vw; /* Ancho del contenedor de la tabla */
+    max-width: 550px; /* Ancho máximo del contenedor de la tabla */
+    overflow-x: auto; /* Añadir desplazamiento horizontal si es necesario */
+    margin: 0 auto; /* Centrar el contenedor de la tabla */
+  }
+  
+  
+  #feedback-message {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #ffee32;
+  }
+  

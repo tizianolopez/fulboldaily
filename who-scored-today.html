@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Who Scored Today? | Football Trivia Game</title>
+  <meta name="description" content="Play Who Scored Today, a fun football trivia game. Test your knowledge by guessing the goal scorers from real matches.">
+  <meta name="keywords" content="who scored today, football trivia game, soccer trivia, guess the player, football matches">
+
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/who-scored-today.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Sidebar -->
+    <aside id="sidebar">
+      <div class="d-flex">
+        <button class="toggle-btn" type="button" aria-label="Toggle sidebar">
+          <div class="icon-container">
+            <img src="img/grid-alt.svg" alt="Aside Toggle Icon">
+          </div>
+        </button>
+        <div class="sidebar-logo">
+          <a href="#">FootballMinigames</a>
+        </div>
+      </div>
+      <ul class="sidebar-nav">
+        <li class="sidebar-item">
+          <a href="football-wordle.html" class="sidebar-link">
+            <div class="icon-container">
+              <img src="img/wordle.svg" alt="Football Wordle Icon">
+            </div>
+            <span>Wordle</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="football-crossword.html" class="sidebar-link">
+            <div class="icon-container">
+              <img src="img/crossword.png" alt="Football Crossword Icon">
+            </div>
+            <span>Cross-it</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="formation.html" class="sidebar-link">
+            <div class="icon-container">
+              <img src="img/formation.svg" alt="Starting 11 game Icon">
+            </div>
+            <span>Starting 11</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="guess-player-from-career-path.html" class="sidebar-link">
+            <div class="icon-container">
+              <img src="img/guess.svg" alt="Guess player from career path game">
+            </div>
+            <span>Guess player from career</span>
+          </a>
+        </li>
+        <li class="sidebar-item">
+          <a href="#" class="sidebar-link">
+            <div class="icon-container">
+              <img src="img/settings.svg" alt="Settings Icon" width="24px">
+            </div>
+            <span>Settings</span>
+          </a>
+        </li>
+      </ul>
+    </aside>
+    <div class="main">
+        <!-- Navbar for mobile -->
+        <nav class="navbar navbar-expand-md navbar-light d-md-none sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand mx-auto" href="#">FootballMinigames</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <div class="row">
+                        <div class="col-6">
+                            <li class="nav-item">
+                                <a class="nav-link" href="football-wordle.html">
+                                    <img src="img/wordle.svg" width="48px" height="48px" alt="Football Wordle Icon">
+                                    <span>Wordle</span>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="col-6">
+                            <li class="nav-item">
+                                <a class="nav-link" href="football-crossword.html">
+                                    <img src="img/crossword.png" width="48px" height="48px" alt="Football Crossword Icon">
+                                    <span>Cross-it</span>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <li class="nav-item">
+                                <a class="nav-link collapsed has-dropdown" data-bs-toggle="collapse"
+                                    data-bs-target="#authMobile" aria-expanded="false" aria-controls="authMobile">
+                                    <img src="img/formation.svg" height="52px" alt="Starting 11 game">
+                                    <span>Starting 11 </span>
+                                </a>
+                                <ul id="authMobile" class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">F11 Clubs</a></li>
+                                    <li><a class="dropdown-item" href="#">F11 Countries</a></li>
+                                </ul>
+                            </li>
+                        </div>
+                        <div class="col-6">
+                            <li class="nav-item">
+                                <a class="nav-link" href="guess-player-from-career-path.html">
+                                    <img src="img/guess.svg" width="px" height="52px" alt="Guess player from career path game icon">
+                                    <span>Guess player from career</span>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+
+    <!-- Main Content -->
+    <div class="p-3">
+        <h1>Who Scored Today?</h1>
+        <p>Can you guess the scorers of this historical football match?</p>
+    </div>
+        
+
+      <div class="game-container"  id="game-container">
+       
+        </div>
+
+   
+
+        <!-- Input para adivinar -->
+        <div class="input-container">
+            <input type="text" id="guess-input" placeholder="Guess the goal scorer">
+            <ul id="suggestions"></ul>
+            <button id="skip-button">Skip</button>
+          </div>
+          
+        <!-- Mensajes de retroalimentación -->
+        <p id="feedback-message"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/who-scored-today.js"></script>
+</body>
+</html>
