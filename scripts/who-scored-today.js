@@ -143,21 +143,23 @@ document.addEventListener("DOMContentLoaded", async () => {
   
     // Mostrar pista única
     function revealHint() {
-        remainingLives--;
-        updateAttemptsDisplay();
-        if (remainingLives === -1 ) {
-            endGame(false);
-            return;
-        }
-      const unguessedGoals = currentMatch.goals.filter((goal) => !goal.guessed);
-      const randomGoal = unguessedGoals.find((goal) => !shownHints.has(goal.minute));
-  
-      if (randomGoal) {
-        shownHints.add(randomGoal.minute);
-        const goalElement = document.getElementById(`goal-minute-${randomGoal.minute}`);
-        const flagPath = `img/flags/${randomGoal.flag}.png`; // Ruta de la bandera
-        goalElement.innerHTML += ` <img src="${flagPath}" alt="Flag of ${randomGoal.flag}" class="flag-icon">`;
+      remainingLives--;
+      updateAttemptsDisplay();
+      if (remainingLives === -1) {
+          endGame(false);
+          return;
       }
+
+      const unguessedGoals = currentMatch.goals.filter((goal) => !goal.guessed && !shownHints.has(goal.minute));
+      if (unguessedGoals.length === 0) return; // No hay más pistas disponibles
+
+      const randomIndex = Math.floor(Math.random() * unguessedGoals.length);
+      const randomGoal = unguessedGoals[randomIndex];
+
+      shownHints.add(randomGoal.minute);
+      const goalElement = document.getElementById(`goal-minute-${randomGoal.minute}`);
+      const flagPath = `img/flags/${randomGoal.flag}.png`; // Ruta de la bandera
+      goalElement.innerHTML += ` <img src="${flagPath}" alt="Flag of ${randomGoal.flag}" class="flag-icon">`;
     }
 
     // Actualizar la visualización de los intentos
