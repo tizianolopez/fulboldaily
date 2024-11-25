@@ -10,6 +10,11 @@ body {
   text-align: center;
 }
 
+.wrapper{
+  overflow-y: auto;
+
+}
+
 .main #guess-container {
   font-family: "Montserrat", sans-serif !important;
 
